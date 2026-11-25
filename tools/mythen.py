@@ -177,14 +177,27 @@ def portret_prompt(figuur: dict, aantal: int) -> str:
     return "\n".join(delen)
 
 
-def scene_prompt(verhaal: dict, aantal: int) -> str:
+def scene_figuren(verhaal: dict) -> list:
+    """Figuren die in het openingsbeeld staan (kopregel 'scenefiguren:'), met een bestaand portret."""
+    ids = [f.strip() for f in verhaal.get("scenefiguren", "").split(",") if f.strip()]
+    return [f for f in ids if (FIGUURBEELDEN / f"{f}.jpg").is_file()]
+
+
+def scene_prompt(verhaal: dict, personages: list, aantal_stijl: int) -> str:
+    """personages: [(naam, beschrijving)] in dezelfde volgorde als de portretten die als eerste meegaan."""
     delen = [f"A scene from {verhaal['mythologie']} mythology: {verhaal['scene']}",
              "Composition: a wide, cinematic scene with a clear focal point, showing both the place and the characters, "
              "with depth and soft atmospheric haze.",
              f"Character design: {RICHTING}"]
-    if aantal:
-        delen.append(f"The {aantal} attached images are style references: use them only for the painting style, the "
-                     "colors and the light, and never copy what is in them.")
+    if personages:
+        regels = "; ".join(f"image {i + 1} is {naam}" for i, (naam, _) in enumerate(personages))
+        delen.append(f"The first {len(personages)} attached images are character portraits from the same story ({regels}). "
+                     "These characters must look exactly like their portraits in this scene: the same face, hair, beard, "
+                     "skin, elemental features, colors, clothing, crown and objects. Where the scene text describes a "
+                     "character differently, follow the portrait. Only pose, expression and lighting may change.")
+    if aantal_stijl:
+        delen.append(f"The last {aantal_stijl} attached images are style references: use them only for the painting "
+                     "style, the colors and the light, and never copy what is in them.")
     delen.append(f"Style: {STIJL}")
     return "\n".join(delen)
 
@@ -206,8 +219,12 @@ def maak_beelden(alleen: str = "") -> None:
         pad = SCENEBEELDEN / f"{verhaal['slug']}.jpg"
         if verhaal.get("scene") and not pad.is_file():
             print(f"  openingsbeeld {verhaal['slug']} ...", flush=True)
-            vb = stijlvoorbeelden("scene")
-            bewaar(teken(scene_prompt(verhaal, len(vb)), vb, "16:9"), pad, 1400)
+            # Eerst de portretten (hierboven gemaakt), zodat iedereen in het openingsbeeld er hetzelfde uitziet.
+            ids = scene_figuren(verhaal)
+            portretten = [FIGUURBEELDEN / f"{f}.jpg" for f in ids]
+            vb = stijlvoorbeelden("scene")[:1] if portretten else stijlvoorbeelden("scene")
+            personages = [(alle[f]["naam"], alle[f]["prompt"]) for f in ids]
+            bewaar(teken(scene_prompt(verhaal, personages, len(vb)), portretten + vb, "16:9"), pad, 1400)
 
 
 # ---------------------------------------------------------------- pagina's bouwen

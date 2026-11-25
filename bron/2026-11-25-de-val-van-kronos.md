@@ -5,6 +5,7 @@ datum: 2026-11-25
 figuren: kronos, rhea, zeus, poseidon, hades
 samenvatting: Kronos slikt zijn kinderen in om te voorkomen dat een van hen hem onttroont. Rhea redt de jongste met een steen in doeken. Tien jaar oorlog later is de wereld verdeeld.
 scene: In a torch-lit hall of dark stone on a mountaintop, the Titaness Rhea (long dark braided hair, crown of oak leaves, ochre robes) hands her giant husband Kronos (huge, long iron-grey beard, heavy golden crown, bronze robes, a sickle at his belt) a bundle of swaddling cloths in which a stone is secretly wrapped. Kronos reaches for it greedily, unaware; Rhea's face is calm but her eyes are tense. Warm torchlight, cool lavender shadows, a glimpse of a starry night sky and mountains through a wide opening behind them.
+scenefiguren: kronos, rhea
 ---
 Lang voordat er tempels stonden en mensen offers brachten, toen de wereld nog jong was, heerste Kronos over alles. Hij was de jongste zoon van Gaia, de Aarde, en Ouranos, de Hemel. Zijn eigen vader had hij van de troon gestoten, met een sikkel die zijn moeder voor hem had gesmeed. Sindsdien regeerde hij vanaf de berg Othrys, samen met zijn broers en zussen: de Titanen.
 

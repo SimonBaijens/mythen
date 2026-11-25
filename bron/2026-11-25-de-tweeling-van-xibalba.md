@@ -5,6 +5,7 @@ datum: 2026-11-25
 figuren: hunahpu, xbalanque, xquic, xmucane, een-dood
 samenvatting: De heren van de onderwereld lokken twee balspelers naar beneden en doden ze. Jaren later dalen hun zonen, de tweeling Hunahpu en Xbalanque, dezelfde trappen af. Een verhaal over list, een ballenspel op leven en dood en een opstanding, uit het heilige boek van de K'iche'-Maya.
 scene: An ancient Maya ballcourt deep in the underworld Xibalba, lit by eerie green torchlight and glowing fungi: two long sloped stone walls with carved stone rings, the twin heroes playing ball (protective padded yokes around their hips, bare chests, one with golden sun-glow on his skin, the other with silvery jaguar-spot markings), a large dark rubber ball in the air between them and their opponents. Watching from a stone terrace: the skeletal lords of death in feathered headdresses and owl-feather cloaks, laughing, smoking cigars. Behind the court a strange tree full of round pale calabash fruits. Mist, deep shadows, cool blue-green light with warm accents.
+scenefiguren: hunahpu, xbalanque, een-dood
 ---
 In de oudste tijden, toen er nog geen zon aan de hemel stond en de mensen nog niet gemaakt waren, leefde er in de bergen van Guatemala een oude vrouw. Ze heette Xmucane, en ze was de grootmoeder van alles wat nog moest komen. Ze had twee zonen, en die zonen hielden van één ding meer dan van wat ook: het balspel.
 

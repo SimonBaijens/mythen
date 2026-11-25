@@ -5,6 +5,7 @@ datum: 2026-11-25
 figuren: lir, fionnuala, aoife, bodb-dearg
 samenvatting: Uit jaloezie verandert de stiefmoeder van de vier kinderen van Lir hen in zwanen. Negenhonderd jaar zwerven ze over een meer, een stormzee en een kale westkust, tot er een klok luidt die ze nog nooit gehoord hebben. Een van de drie droevigste verhalen van Ierland.
 scene: A calm, misty Irish lake at dusk surrounded by old oak forest, four pure white swans gliding together on the water, the foremost swan with a faint golden glow and gentle, almost human eyes. On the shore, a great crowd of ancient Irish people and otherworldly fairy folk (the Tuatha Dé Danann, tall, luminous, in cloaks with Celtic knotwork and gold torcs) sit and stand listening in silence, some asleep in the grass, tents and campfires among the trees. A grieving king with a silver beard stands at the water's edge. Soft golden evening light, cool blue mist on the water, a few early stars.
+scenefiguren: lir, bodb-dearg
 ---
 Lang geleden, voordat Ierland christelijk werd en voordat er heiligen en kloosters waren, woonde er in Ierland een volk dat de Tuatha Dé Danann heette: het volk van de godin Danu. Ze waren groot en mooi, ze kenden toverkunst en muziek, en ze werden niet oud zoals gewone mensen. Maar ze hadden een grote slag verloren tegen nieuwkomers van over zee, de zonen van Míl. Sindsdien woonden ze niet meer op het land zelf, maar ín het land, in de heuvels. Elke heuvel was een sídh, een feeënheuvel met een paleis vanbinnen.
 
