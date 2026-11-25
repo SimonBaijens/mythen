@@ -45,6 +45,13 @@ STIJL = ("Painted fantasy illustration in the style of the Dungeons & Dragons St
          "armor and objects full of detail that fit the ancient culture of the myth. Heroic, mythic and family-friendly, "
          "not grimdark, no gore. Not photorealistic, not anime, not a 3D render. No text, no letters, no frame, no watermark.")
 
+# Gekozen ontwerp (proef B, 25 nov 2026): goden en titanen zijn deels gemaakt van hun eigen element.
+RICHTING = ("Elemental character design: the body itself is partly made of the god's domain, as if nature and the god are "
+            "one: materials like stone, earth, water, seaweed, coral, roots, moss, storm clouds, lightning, flame, smoke or "
+            "starlight grow out of and replace parts of skin, hair and beard, with mythic ornaments and softly glowing eyes. "
+            "Gods and titans are clearly supernatural beings, not normal humans; titans are colossal. Mortal humans look "
+            "normal. No letters, runes or symbols that look like writing.")
+
 # Stijlvoorbeelden: lokaal de plaatjes uit het D&D-boek (staan niet in de publieke repo). Zijn die er niet (zoals in de
 # cloud), dan gaan de eerste portretten uit deze verzameling zelf mee als stijlanker.
 STIJL_PORTRET = ("mallyn.webp", "kalista.webp")
@@ -157,6 +164,7 @@ def bewaar(data: bytes, pad: Path, breedte: int):
 
 def portret_prompt(figuur: dict, aantal: int) -> str:
     delen = [f"A character portrait of {figuur['prompt']}",
+             f"Character design: {RICHTING}",
              "Composition: a head-and-shoulders vignette, the face in the upper middle and turned slightly toward the "
              "viewer, the painted figure fading softly into a plain light parchment background, like the character art in "
              "the style reference images."]
@@ -170,7 +178,8 @@ def portret_prompt(figuur: dict, aantal: int) -> str:
 def scene_prompt(verhaal: dict, aantal: int) -> str:
     delen = [f"A scene from {verhaal['mythologie']} mythology: {verhaal['scene']}",
              "Composition: a wide, cinematic scene with a clear focal point, showing both the place and the characters, "
-             "with depth and soft atmospheric haze."]
+             "with depth and soft atmospheric haze.",
+             f"Character design: {RICHTING}"]
     if aantal:
         delen.append(f"The {aantal} attached images are style references: use them only for the painting style, the "
                      "colors and the light, and never copy what is in them.")
