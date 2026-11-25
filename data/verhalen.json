@@ -1,12 +1,29 @@
 [
  {
+  "slug": "de-tweeling-van-xibalba",
+  "titel": "De tweeling van Xibalba",
+  "ondertitel": "Hoe twee broers de heren van de dood versloegen",
+  "mythologie": "Maya",
+  "datum": "2026-11-25",
+  "samenvatting": "De heren van de onderwereld lokken twee balspelers naar beneden en doden ze. Jaren later dalen hun zonen, de tweeling Hunahpu en Xbalanque, dezelfde trappen af. Een verhaal over list, een ballenspel op leven en dood en een opstanding, uit het heilige boek van de K'iche'-Maya.",
+  "leestijd": 25,
+  "beeld": "beelden/scenes/de-tweeling-van-xibalba.jpg",
+  "figuren": [
+   "hunahpu",
+   "xbalanque",
+   "xquic",
+   "xmucane",
+   "een-dood"
+  ]
+ },
+ {
   "slug": "de-sampo",
   "titel": "De Sampo",
   "ondertitel": "De wondermolen van het Noorden, gesmeed en gestolen",
   "mythologie": "Fins",
   "datum": "2026-11-25",
   "samenvatting": "Om thuis te komen belooft de oude zanger Väinämöinen dat zijn vriend de smid een wondermolen zal smeden voor de heks van het Noorden. Jaren later komen ze hem terughalen, met een harp van vissengraat en een zeeslag tegen een reusachtige adelaar.",
-  "leestijd": 11,
+  "leestijd": 10,
   "beeld": "beelden/scenes/de-sampo.jpg",
   "figuren": [
    "vainamoinen",
@@ -22,7 +39,7 @@
   "mythologie": "Grieks",
   "datum": "2026-11-25",
   "samenvatting": "Kronos slikt zijn kinderen in om te voorkomen dat een van hen hem onttroont. Rhea redt de jongste met een steen in doeken. Tien jaar oorlog later is de wereld verdeeld.",
-  "leestijd": 8,
+  "leestijd": 7,
   "beeld": "beelden/scenes/de-val-van-kronos.jpg",
   "figuren": [
    "kronos",

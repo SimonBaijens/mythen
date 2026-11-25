@@ -61,5 +61,40 @@
     "titel": "De roekeloze held, ook Ahti genoemd",
     "beschrijving": "Een knappe, overmoedige held uit de Kalevala, altijd op zoek naar avontuur en vrouwen. Hij stierf eens en werd door zijn moeder weer tot leven gebracht.",
     "prompt": "Lemminkäinen, the reckless young hero of Finnish myth: a handsome, cocky young warrior with wild golden-blond hair, a short beard and a daring grin, a mostly human look with only a faint shimmer of magic in his bright eyes, a fur-trimmed tunic and a bronze-hilted broadsword. Bold, restless, overconfident."
+  },
+  "hunahpu": {
+    "naam": "Hunahpu",
+    "mythologie": "Maya",
+    "titel": "Held van de tweeling, die de zon werd",
+    "beschrijving": "Zoon van Eén Hunahpu en Xquic, tweelingbroer van Xbalanque. Een meesterlijke balspeler en jager met de blaaspijp. Na de overwinning op Xibalba steeg hij op als de zon.",
+    "prompt": "Hunahpu, one of the Maya Hero Twins, a young ballplayer and hunter of ancient K'iche' Maya myth: a lean, athletic young man with warm brown skin marked with round black spots on his cheeks and body, patches of his skin glowing with golden sunlight as if the sun shines from within, eyes of warm gold, long black hair tied up with jade beads and quetzal feathers, a padded ballgame yoke around his hips, holding a long wooden blowgun. Clever, playful, confident."
+  },
+  "xbalanque": {
+    "naam": "Xbalanque",
+    "mythologie": "Maya",
+    "titel": "Held van de tweeling, die de maan werd",
+    "beschrijving": "Tweelingbroer van Hunahpu. In zijn naam zit het Maya-woord voor jaguar. Hij redde zijn broer in het Vleermuizenhuis en steeg na de overwinning op Xibalba op als de maan.",
+    "prompt": "Xbalanque, one of the Maya Hero Twins of ancient K'iche' Maya myth: a lean, athletic young man with warm brown skin with patches of jaguar-spotted fur on his shoulders, arms and jaw, a faint silvery moonlight glow on his skin, pale silver-green cat-like eyes, long black hair with jade beads and jaguar-pelt ties, a padded ballgame yoke, holding a long wooden blowgun. Calm, watchful, resourceful."
+  },
+  "xquic": {
+    "naam": "Xquic",
+    "mythologie": "Maya",
+    "titel": "Vrouwe Bloed, moeder van de tweeling",
+    "beschrijving": "Dochter van heer Verzameld Bloed uit Xibalba. Ze werd zwanger van het speeksel van de schedel van Eén Hunahpu, ontsnapte met een hart van boomhars en bewees met een net vol maïs wie ze was.",
+    "prompt": "Xquic (Lady Blood), a young noblewoman from the Maya underworld in K'iche' Maya myth: a beautiful, brave young woman with dark skin that has a faint deep-red luminous sheen like a blood moon, long black hair woven with pale calabash vines and small round calabash fruits, eyes glowing soft crimson, drops of glowing red tree sap on her fingers, a woven Maya huipil blouse in red and cream with jade jewelry. Curious, determined, gentle."
+  },
+  "xmucane": {
+    "naam": "Xmucane",
+    "mythologie": "Maya",
+    "titel": "De grootmoeder, oermoeder van de maïs",
+    "beschrijving": "De oude grootmoeder van de tweeling en een van de scheppers in de Popol Vuh. Ze waakt over het huis en de maïs, en later maalt ze de maïs waarvan de goden de eerste mensen maken.",
+    "prompt": "Xmucane, the ancient grandmother goddess of K'iche' Maya myth: a very old, wise woman whose long white hair is made of fine golden corn silk, skin wrinkled like dried maize husk with small kernels of maize grown into her shoulders, warm amber glowing eyes, a woven shawl with Maya patterns, holding a small clay bowl of glowing copal incense. Stern but loving, a hint of a smile."
+  },
+  "een-dood": {
+    "naam": "Eén Dood",
+    "mythologie": "Maya",
+    "titel": "Hun Came, opperheer van Xibalba",
+    "beschrijving": "De hoogste van de twaalf heren van Xibalba, de onderwereld, samen met Zeven Dood (Vucub Came). Hij lokte de vaders van de tweeling naar beneden en werd door de tweeling zelf verslagen.",
+    "prompt": "One Death (Hun Came), supreme lord of the Maya underworld Xibalba in K'iche' Maya myth: a tall, gaunt lord of death with a skull-like face with dark hollow eye sockets glowing pale green, skin stretched thin over visible ribs and bones (not gory), a towering headdress of black owl feathers and bones, a cloak of owl feathers and jaguar pelt, holding a smoking cigar, a cruel mocking grin. Menacing but family-friendly."
   }
 }

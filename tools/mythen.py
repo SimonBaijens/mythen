@@ -272,7 +272,7 @@ def mooie_datum(iso: str) -> str:
 
 
 def leestijd(lijf: str) -> int:
-    return max(1, round(len(re.sub(r"\[\[.*?\]\]", "", lijf).split()) / 200))
+    return max(1, round(len(re.sub(r"\[\[.*?\]\]", "", lijf).split()) / 240))
 
 
 PAGINA = """<!doctype html>
@@ -317,11 +317,16 @@ def bouw() -> None:
                  f'width="1400" height="788"></figure>') if scene_pad.is_file() else ""
         og = (f'<meta property="og:image" content="{SITE}beelden/scenes/{v["slug"]}.jpg">'
               if scene_pad.is_file() else "")
+        lijf = markdown(v["lijf"], alle, "../")
+        if scene:  # na het verhaal nog een keer het openingsbeeld, om rustig te bekijken
+            slot = scene.replace('class="scene"', 'class="scene slot"', 1)
+            lijf = (lijf.replace("<h2>Achtergrond</h2>", slot + "\n<h2>Achtergrond</h2>", 1)
+                    if "<h2>Achtergrond</h2>" in lijf else lijf + "\n" + slot)
         lees = leestijd(v["lijf"])
         pagina = PAGINA.format(titel=html.escape(v["titel"]), ondertitel=html.escape(v.get("ondertitel", "")),
                                samenvatting=html.escape(v.get("samenvatting", "")), mythologie=html.escape(v["mythologie"]),
                                datum=v["datum"], mooie_datum=mooie_datum(v["datum"]), leestijd=lees, scene=scene,
-                               og_beeld=og, lijf=markdown(v["lijf"], alle, "../"))
+                               og_beeld=og, lijf=lijf)
         (VERHALEN / f"{v['slug']}.html").write_text(pagina, encoding="utf-8")
         index.append({"slug": v["slug"], "titel": v["titel"], "ondertitel": v.get("ondertitel", ""),
                       "mythologie": v["mythologie"], "datum": v["datum"], "samenvatting": v.get("samenvatting", ""),
