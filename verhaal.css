@@ -1,0 +1,38 @@
+/* Leespagina van een verhaal: perkament overdag, warm donker 's avonds. Instapaper/Kobo negeren dit en lezen alleen de tekst. */
+:root {
+  --bg: #f4ecdc; --papier: #fbf6ea; --tekst: #2b2118; --zacht: #75644f; --lijn: #e0d2b8; --goud: #9a7130;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #171310; --papier: #1f1a15; --tekst: #ece2d0; --zacht: #a8987f; --lijn: #3a3027; --goud: #d4ad62; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--tekst);
+  font: 1.14rem/1.7 Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+}
+.terug { position: sticky; top: 0; z-index: 2; padding: 10px 16px; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--lijn); font: 600 .9rem/1.2 -apple-system, "Segoe UI", sans-serif; }
+.terug a { color: var(--goud); text-decoration: none; }
+article { max-width: 680px; margin: 0 auto; padding: 28px 18px 40px; }
+header { text-align: center; margin-bottom: 24px; }
+.mythologie { margin: 0 0 6px; color: var(--goud); font: 600 .78rem/1.4 -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: .08em; text-transform: uppercase; }
+h1 { font-size: clamp(2rem, 7vw, 2.8rem); line-height: 1.1; margin: 0 0 8px; font-weight: 700; }
+.ondertitel { margin: 0; color: var(--zacht); font-style: italic; font-size: 1.15rem; }
+h2 { font-size: 1.35rem; margin: 2em 0 .5em; line-height: 1.25; }
+h2::before { content: "❦"; display: block; color: var(--goud); font-size: 1rem; margin-bottom: .3em; }
+p { margin: 0 0 1em; }
+a { color: var(--goud); }
+figure { margin: 1.6em 0; }
+figure img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.scene { margin: 0 -18px 1.8em; }
+.scene img { border-radius: 0; }
+@media (min-width: 720px) { .scene { margin: 0 0 2em; } .scene img { border-radius: 12px; } }
+.figuur { max-width: 380px; margin-left: auto; margin-right: auto; text-align: center; }
+.figuur img { border-radius: 50% / 46%; box-shadow: 0 8px 30px rgba(0,0,0,.18); }
+figcaption { margin-top: .6em; color: var(--zacht); font-size: .9rem; line-height: 1.4; }
+figcaption strong { color: var(--tekst); }
+ul { padding-left: 1.2em; } li { margin-bottom: .5em; font-size: .95rem; }
+.voet { text-align: center; padding: 24px 16px 48px; color: var(--zacht); font: .85rem -apple-system, "Segoe UI", sans-serif; }
+.voet a { color: var(--goud); text-decoration: none; }

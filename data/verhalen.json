@@ -1,0 +1,19 @@
+[
+ {
+  "slug": "de-val-van-kronos",
+  "titel": "De val van Kronos",
+  "ondertitel": "Hoe Zeus koning van de goden werd",
+  "mythologie": "Grieks",
+  "datum": "2026-11-25",
+  "samenvatting": "Kronos slikt zijn kinderen in om te voorkomen dat een van hen hem onttroont. Rhea redt de jongste met een steen in doeken. Tien jaar oorlog later is de wereld verdeeld.",
+  "leestijd": 8,
+  "beeld": "beelden/scenes/de-val-van-kronos.jpg",
+  "figuren": [
+   "kronos",
+   "rhea",
+   "zeus",
+   "poseidon",
+   "hades"
+  ]
+ }
+]
