@@ -1,5 +1,21 @@
 [
  {
+  "slug": "de-kinderen-van-lir",
+  "titel": "De kinderen van Lir",
+  "ondertitel": "Negenhonderd jaar op het water",
+  "mythologie": "Iers",
+  "datum": "2026-11-25",
+  "samenvatting": "Uit jaloezie verandert de stiefmoeder van de vier kinderen van Lir hen in zwanen. Negenhonderd jaar zwerven ze over een meer, een stormzee en een kale westkust, tot er een klok luidt die ze nog nooit gehoord hebben. Een van de drie droevigste verhalen van Ierland.",
+  "leestijd": 17,
+  "beeld": "beelden/scenes/de-kinderen-van-lir.jpg",
+  "figuren": [
+   "lir",
+   "fionnuala",
+   "aoife",
+   "bodb-dearg"
+  ]
+ },
+ {
   "slug": "de-tweeling-van-xibalba",
   "titel": "De tweeling van Xibalba",
   "ondertitel": "Hoe twee broers de heren van de dood versloegen",

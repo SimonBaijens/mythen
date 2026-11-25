@@ -96,5 +96,33 @@
     "titel": "Hun Came, opperheer van Xibalba",
     "beschrijving": "De hoogste van de twaalf heren van Xibalba, de onderwereld, samen met Zeven Dood (Vucub Came). Hij lokte de vaders van de tweeling naar beneden en werd door de tweeling zelf verslagen.",
     "prompt": "One Death (Hun Came), supreme lord of the Maya underworld Xibalba in K'iche' Maya myth: a tall, gaunt lord of death with a skull-like face with dark hollow eye sockets glowing pale green, skin stretched thin over visible ribs and bones (not gory), a towering headdress of black owl feathers and bones, a cloak of owl feathers and jaguar pelt, holding a smoking cigar, a cruel mocking grin. Menacing but family-friendly."
+  },
+  "lir": {
+    "naam": "Lir",
+    "mythologie": "Iers",
+    "titel": "Heer van Sídh Fionnachaidh, vader van de zwanen",
+    "beschrijving": "Een heer van de Tuatha Dé Danann, het oude godenvolk van Ierland. Zijn naam betekent 'zee'; zijn zoon Manannán is de god van de zee. Zijn vier kinderen werden in zwanen veranderd.",
+    "prompt": "Lir, a lord of the Tuatha Dé Danann in ancient Irish myth: a tall, noble, grieving man of ageless fairy kind, long silver-grey hair and beard that flow like sea foam and wave crests, pale skin with a faint pearly sheen like the inside of a shell, sea-grey glowing eyes full of sorrow, a deep blue-green cloak with Celtic knotwork and a heavy gold torc. Proud, sad, loving."
+  },
+  "fionnuala": {
+    "naam": "Fionnuala",
+    "mythologie": "Iers",
+    "titel": "Oudste kind van Lir, de zwaan die haar broers beschermde",
+    "beschrijving": "De dochter van Lir en Aobh. Met haar drie broers werd ze door haar stiefmoeder in een zwaan veranderd. Negenhonderd jaar beschermde ze hen onder haar vleugels.",
+    "prompt": "Fionnuala, daughter of Lir in ancient Irish myth, enchanted into a swan: a young girl of about thirteen in transformation between girl and swan, her long pale-golden hair turning into soft white swan feathers, great white swan wings folded protectively around her shoulders, a few feathers on her cheeks and neck, gentle grey-blue eyes with a soft glow, a simple white and green Celtic dress with a small gold brooch. Brave, tender, sorrowful."
+  },
+  "aoife": {
+    "naam": "Aoife",
+    "mythologie": "Iers",
+    "titel": "De jaloerse stiefmoeder",
+    "beschrijving": "Tweede vrouw van Lir en zus van de moeder van zijn kinderen. Uit jaloezie veranderde ze de kinderen in zwanen. Als straf veranderde Bodb Dearg haar in een demon van de lucht.",
+    "prompt": "Aoife, the jealous stepmother in ancient Irish myth, a sorceress of the Tuatha Dé Danann: a beautiful but cold young noblewoman with long black hair that dissolves into dark storm wind and drifting shadows, pale skin, sharp grey eyes glowing faintly, a druid's wand of dark twisted wood, a crimson and black cloak with Celtic knotwork that frays into wisps of wind. Proud, bitter, regretful underneath."
+  },
+  "bodb-dearg": {
+    "naam": "Bodb Dearg",
+    "mythologie": "Iers",
+    "titel": "Koning van de Tuatha Dé Danann",
+    "beschrijving": "Bodb de Rode, zoon van de Dagda, werd na de nederlaag tegen de zonen van Míl gekozen tot koning van het oude godenvolk van Ierland. Hij gaf Lir zijn pleegdochters als vrouw en strafte Aoife.",
+    "prompt": "Bodb Dearg (Bodb the Red), king of the Tuatha Dé Danann in ancient Irish myth: a powerful, wise king of fairy kind with a flowing red beard and hair like autumn bracken and oak leaves, a crown of gold and living red-brown oak leaves, warm amber glowing eyes, a deep red cloak with intricate Celtic gold knotwork, holding a druid's wand of rowan wood. Just, stern, kind-hearted."
   }
 }
