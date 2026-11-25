@@ -33,5 +33,33 @@
     "titel": "Heer van de onderwereld",
     "beschrijving": "Oudste zoon van Kronos en Rhea. Bij de verdeling van de wereld trok hij het rijk van de doden. Niet slecht, wel streng en onverbiddelijk. Ook bekend als Plouton.",
     "prompt": "Hades, lord of the underworld in ancient Greek myth: a pale, ashen-skinned god whose hair, beard and cloak dissolve into dark drifting smoke and shadow, faint ghostly wisps of souls swirling in the smoke, cold violet glowing eyes, robes of black and deep purple with a dark iron clasp, holding a dark bronze helmet under one arm. Solemn, stern, quietly dignified, not evil; cool shadowy light."
+  },
+  "vainamoinen": {
+    "naam": "Väinämöinen",
+    "mythologie": "Fins",
+    "titel": "De oude zanger, wiens liederen werkelijkheid worden",
+    "beschrijving": "De oudste en wijste held van de Kalevala, zoon van de luchtgeest Ilmatar. Wat hij zingt, gebeurt. Hij bouwde de eerste kantele, de Finse harp, en is de held die het vaakst voorkomt in het epos.",
+    "prompt": "Väinämöinen, the ancient sage and singer of Finnish myth: a very old but strong and wise man with a long flowing beard and hair of silver-grey lichen and birch bark with tiny leaves, deep blue eyes glowing softly like a northern lake, faint swirls of song-magic like glowing mist around him, a simple woven wool tunic and cloak with Finnish-Karelian embroidery, holding a kantele (a small wooden Finnish harp). Calm, knowing, slightly mischievous expression."
+  },
+  "louhi": {
+    "naam": "Louhi",
+    "mythologie": "Fins",
+    "titel": "Vrouwe van het Noorden, heks van Pohjola",
+    "beschrijving": "De machtige, sluwe heerseres van Pohjola, het koude land in het noorden. Ze kan van gedaante veranderen en is de grote tegenstander van de helden van Kalevala.",
+    "prompt": "Louhi, the witch-queen of the North (Pohjola) in Finnish myth: a tall, gaunt, ancient woman with a sharp toothless grin and piercing pale eyes glowing icy white, skin pale blue-grey with patterns of frost, hair of white ice crystals and drifting snow, a crown of icicles, a heavy cloak of dark feathers like an eagle's wings with northern lights shimmering in it. Cunning, proud and dangerous, but not grotesque."
+  },
+  "ilmarinen": {
+    "naam": "Ilmarinen",
+    "mythologie": "Fins",
+    "titel": "De eeuwige smid, die de hemel smeedde",
+    "beschrijving": "De grote smid van de Kalevala. Hij smeedde de koepel van de hemel, zonder één naad, en daarna de Sampo. In zijn naam zit het Finse woord ilma, lucht.",
+    "prompt": "Ilmarinen, the eternal smith of Finnish myth who forged the sky: a powerful, broad-shouldered blacksmith in his forties, short beard and hair with glowing ember sparks in them, forearms with cracks of glowing molten metal under soot-dark skin, eyes glowing like a forge, a leather apron, holding a heavy hammer with faint stars reflected on its head. Stubborn, honest, a bit grumpy."
+  },
+  "lemminkainen": {
+    "naam": "Lemminkäinen",
+    "mythologie": "Fins",
+    "titel": "De roekeloze held, ook Ahti genoemd",
+    "beschrijving": "Een knappe, overmoedige held uit de Kalevala, altijd op zoek naar avontuur en vrouwen. Hij stierf eens en werd door zijn moeder weer tot leven gebracht.",
+    "prompt": "Lemminkäinen, the reckless young hero of Finnish myth: a handsome, cocky young warrior with wild golden-blond hair, a short beard and a daring grin, a mostly human look with only a faint shimmer of magic in his bright eyes, a fur-trimmed tunic and a bronze-hilted broadsword. Bold, restless, overconfident."
   }
 }

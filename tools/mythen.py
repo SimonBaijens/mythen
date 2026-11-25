@@ -80,7 +80,9 @@ def lees_verhaal(pad: Path) -> dict:
 
 
 def alle_verhalen() -> list:
-    return sorted((lees_verhaal(p) for p in BRON.glob("*.md")), key=lambda v: v["datum"], reverse=True)
+    # Nieuwste eerst; twee verhalen op dezelfde dag staan op volgorde van het moment dat het bronbestand ontstond.
+    paden = sorted(BRON.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+    return sorted((lees_verhaal(p) for p in paden), key=lambda v: v["datum"], reverse=True)
 
 
 def figuren() -> dict:

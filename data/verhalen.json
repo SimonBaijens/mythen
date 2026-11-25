@@ -1,5 +1,21 @@
 [
  {
+  "slug": "de-sampo",
+  "titel": "De Sampo",
+  "ondertitel": "De wondermolen van het Noorden, gesmeed en gestolen",
+  "mythologie": "Fins",
+  "datum": "2026-11-25",
+  "samenvatting": "Om thuis te komen belooft de oude zanger Väinämöinen dat zijn vriend de smid een wondermolen zal smeden voor de heks van het Noorden. Jaren later komen ze hem terughalen, met een harp van vissengraat en een zeeslag tegen een reusachtige adelaar.",
+  "leestijd": 11,
+  "beeld": "beelden/scenes/de-sampo.jpg",
+  "figuren": [
+   "vainamoinen",
+   "louhi",
+   "ilmarinen",
+   "lemminkainen"
+  ]
+ },
+ {
   "slug": "de-val-van-kronos",
   "titel": "De val van Kronos",
   "ondertitel": "Hoe Zeus koning van de goden werd",
