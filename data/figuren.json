@@ -124,5 +124,40 @@
     "titel": "Koning van de Tuatha Dé Danann",
     "beschrijving": "Bodb de Rode, zoon van de Dagda, werd na de nederlaag tegen de zonen van Míl gekozen tot koning van het oude godenvolk van Ierland. Hij gaf Lir zijn pleegdochters als vrouw en strafte Aoife.",
     "prompt": "Bodb Dearg (Bodb the Red), king of the Tuatha Dé Danann in ancient Irish myth: a powerful, wise king of fairy kind with a flowing red beard and hair like autumn bracken and oak leaves, a crown of gold and living red-brown oak leaves, warm amber glowing eyes, a deep red cloak with intricate Celtic gold knotwork, holding a druid's wand of rowan wood. Just, stern, kind-hearted."
+  },
+  "susanoo": {
+    "naam": "Susanoo",
+    "mythologie": "Japans",
+    "titel": "God van storm en zee",
+    "beschrijving": "Ontstaan uit de neus van Izanagi, broer van de zonnegodin Amaterasu. Onstuimig en vernielzuchtig, maar ook de held die de achtkoppige slang versloeg en het zwaard Kusanagi vond.",
+    "prompt": "Susanoo, the Japanese storm god of the Kojiki: a wild, powerful warrior god with long hair and a beard made of churning dark storm clouds crackling with small lightning bolts, rain and sea spray swirling around his shoulders, eyes glowing stormy blue-white, ancient Japanese (Kofun-era) clothing: a white tunic with a high belt, wide trousers tied at the knee, magatama bead necklace, holding a long straight ancient sword (tsurugi). Fierce, restless, a hint of grief."
+  },
+  "amaterasu": {
+    "naam": "Amaterasu",
+    "mythologie": "Japans",
+    "titel": "Godin van de zon",
+    "beschrijving": "Ontstaan uit het linkeroog van Izanagi, heerseres over de Vlakte van de Hoge Hemel. Toen ze zich in een grot verstopte, werd de hele wereld donker. Volgens de traditie stamt het Japanse keizerhuis van haar af.",
+    "prompt": "Amaterasu, the Japanese sun goddess of the Kojiki: a radiant, regal goddess whose skin glows with warm golden sunlight, long black hair with strands of light like sunrays, a halo of soft sun-fire behind her head, eyes like molten gold, ancient Japanese (Kofun-era) white and red robes, a long string of curved magatama jewels, holding a round bronze mirror that shines. Dignified, warm, a little stern."
+  },
+  "ame-no-uzume": {
+    "naam": "Ame-no-Uzume",
+    "mythologie": "Japans",
+    "titel": "Godin van de vreugde en de dageraad",
+    "beschrijving": "De godin die met een wilde dans voor de grot de goden aan het lachen maakte, zodat de zonnegodin naar buiten kwam kijken. Ze geldt als beschermster van dansers en van de kagura, de heilige dans.",
+    "prompt": "Ame-no-Uzume, the Japanese goddess of mirth, dance and dawn from the Kojiki: a joyful, round-cheeked young goddess laughing, her hair tied with a headdress of spindle-tree vines and leaves, a sash of moss across her shoulder, the soft pink and gold glow of dawn on her skin and in her flowing sleeves, holding a bunch of bamboo leaves while dancing, ancient Japanese clothing. Playful, energetic, warm."
+  },
+  "kushinadahime": {
+    "naam": "Kushinadahime",
+    "mythologie": "Japans",
+    "titel": "Prinses van de rijstvelden, vrouw van Susanoo",
+    "beschrijving": "Laatste van de acht dochters van Ashinazuchi en Tenazuchi in Izumo. Ze zou aan de achtkoppige slang geofferd worden, maar Susanoo veranderde haar in een kam in zijn haar en trouwde met haar.",
+    "prompt": "Kushinadahime, the rice-field princess of Izumo in the Kojiki: a gentle young woman with long black hair woven with ripe golden rice stalks, a fine wooden comb in her hair, skin with a faint warm green-gold sheen like young rice in sunlight, dewdrops on her shoulders, ancient Japanese (Kofun-era) robes in pale green and cream with a magatama necklace. Quiet, brave, hopeful."
+  },
+  "yamata-no-orochi": {
+    "naam": "Yamata no Orochi",
+    "mythologie": "Japans",
+    "titel": "De achtkoppige slang van Koshi",
+    "beschrijving": "Een reusachtige slang met acht koppen en acht staarten, zo lang als acht dalen en acht heuvels, met bomen op zijn rug. Elk jaar at hij een dochter van Ashinazuchi, tot Susanoo hem dronken voerde en versloeg.",
+    "prompt": "Yamata no Orochi, the gigantic eight-headed, eight-tailed serpent dragon of Japanese myth: a portrait showing several of its eight huge serpent heads rising together, scales like dark mossy rock and bark, moss, ferns and small cypress and cedar trees growing on its neck and back, eyes glowing deep red like winter cherries, mist around it. Menacing but not gory."
   }
 }
