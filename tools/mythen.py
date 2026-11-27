@@ -31,6 +31,7 @@ SCENEBEELDEN = ROOT / "beelden" / "scenes"
 STIJL_MAP = ROOT / "stijl"
 FIGUREN = DATA / "figuren.json"
 INDEX = DATA / "verhalen.json"
+PANTHEONS = DATA / "pantheons.json"
 
 API = os.environ.get("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com")
 MODEL = os.environ.get("MYTHEN_BEELDMODEL", "gemini-nano-banana-2.1")
@@ -353,9 +354,37 @@ def bouw() -> None:
     print(f"  {len(index)} verhaal/verhalen gebouwd")
 
 
+def controleer_pantheons() -> None:
+    """Kijkt of elke naam in data/pantheons.json bestaat, en meldt figuren die nu een portret hebben.
+
+    Een figuur die in een verhaal komt, krijgt in figuren.json hetzelfde id als in het pantheon. Dan verschijnt
+    het portret vanzelf in de stamboom; de korte tekst in pantheons.json mag dan weg (figuren.json gaat voor)."""
+    if not PANTHEONS.is_file():
+        return
+    alle = figuren()
+    for myth, p in json.loads(PANTHEONS.read_text(encoding="utf-8")).items():
+        bekend = set(p.get("personen", {})) | set(alle)
+        namen = []
+        for w in p.get("weergaven", []):
+            namen += list(w.get("plaats", {}))
+            for g in w.get("gezinnen", []):
+                namen += g["ouders"] + g["kinderen"]
+            for h in w.get("huwelijken", []):
+                namen += h[:2]
+            for z in w.get("zones", []):
+                namen += z["bewoners"]
+            if w.get("soort") == "hof":
+                namen += [w["midden"]["id"]] + [k["id"] for k in w["kring"]]
+        for n in sorted(set(namen) - bekend):
+            print(f"  ! pantheon {myth}: '{n}' staat niet in personen of figuren.json")
+        for n in sorted(set(p.get("personen", {})) & set(alle)):
+            print(f"  · pantheon {myth}: '{n}' heeft nu een portret; de tekst in pantheons.json kan weg")
+
+
 if __name__ == "__main__":
     actie = sys.argv[1] if len(sys.argv) > 1 else "alles"
     if actie in ("beelden", "alles"):
         maak_beelden(sys.argv[2] if len(sys.argv) > 2 else "")
     if actie in ("bouw", "alles"):
         bouw()
+        controleer_pantheons()

@@ -4,3 +4,4 @@ stijl/
 __pycache__/
 *.log
 proef/
+.claude/

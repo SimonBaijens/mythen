@@ -1,6 +1,6 @@
 // Netwerk eerst (zodat een nieuw verhaal meteen zichtbaar is), met de cache als terugval voor offline lezen.
-const CACHE = "mythen-v1";
-const SCHIL = ["./", "index.html", "styles.css", "app.js", "verhaal.css", "manifest.webmanifest", "data/verhalen.json", "data/figuren.json"];
+const CACHE = "mythen-v2";
+const SCHIL = ["./", "index.html", "styles.css", "app.js", "verhaal.css", "manifest.webmanifest", "data/verhalen.json", "data/figuren.json", "data/pantheons.json"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SCHIL)).then(() => self.skipWaiting()));

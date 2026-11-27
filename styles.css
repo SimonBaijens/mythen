@@ -35,6 +35,7 @@ body {
 .chips button.actief { border-color: var(--goud); color: var(--goud); background: rgba(212,173,98,.08); }
 
 main { max-width: 900px; margin: 0 auto; padding: 0 16px 40px; }
+body.breed main, body.breed .topbar, body.breed .chips { max-width: 1240px; }
 
 /* ---------- verhalen ---------- */
 #verhalen { display: grid; gap: 14px; grid-template-columns: 1fr; }
@@ -73,7 +74,7 @@ main { max-width: 900px; margin: 0 auto; padding: 0 16px 40px; }
   padding: 22px 18px calc(28px + env(safe-area-inset-bottom)); max-width: 640px; margin: 0 auto; }
 .sluit { position: absolute; right: 12px; top: 10px; border: 0; background: transparent; color: var(--zacht);
   font-size: 1.8rem; cursor: pointer; line-height: 1; padding: 4px 8px; }
-.sheet img { width: min(260px, 70%); aspect-ratio: 1; object-fit: cover; border-radius: 50%; display: block; margin: 0 auto 14px; }
+.sheet img.groot, .sheet .med.groot { width: min(260px, 70%); aspect-ratio: 1; object-fit: cover; border-radius: 50%; display: block; margin: 0 auto 14px; }
 .sheet h2 { font: 700 1.6rem Georgia, serif; text-align: center; }
 .sheet .titel { text-align: center; color: var(--goud); font-size: .85rem; margin: 4px 0 14px; }
 .sheet p { font: 1.02rem/1.6 Georgia, serif; color: var(--tekst); }
@@ -82,3 +83,108 @@ main { max-width: 900px; margin: 0 auto; padding: 0 16px 40px; }
 .sheet li a { display: block; padding: 10px 12px; border: 1px solid var(--lijn); border-radius: 10px; margin-bottom: 6px;
   color: var(--tekst); text-decoration: none; font: 1rem Georgia, serif; }
 .sheet li a:hover { border-color: var(--goud-dim); }
+
+@media (max-width: 400px) { .tabs button { padding: 8px 10px; } .logo { font-size: 1.3rem; } }
+
+/* ---------- medaillons: portret, of een geschilderde lege plek voor wie nog geen verhaal heeft ---------- */
+.med { display: block; width: 64px; height: 64px; border-radius: 50%; overflow: hidden; flex: none; margin: 0 auto;
+  border: 2px solid var(--goud); background: var(--bg-op); box-shadow: 0 3px 10px rgba(0,0,0,.45); }
+.med img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.leeg-med { border: 2px dashed color-mix(in srgb, var(--k) 70%, #d4ad62); display: grid; place-items: center;
+  background: radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--k) 55%, #2a2119), #15110d 78%); }
+.leeg-med span { font: 700 1.55rem/1 Georgia, serif; color: color-mix(in srgb, var(--k) 35%, #efe3cc); opacity: .85; }
+.leeg-med.groep { box-shadow: 0 3px 10px rgba(0,0,0,.45), 7px -5px 0 -2px #15110d, 7px -5px 0 0 color-mix(in srgb, var(--k) 60%, #5e4a28); }
+.med.klein { width: 40px; height: 40px; border-width: 1.5px; }
+.med.klein span { font-size: 1rem; }
+.med.groot { aspect-ratio: 1; height: auto; margin-bottom: 14px; }
+.med.groot span { font-size: 4.5rem; }
+.sheet .leeg-med.groot { display: grid; }
+
+/* ---------- pantheon ---------- */
+.pintro { color: var(--zacht); font: 1rem/1.55 Georgia, serif; max-width: 680px; margin: 4px 0 18px; }
+.pkaarten { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.pkaart { text-align: left; background: var(--bg-kaart); border: 1px solid var(--lijn); border-radius: 16px; padding: 16px;
+  color: inherit; font: inherit; cursor: pointer; transition: border-color .15s; }
+.pkaart:hover { border-color: var(--goud-dim); }
+.pkaart h2 { font: 700 1.3rem/1.2 Georgia, serif; margin: 6px 0 4px; }
+.pkaart p { color: var(--zacht); font-size: .85rem; line-height: 1.4; }
+.pkaart .gezichten { display: flex; margin: 12px 0 8px; }
+.pkaart .gezichten .med { width: 38px; height: 38px; border-width: 1.5px; margin: 0 -7px 0 0; }
+.pkaart .tel { font-size: .75rem; }
+.meta { color: var(--goud); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+
+.pkop { max-width: 760px; margin: 4px 0 8px; }
+.pkop h2 { font: 700 1.8rem/1.15 Georgia, serif; margin: 4px 0 8px; }
+.pkop p:not(.meta) { color: var(--zacht); font: 1.02rem/1.55 Georgia, serif; }
+.weergave { margin-top: 30px; }
+.weergave > h3 { font: 700 1.3rem Georgia, serif; color: var(--goud); display: flex; align-items: center; gap: 12px; }
+.weergave > h3::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--goud-dim), transparent); }
+.wintro { color: var(--zacht); font: .95rem/1.5 Georgia, serif; max-width: 760px; margin: 6px 0 12px; }
+.noot { color: var(--zacht) !important; font: italic .9rem/1.5 Georgia, serif !important; margin-top: 10px; }
+
+/* knoop: portret met naam, overal hetzelfde */
+.knoop { display: block; width: 100px; background: none; border: 0; color: inherit; font: inherit; cursor: pointer;
+  text-align: center; padding: 0; }
+.knoop strong { display: block; font: 700 .8rem/1.2 Georgia, serif; margin-top: 6px; }
+.knoop small { display: block; color: var(--zacht); font: italic .68rem/1.25 Georgia, serif; margin-top: 2px; }
+.knoop.onbekend strong { color: #cbbfa9; }
+.knoop:hover .med { border-color: #f0cf87; transform: scale(1.06); }
+.knoop .med { transition: transform .15s, border-color .15s; }
+.knoop.groot { width: 130px; }
+.knoop.groot .med { width: 92px; height: 92px; }
+.knoop.groot strong { font-size: 1rem; }
+
+/* stamboom */
+.boombalk { display: flex; gap: 6px; justify-content: flex-end; margin-bottom: 6px; }
+.boombalk button { border: 1px solid var(--lijn); background: var(--bg-op); color: var(--zacht); font: 600 .8rem/1 inherit;
+  min-width: 34px; height: 30px; padding: 0 10px; border-radius: 8px; cursor: pointer; }
+.boombalk button:hover { color: var(--goud); border-color: var(--goud-dim); }
+.boomvenster { overflow: auto; border: 1px solid var(--lijn); border-radius: 16px; cursor: grab; overscroll-behavior: contain;
+  background: radial-gradient(ellipse at 50% 0%, #2a2118, #18130f 70%); }
+.boomvenster.sleept { cursor: grabbing; user-select: none; }
+.boom { position: relative; transform-origin: 0 0; }
+.boom svg { position: absolute; inset: 0; }
+.boom .plek { position: absolute; }
+.lijn { fill: none; stroke: #8a7044; stroke-width: 1.6; }
+.lijn.stip { stroke-dasharray: 4 5; }
+.huw { fill: none; stroke: var(--goud); stroke-width: 2.2; }
+.draad { fill: none; stroke: var(--goud); stroke-width: 1.6; stroke-dasharray: 2 5; stroke-linecap: round; opacity: .9; }
+
+/* werelden: van boven naar beneden, verbonden door een gouden as */
+.werelden { position: relative; display: grid; gap: 12px; }
+.zone { position: relative; border: 1px solid var(--lijn); border-radius: 16px; padding: 16px 16px 14px; overflow: hidden; }
+.zone h4 { font: 700 1.15rem Georgia, serif; }
+.zone .sub { color: var(--goud); font-size: .72rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; margin: 2px 0 8px; }
+.zone > p:not(.sub) { color: #d9ccb4; font: .93rem/1.5 Georgia, serif; max-width: 760px; }
+.bewoners { display: flex; flex-wrap: wrap; gap: 12px 4px; margin-top: 12px; }
+.bewoners .knoop { width: 88px; }
+.bewoners .med { width: 56px; height: 56px; }
+.toon-hemel { background: linear-gradient(160deg, #2d3a4c, #1d2230 70%); }
+.toon-nacht { background: linear-gradient(160deg, #23223a, #15141f 70%); }
+.toon-zee { background: linear-gradient(160deg, #1d3a44, #14232b 70%); }
+.toon-aarde { background: linear-gradient(160deg, #3a3020, #221c14 70%); }
+.toon-bos { background: linear-gradient(160deg, #253523, #161f15 70%); }
+.toon-ijs { background: linear-gradient(160deg, #2f3d44, #1b2327 70%); }
+.toon-heuvel { background: linear-gradient(160deg, #2c3a22, #1e2418 50%, #1a1612); }
+.toon-onderwereld { background: linear-gradient(160deg, #2e1d1d, #170f10 70%); }
+.toon-diepte { background: linear-gradient(160deg, #1a1414, #0b0909 70%); }
+
+/* hof: een kring rond de oppergod */
+.hof { position: relative; width: min(100%, 720px); aspect-ratio: 1; margin: 6px auto 0;
+  background: radial-gradient(circle, rgba(212,173,98,.10), transparent 62%); }
+.hof::before { content: ""; position: absolute; inset: 9%; border: 1px dashed var(--goud-dim); border-radius: 50%; }
+.hofplek { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -32px); }
+.hofplek.midden { left: 50%; top: 50%; transform: translate(-50%, -50%); }
+@media (max-width: 620px) {
+  .hof { aspect-ratio: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 4px; background: none; }
+  .hof::before { display: none; }
+  .hofplek, .hofplek.midden { position: static; transform: none; display: flex; justify-content: center; }
+  .hofplek.midden { grid-column: 1 / -1; }
+}
+
+/* sheet: familie */
+.familie { display: flex; flex-wrap: wrap; gap: 8px; }
+.familie button { display: flex; align-items: center; gap: 8px; background: var(--bg-kaart); border: 1px solid var(--lijn);
+  border-radius: 99px; padding: 4px 12px 4px 4px; color: var(--tekst); font: .9rem Georgia, serif; cursor: pointer; }
+.familie button:hover { border-color: var(--goud-dim); }
+.familie .med { margin: 0; }

@@ -1,0 +1,1785 @@
+{
+ "Grieks": {
+  "kop": "Van de Aarde tot de Olympus",
+  "intro": "De Grieken hadden een echte familiegeschiedenis van de goden, vooral dankzij Hesiodos, die rond 700 v.Chr. de Theogonie schreef: de geboorte van de goden. Eerst was er Chaos, toen kwam Gaia, de Aarde. Drie generaties lang onttroont een zoon zijn vader, tot Zeus de macht houdt. Daarom drie weergaven: de stamboom, de twaalf van de Olympus met hun domeinen, en de verdeling van de wereld.",
+  "personen": {
+   "gaia": {
+    "naam": "Gaia",
+    "titel": "De Aarde, oermoeder van alles",
+    "element": "aarde",
+    "beschrijving": "Na Chaos ontstond Gaia, de brede Aarde. Uit zichzelf bracht ze Ouranos voort, de sterrenhemel, en met hem kreeg ze de Titanen, de Kyklopen en de Honderdarmigen. Ze gaf Kronos de sikkel tegen zijn vader, en hielp later Rhea om Zeus te redden."
+   },
+   "ouranos": {
+    "naam": "Ouranos",
+    "titel": "De Hemel",
+    "element": "lucht",
+    "beschrijving": "De sterrenhemel, zoon en man van Gaia. Hij haatte zijn kinderen en duwde ze terug in de schoot van de aarde, tot zijn jongste zoon Kronos hem met een sikkel onttroonde. Bij de Romeinen heette hij Uranus."
+   },
+   "okeanos": {
+    "naam": "Okeanos",
+    "titel": "Titaan, de wereldstroom",
+    "element": "water",
+    "beschrijving": "De oudste Titaan: de grote rivier die rond de hele platte aarde stroomt. Met zijn zus Tethys kreeg hij alle rivieren en duizenden waternimfen, de Okeaniden."
+   },
+   "tethys": {
+    "naam": "Tethys",
+    "titel": "Titanin, moeder van de rivieren",
+    "element": "water",
+    "beschrijving": "Zus en vrouw van Okeanos. Hun kinderen zijn de rivieren en de Okeaniden, onder wie Metis."
+   },
+   "hyperion": {
+    "naam": "Hyperion",
+    "titel": "Titaan van het hemelse licht",
+    "element": "licht",
+    "beschrijving": "Zijn naam betekent 'hij die boven gaat'. Met zijn zus Theia kreeg hij de zon, de maan en de dageraad."
+   },
+   "theia": {
+    "naam": "Theia",
+    "titel": "Titanin van de glans",
+    "element": "licht",
+    "beschrijving": "Godin van het schitterende licht van goud, edelstenen en de heldere hemel. Moeder van Helios, Selene en Eos."
+   },
+   "koios": {
+    "naam": "Koios",
+    "titel": "Titaan van het hemelse inzicht",
+    "element": "lucht",
+    "beschrijving": "Een van de stille Titanen, misschien de as waar de hemel om draait. Met zijn zus Phoibe kreeg hij Leto, de moeder van Apollo en Artemis."
+   },
+   "phoibe": {
+    "naam": "Phoibe",
+    "titel": "Titanin, de stralende",
+    "element": "licht",
+    "beschrijving": "Moeder van Leto en grootmoeder van Apollo en Artemis. Volgens Aischylos had zij ooit het orakel van Delphi, en gaf ze het aan haar kleinzoon Apollo."
+   },
+   "kreios": {
+    "naam": "Kreios",
+    "titel": "Titaan van de sterrenbeelden",
+    "element": "lucht",
+    "beschrijving": "Een van de minst bekende Titanen. Via zijn zonen is hij de grootvader van de sterren en de winden."
+   },
+   "iapetos": {
+    "naam": "Iapetos",
+    "titel": "Titaan, vader van Atlas en Prometheus",
+    "element": "aarde",
+    "beschrijving": "Met de Okeanide Klymene kreeg hij Atlas, Prometheus en Epimetheus. Via Prometheus zagen de Grieken hem als een soort voorvader van de mensen."
+   },
+   "mnemosyne": {
+    "naam": "Mnemosyne",
+    "titel": "Titanin van het geheugen",
+    "element": "wijsheid",
+    "beschrijving": "Godin van de herinnering. Negen nachten lag Zeus bij haar, en ze kreeg de negen Muzen, de godinnen van poëzie, muziek en kennis."
+   },
+   "themis": {
+    "naam": "Themis",
+    "titel": "Titanin van recht en orde",
+    "element": "wijsheid",
+    "beschrijving": "Godin van de goddelijke wet en van wat gepast is. Ze werd de tweede vrouw van Zeus en kreeg met hem de Horen, de seizoenen, en de Schikgodinnen."
+   },
+   "kyklopen": {
+    "naam": "De Kyklopen",
+    "titel": "Brontes, Steropes en Arges",
+    "element": "vuur",
+    "groep": true,
+    "beschrijving": "Drie reuzen met één oog midden op hun voorhoofd: Donder, Bliksem en Schittering. Ouranos en later Kronos hielden hen gevangen. Uit dank voor hun bevrijding smeedden ze de bliksem van Zeus, de drietand van Poseidon en de helm van Hades."
+   },
+   "honderdarmigen": {
+    "naam": "De Honderdarmigen",
+    "titel": "Kottos, Briareos en Gyges",
+    "element": "aarde",
+    "groep": true,
+    "beschrijving": "Drie reuzen met elk honderd armen en vijftig hoofden. Ouranos sloot ze op in de diepte, Zeus bevrijdde ze, en met hun rotsblokken beslisten ze de oorlog tegen de Titanen. Daarna werden ze de bewakers van de Tartaros."
+   },
+   "aphrodite": {
+    "naam": "Aphrodite",
+    "titel": "Godin van liefde en schoonheid",
+    "element": "liefde",
+    "beschrijving": "Volgens Hesiodos ontstaan uit het schuim rond het afgesneden lid van Ouranos, dat in zee viel. Dan is ze ouder dan Zeus. Homeros noemt haar een dochter van Zeus en Dione. Ze trouwde met Hephaistos en had een verhouding met Ares. Bij de Romeinen heette ze Venus."
+   },
+   "metis": {
+    "naam": "Metis",
+    "titel": "Titanin van de slimheid",
+    "element": "wijsheid",
+    "beschrijving": "Een Okeanide, dochter van Okeanos en Tethys, en de eerste vrouw van Zeus. Ze gaf Kronos het drankje waardoor hij zijn kinderen uitspuugde. Toen voorspeld werd dat haar zoon Zeus zou onttronen, slikte Zeus haar in. Sindsdien zit haar wijsheid in hem."
+   },
+   "helios": {
+    "naam": "Helios",
+    "titel": "De zon",
+    "element": "zon",
+    "beschrijving": "Elke dag rijdt hij met een wagen van vuur langs de hemel, en hij ziet alles wat er op aarde gebeurt. 's Nachts vaart hij in een gouden beker over Okeanos terug naar het oosten."
+   },
+   "selene": {
+    "naam": "Selene",
+    "titel": "De maan",
+    "element": "maan",
+    "beschrijving": "Zus van Helios. 's Nachts rijdt ze met een zilveren wagen langs de hemel."
+   },
+   "eos": {
+    "naam": "Eos",
+    "titel": "De dageraad",
+    "element": "licht",
+    "beschrijving": "Elke ochtend opent ze met haar rozige vingers de poorten van de hemel voor haar broer Helios."
+   },
+   "leto": {
+    "naam": "Leto",
+    "titel": "Moeder van Apollo en Artemis",
+    "element": "duister",
+    "beschrijving": "Dochter van de Titanen Koios en Phoibe. Uit angst voor Hera durfde geen land haar te laten bevallen, tot het rondzwervende eiland Delos haar opnam."
+   },
+   "atlas": {
+    "naam": "Atlas",
+    "titel": "De Titaan die de hemel draagt",
+    "element": "aarde",
+    "beschrijving": "Zoon van Iapetos. Hij vocht mee aan de kant van de Titanen, en als straf moet hij voor altijd de hemel op zijn schouders dragen, aan de westrand van de wereld. Vader van Maia en de andere Pleiaden."
+   },
+   "prometheus": {
+    "naam": "Prometheus",
+    "titel": "Vriend van de mensen",
+    "element": "vuur",
+    "beschrijving": "Zoon van Iapetos en de slimste van de Titanen. In de oorlog koos hij de kant van Zeus, maar later stal hij het vuur voor de mensen. Als straf werd hij aan een rots geketend, waar een adelaar elke dag aan zijn lever pikte."
+   },
+   "hestia": {
+    "naam": "Hestia",
+    "titel": "Godin van de haard",
+    "element": "vuur",
+    "beschrijving": "Het oudste kind van Kronos en Rhea: als eerste ingeslikt en als laatste uitgespuugd. Ze bleef ongehuwd en woont in het vuur van elke haard. Bij elk offer kreeg zij het eerste deel. Bij de Romeinen heette ze Vesta."
+   },
+   "demeter": {
+    "naam": "Demeter",
+    "titel": "Godin van graan en oogst",
+    "element": "aarde",
+    "beschrijving": "Dochter van Kronos en Rhea. Toen Hades haar dochter Persephone ontvoerde, liet ze van verdriet niets meer groeien, tot Zeus een oplossing vond. Zo ontstonden de seizoenen. Bij de Romeinen heette ze Ceres."
+   },
+   "hera": {
+    "naam": "Hera",
+    "titel": "Koningin van de goden",
+    "element": "lucht",
+    "beschrijving": "Dochter van Kronos en Rhea, zus en vrouw van Zeus. Godin van het huwelijk. De vele ontrouw van haar man wreekte ze fel, meestal op zijn minnaressen en hun kinderen. Bij de Romeinen heette ze Juno."
+   },
+   "ares": {
+    "naam": "Ares",
+    "titel": "God van de oorlog",
+    "element": "oorlog",
+    "beschrijving": "Zoon van Zeus en Hera. Hij staat voor het woeste, bloedige gevecht en was bij de andere goden niet geliefd. Bij de Romeinen heette hij Mars, en daar was hij juist een van de belangrijkste goden."
+   },
+   "hebe": {
+    "naam": "Hebe",
+    "titel": "Godin van de jeugd",
+    "element": "licht",
+    "beschrijving": "Dochter van Zeus en Hera. Ze schonk de goden nectar op de Olympus, en trouwde met Herakles toen die na zijn dood een god werd."
+   },
+   "hephaistos": {
+    "naam": "Hephaistos",
+    "titel": "God van het smidsvuur",
+    "element": "vuur",
+    "beschrijving": "Volgens Hesiodos kreeg Hera hem alleen, zonder vader. Volgens Homeros is hij een zoon van Zeus en Hera. Hij werd van de Olympus gegooid en bleef mank, maar werd de grote smid en kunstenaar van de goden. Bij de Romeinen heette hij Vulcanus."
+   },
+   "athena": {
+    "naam": "Athena",
+    "titel": "Godin van wijsheid en krijgskunst",
+    "element": "wijsheid",
+    "beschrijving": "Zeus slikte haar zwangere moeder Metis in. Later kreeg hij vreselijke hoofdpijn. Hephaistos sloeg zijn hoofd open met een bijl, en Athena sprong eruit, volwassen en in volle wapenrusting. Beschermster van de stad Athene. Bij de Romeinen heette ze Minerva."
+   },
+   "apollo": {
+    "naam": "Apollo",
+    "titel": "God van licht, muziek en voorspelling",
+    "element": "zon",
+    "beschrijving": "Zoon van Zeus en Leto, tweelingbroer van Artemis, geboren op Delos. Hij spreekt via het orakel van Delphi, speelt de lier en schiet met zijn zilveren boog ziektes de wereld in, en geneest ze ook weer."
+   },
+   "artemis": {
+    "naam": "Artemis",
+    "titel": "Godin van de jacht en de wilde natuur",
+    "element": "maan",
+    "beschrijving": "Tweelingzus van Apollo. Ze trekt met haar boog en haar nimfen door de bossen en beschermt jonge dieren, jonge meisjes en vrouwen die bevallen. Bij de Romeinen heette ze Diana."
+   },
+   "hermes": {
+    "naam": "Hermes",
+    "titel": "Boodschapper van de goden",
+    "element": "lucht",
+    "beschrijving": "Zoon van Zeus en de nimf Maia. Op de dag dat hij geboren werd, vond hij de lier uit en stal hij de koeien van Apollo. Hij beschermt reizigers, handelaren en dieven, en brengt de zielen naar de onderwereld. Bij de Romeinen heette hij Mercurius."
+   },
+   "dionysos": {
+    "naam": "Dionysos",
+    "titel": "God van wijn en extase",
+    "element": "bos",
+    "beschrijving": "Zoon van Zeus en de sterfelijke prinses Semele. Toen zijn moeder verbrandde, naaide Zeus het ongeboren kind in zijn eigen dij, tot het geboren kon worden. De jongste van de Olympiërs. Bij de Romeinen heette hij Bacchus."
+   },
+   "persephone": {
+    "naam": "Persephone",
+    "titel": "Koningin van de onderwereld",
+    "element": "dood",
+    "beschrijving": "Dochter van Zeus en Demeter. Hades ontvoerde haar naar zijn rijk. Omdat ze daar een paar pitjes van een granaatappel at, moet ze elk jaar een deel van het jaar beneden blijven. Dan is het winter op aarde."
+   },
+   "maia": {
+    "naam": "Maia",
+    "titel": "Moeder van Hermes",
+    "element": "lucht",
+    "beschrijving": "Een nimf, de oudste van de zeven Pleiaden en dochter van de Titaan Atlas. Ze woonde in een grot op de berg Kyllene in Arkadië, waar ze Hermes kreeg."
+   },
+   "semele": {
+    "naam": "Semele",
+    "titel": "Moeder van Dionysos",
+    "element": "vuur",
+    "beschrijving": "Een sterfelijke prinses van Thebe, dochter van koning Kadmos. Hera haalde haar over om Zeus te vragen zich in zijn ware gedaante te tonen. Ze verbrandde in zijn bliksem."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "stamboom",
+    "titel": "De stamboom",
+    "intro": "Van Gaia en Ouranos via Kronos naar Zeus en zijn kinderen, zoals Hesiodos het vertelt. Bij een kind van wie de ouders niet naast elkaar staan, staat de tweede ouder onder de naam. Een stippellijn betekent dat de bronnen het oneens zijn.",
+    "start": "kronos",
+    "plaats": {
+     "gaia": [
+      6.5,
+      0
+     ],
+     "ouranos": [
+      7.5,
+      0
+     ],
+     "okeanos": [
+      0,
+      1
+     ],
+     "tethys": [
+      1,
+      1
+     ],
+     "hyperion": [
+      2,
+      1
+     ],
+     "theia": [
+      3,
+      1
+     ],
+     "koios": [
+      4,
+      1
+     ],
+     "phoibe": [
+      5,
+      1
+     ],
+     "kreios": [
+      6,
+      1
+     ],
+     "iapetos": [
+      7,
+      1
+     ],
+     "mnemosyne": [
+      8,
+      1
+     ],
+     "themis": [
+      9,
+      1
+     ],
+     "kronos": [
+      10,
+      1
+     ],
+     "rhea": [
+      11,
+      1
+     ],
+     "kyklopen": [
+      12,
+      1
+     ],
+     "honderdarmigen": [
+      13,
+      1
+     ],
+     "aphrodite": [
+      14.5,
+      1
+     ],
+     "metis": [
+      0.5,
+      2
+     ],
+     "helios": [
+      1.5,
+      2
+     ],
+     "selene": [
+      2.5,
+      2
+     ],
+     "eos": [
+      3.5,
+      2
+     ],
+     "leto": [
+      4.5,
+      2
+     ],
+     "atlas": [
+      6.5,
+      2
+     ],
+     "prometheus": [
+      7.5,
+      2
+     ],
+     "hestia": [
+      8.5,
+      2
+     ],
+     "demeter": [
+      9.5,
+      2
+     ],
+     "hades": [
+      10.5,
+      2
+     ],
+     "poseidon": [
+      11.5,
+      2
+     ],
+     "hera": [
+      12.5,
+      2
+     ],
+     "zeus": [
+      13.5,
+      2
+     ],
+     "persephone": [
+      9.5,
+      3
+     ],
+     "hephaistos": [
+      11.5,
+      3
+     ],
+     "ares": [
+      12.5,
+      3
+     ],
+     "hebe": [
+      13.5,
+      3
+     ],
+     "athena": [
+      14.5,
+      3
+     ],
+     "apollo": [
+      15.5,
+      3
+     ],
+     "artemis": [
+      16.5,
+      3
+     ],
+     "hermes": [
+      17.5,
+      3
+     ],
+     "dionysos": [
+      18.5,
+      3
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "gaia",
+       "ouranos"
+      ],
+      "kinderen": [
+       "okeanos",
+       "tethys",
+       "hyperion",
+       "theia",
+       "koios",
+       "phoibe",
+       "kreios",
+       "iapetos",
+       "mnemosyne",
+       "themis",
+       "kronos",
+       "rhea",
+       "kyklopen",
+       "honderdarmigen"
+      ]
+     },
+     {
+      "ouders": [
+       "ouranos"
+      ],
+      "kinderen": [
+       "aphrodite"
+      ],
+      "label": "uit het schuim van de zee",
+      "stippel": true,
+      "uitleg": "Zo vertelt Hesiodos het. Volgens Homeros is Aphrodite een dochter van Zeus en Dione."
+     },
+     {
+      "ouders": [
+       "okeanos",
+       "tethys"
+      ],
+      "kinderen": [
+       "metis"
+      ]
+     },
+     {
+      "ouders": [
+       "hyperion",
+       "theia"
+      ],
+      "kinderen": [
+       "helios",
+       "selene",
+       "eos"
+      ]
+     },
+     {
+      "ouders": [
+       "koios",
+       "phoibe"
+      ],
+      "kinderen": [
+       "leto"
+      ]
+     },
+     {
+      "ouders": [
+       "iapetos"
+      ],
+      "kinderen": [
+       "atlas",
+       "prometheus"
+      ],
+      "label": "met Klymene"
+     },
+     {
+      "ouders": [
+       "kronos",
+       "rhea"
+      ],
+      "kinderen": [
+       "hestia",
+       "demeter",
+       "hades",
+       "poseidon",
+       "hera",
+       "zeus"
+      ]
+     },
+     {
+      "ouders": [
+       "hera",
+       "zeus"
+      ],
+      "kinderen": [
+       "ares",
+       "hebe"
+      ]
+     },
+     {
+      "ouders": [
+       "hera"
+      ],
+      "kinderen": [
+       "hephaistos"
+      ],
+      "label": "alleen uit Hera",
+      "stippel": true,
+      "uitleg": "Zo vertelt Hesiodos het. Volgens Homeros is Hephaistos een zoon van Zeus en Hera."
+     },
+     {
+      "ouders": [
+       "zeus",
+       "metis"
+      ],
+      "kinderen": [
+       "athena"
+      ],
+      "label": "uit het hoofd van Zeus"
+     },
+     {
+      "ouders": [
+       "zeus",
+       "leto"
+      ],
+      "kinderen": [
+       "apollo",
+       "artemis"
+      ]
+     },
+     {
+      "ouders": [
+       "zeus",
+       "maia"
+      ],
+      "kinderen": [
+       "hermes"
+      ]
+     },
+     {
+      "ouders": [
+       "zeus",
+       "semele"
+      ],
+      "kinderen": [
+       "dionysos"
+      ]
+     },
+     {
+      "ouders": [
+       "demeter",
+       "zeus"
+      ],
+      "kinderen": [
+       "persephone"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "hades",
+      "persephone"
+     ]
+    ]
+   },
+   {
+    "soort": "hof",
+    "titel": "De twaalf van de Olympus",
+    "intro": "De belangrijkste goden woonden samen op de berg Olympus, met Zeus als koning. Ieder had een eigen domein.",
+    "midden": {
+     "id": "zeus",
+     "domein": "hemel, bliksem en recht"
+    },
+    "kring": [
+     {
+      "id": "hera",
+      "domein": "huwelijk en gezin"
+     },
+     {
+      "id": "poseidon",
+      "domein": "zee en aardbevingen"
+     },
+     {
+      "id": "demeter",
+      "domein": "graan en oogst"
+     },
+     {
+      "id": "athena",
+      "domein": "wijsheid en krijgskunst"
+     },
+     {
+      "id": "apollo",
+      "domein": "licht, muziek en voorspelling"
+     },
+     {
+      "id": "artemis",
+      "domein": "jacht en wilde natuur"
+     },
+     {
+      "id": "ares",
+      "domein": "oorlog"
+     },
+     {
+      "id": "aphrodite",
+      "domein": "liefde en schoonheid"
+     },
+     {
+      "id": "hephaistos",
+      "domein": "vuur en smeedkunst"
+     },
+     {
+      "id": "hermes",
+      "domein": "boodschappen, reizen en handel"
+     },
+     {
+      "id": "dionysos",
+      "domein": "wijn en feest"
+     }
+    ],
+    "noot": "In oudere lijsten staat Hestia, de godin van de haard, op de plek van Dionysos. Hades hoort er niet bij, want hij woont niet op de Olympus maar in zijn eigen rijk."
+   },
+   {
+    "soort": "werelden",
+    "titel": "De verdeling van de wereld",
+    "intro": "Na de oorlog tegen de Titanen lootten de drie broers om de wereld, zoals in De val van Kronos. De aarde en de Olympus bleven van iedereen samen.",
+    "zones": [
+     {
+      "naam": "De hemel en de Olympus",
+      "sub": "het lot van Zeus",
+      "toon": "hemel",
+      "tekst": "Zeus trok de wijde hemel, met de wolken en de bliksem. Op de top van de Olympus wonen de goden in paleizen die Hephaistos voor hen bouwde. Boven hen rijden de zon, de maan en de dageraad langs de hemel.",
+      "bewoners": [
+       "zeus",
+       "hera",
+       "athena",
+       "apollo",
+       "artemis",
+       "hermes",
+       "aphrodite",
+       "ares",
+       "hephaistos",
+       "hestia",
+       "dionysos",
+       "helios",
+       "selene",
+       "eos"
+      ]
+     },
+     {
+      "naam": "De aarde",
+      "sub": "van iedereen samen",
+      "toon": "aarde",
+      "tekst": "Gaia zelf. Demeter laat het graan groeien, en hier wonen de mensen, aan wie Prometheus het vuur bracht. Aan de westrand draagt Atlas de hemel op zijn schouders.",
+      "bewoners": [
+       "gaia",
+       "demeter",
+       "prometheus",
+       "atlas"
+      ]
+     },
+     {
+      "naam": "De zee",
+      "sub": "het lot van Poseidon",
+      "toon": "zee",
+      "tekst": "Poseidon trok de zee, met al haar stormen. Rond de hele wereld stroomt Okeanos, de oudste rivier, met Tethys en hun duizenden dochters.",
+      "bewoners": [
+       "poseidon",
+       "okeanos",
+       "tethys",
+       "metis"
+      ]
+     },
+     {
+      "naam": "De onderwereld",
+      "sub": "het lot van Hades",
+      "toon": "onderwereld",
+      "tekst": "Het rijk van de doden, achter de rivier de Styx. Hades regeert er streng en rechtvaardig, met Persephone als koningin.",
+      "bewoners": [
+       "hades",
+       "persephone"
+      ]
+     },
+     {
+      "naam": "De Tartaros",
+      "sub": "even ver onder de aarde als de hemel erboven",
+      "toon": "diepte",
+      "tekst": "Volgens Hesiodos valt een bronzen aambeeld negen dagen van de hemel naar de aarde, en nog eens negen dagen naar de Tartaros. Hier zitten Kronos en de verslagen Titanen gevangen, achter bronzen poorten, bewaakt door de Honderdarmigen.",
+      "bewoners": [
+       "kronos",
+       "honderdarmigen"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Japans": {
+  "kop": "Van de hemel naar de keizer",
+  "intro": "De Kojiki (712) is tegelijk een mythologie en een stamboom: het boek begint bij de eerste goden en eindigt bij de keizers. De zonnegodin Amaterasu is de stammoeder van het keizerhuis. Daarom eerst de stamboom, van Izanagi tot de eerste keizer Jimmu, en dan de rijken waartussen de goden heen en weer gaan.",
+  "personen": {
+   "izanagi": {
+    "naam": "Izanagi",
+    "titel": "De god die uitnodigt",
+    "element": "lucht",
+    "beschrijving": "Met zijn zus en vrouw Izanami roerde hij vanaf de Zwevende Brug van de Hemel met een speer in de zee. De druppels werden het eerste eiland. Samen kregen ze de eilanden van Japan en vele goden. Toen hij zich waste na zijn bezoek aan de onderwereld, ontstonden de zon, de maan en de storm."
+   },
+   "izanami": {
+    "naam": "Izanami",
+    "titel": "De godin die uitnodigt, later godin van de dood",
+    "element": "dood",
+    "beschrijving": "Vrouw van Izanagi en moeder van de eilanden van Japan. Ze stierf bij de geboorte van de vuurgod en werd de koningin van Yomi, de onderwereld. Izanagi zag haar daar rotten en vluchtte. Uit wraak beloofde ze elke dag duizend mensen te laten sterven."
+   },
+   "kagutsuchi": {
+    "naam": "Kagutsuchi",
+    "titel": "God van het vuur",
+    "element": "vuur",
+    "beschrijving": "Het laatste kind van Izanagi en Izanami. Bij zijn geboorte verbrandde hij zijn moeder, die eraan stierf. Izanagi hakte hem in woede het hoofd af, en uit zijn bloed ontstonden nieuwe goden."
+   },
+   "ogetsuhime": {
+    "naam": "Ōgetsuhime",
+    "titel": "Godin van het voedsel",
+    "element": "aarde",
+    "beschrijving": "Susanoo vroeg haar om eten en zag dat ze het uit haar neus, haar mond en haar achterwerk haalde. Hij doodde haar. Uit haar lichaam groeiden zijderupsen, rijst, gierst, rode bonen, tarwe en sojabonen."
+   },
+   "tsukuyomi": {
+    "naam": "Tsukuyomi",
+    "titel": "God van de maan",
+    "element": "maan",
+    "beschrijving": "Ontstaan uit het rechteroog van Izanagi. Hij kreeg het rijk van de nacht. Volgens de Nihon Shoki doodde hij de voedselgodin, en daarom wilde zijn zus Amaterasu hem nooit meer zien. Daarom staan zon en maan nooit samen aan de hemel."
+   },
+   "ashinazuchi": {
+    "naam": "Ashinazuchi",
+    "titel": "De oude man van Izumo",
+    "element": "aarde",
+    "beschrijving": "Een aardse god, zoon van de berggod Ōyamatsumi. Zeven van zijn acht dochters werden door de slang opgegeten. Susanoo maakte hem later opzichter van zijn paleis in Suga."
+   },
+   "tenazuchi": {
+    "naam": "Tenazuchi",
+    "titel": "De oude vrouw van Izumo",
+    "element": "aarde",
+    "beschrijving": "Vrouw van Ashinazuchi en moeder van Kushinadahime. Chamberlain vertaalt hun namen als 'Voet-Streel-Oudje' en 'Hand-Streel-Oudje'."
+   },
+   "oshihomimi": {
+    "naam": "Ame-no-Oshihomimi",
+    "titel": "Oudste zoon van Amaterasu",
+    "element": "licht",
+    "beschrijving": "De eerste van de vijf goden die bij de eed uit de edelstenen van Amaterasu ontstonden. Hij moest over de aarde gaan regeren, maar keek vanaf de Zwevende Brug van de Hemel naar beneden, vond het er veel te rumoerig en stuurde later zijn zoon Ninigi."
+   },
+   "takuhatachiji": {
+    "naam": "Takuhatachiji-hime",
+    "titel": "Godin van het weefsel",
+    "element": "lucht",
+    "beschrijving": "Dochter van de oude scheppingsgod Takamimusubi. Vrouw van Ame-no-Oshihomimi en moeder van Ninigi."
+   },
+   "munakata": {
+    "naam": "De drie godinnen van Munakata",
+    "titel": "Tagiri-bime, Ichikishima-hime en Tagitsu-hime",
+    "element": "water",
+    "groep": true,
+    "beschrijving": "Bij de eed ontstonden ze uit het zwaard van Susanoo, dat Amaterasu stukbeet. Ze beschermen de zeeweg tussen Japan en Korea en worden vereerd in de schrijnen van Munakata op Kyushu en op het heilige eiland Okinoshima.",
+    "teken": "M"
+   },
+   "suseribime": {
+    "naam": "Suseribime",
+    "titel": "Dochter van Susanoo",
+    "element": "liefde",
+    "beschrijving": "Ze woonde bij haar vader in Ne-no-Kuni, het land van de wortels. Toen de jonge god Ōkuninushi daar aankwam, werd ze op het eerste gezicht verliefd en hielp ze hem door de proeven van haar vader: een kamer vol slangen, een kamer vol duizendpoten en wespen, en een brandend veld. Daarna vluchtten ze samen."
+   },
+   "okuninushi": {
+    "naam": "Ōkuninushi",
+    "titel": "Grote heer van het land",
+    "element": "aarde",
+    "beschrijving": "Een nazaat van Susanoo. Hij doorstond de proeven van Susanoo, trouwde met diens dochter Suseribime en bouwde het land op. Later droeg hij de aarde over aan de nazaten van Amaterasu, in ruil voor de grote schrijn van Izumo."
+   },
+   "ninigi": {
+    "naam": "Ninigi",
+    "titel": "De kleinzoon die afdaalde",
+    "element": "licht",
+    "beschrijving": "Kleinzoon van Amaterasu. Met de spiegel, de edelstenen en het zwaard Kusanagi daalde hij uit de hemel neer op de berg Takachiho, op Kyushu, om over de aarde te regeren."
+   },
+   "konohanasakuya": {
+    "naam": "Konohanasakuya-hime",
+    "titel": "Prinses van de bloeiende bomen",
+    "element": "bos",
+    "beschrijving": "Dochter van de berggod Ōyamatsumi, en dus een zus van Ashinazuchi. Haar vader bood Ninigi ook haar oudere zus Iwanaga aan, de rots, maar Ninigi wilde alleen de bloesem. Daarom is het leven van de keizers kort en vergankelijk. Ze wordt vereerd op de berg Fuji."
+   },
+   "hoderi": {
+    "naam": "Hoderi",
+    "titel": "Het geluk van de zee",
+    "element": "water",
+    "beschrijving": "Oudste zoon van Ninigi, een visser. Hij leende zijn vishaak aan zijn jongere broer Hoori, die hem kwijtraakte."
+   },
+   "hoori": {
+    "naam": "Hoori",
+    "titel": "Het geluk van de bergen",
+    "element": "bos",
+    "beschrijving": "Zoon van Ninigi, een jager. Op zoek naar de verloren vishaak van zijn broer kwam hij in het paleis van de zeegod Watatsumi, en hij trouwde met diens dochter Toyotama-hime."
+   },
+   "toyotama": {
+    "naam": "Toyotama-hime",
+    "titel": "Prinses van de parels",
+    "element": "water",
+    "beschrijving": "Dochter van de zeegod Watatsumi. Ze vroeg Hoori niet te kijken terwijl ze beviel, maar hij keek toch en zag een reusachtig zeedier, een wani. Beschaamd keerde ze terug naar de zee en liet haar zoon achter."
+   },
+   "ugayafukiaezu": {
+    "naam": "Ugayafukiaezu",
+    "titel": "Geboren onder een half dak",
+    "element": "water",
+    "beschrijving": "Zoon van Hoori en Toyotama-hime. Zijn naam betekent ongeveer 'het dak van aalscholververen was nog niet af'. Zijn tante Tamayori-hime voedde hem op, en later trouwde hij met haar."
+   },
+   "tamayori": {
+    "naam": "Tamayori-hime",
+    "titel": "Zus van Toyotama-hime",
+    "element": "water",
+    "beschrijving": "De jongere zus van Toyotama-hime, die haar naar het land stuurde om haar zoon op te voeden. Ze trouwde met hem en werd de moeder van de eerste keizer."
+   },
+   "jimmu": {
+    "naam": "Jimmu",
+    "titel": "De eerste keizer van Japan",
+    "element": "zon",
+    "beschrijving": "Kamu-Yamato-Iwarebiko, de jongste zoon van Ugayafukiaezu en Tamayori-hime. Hij trok vanuit Kyushu naar het oosten en werd volgens de traditie in 660 v.Chr. de eerste keizer, in Yamato. Het huidige keizerhuis rekent zich tot zijn nazaten."
+   },
+   "omoikane": {
+    "naam": "Omoikane",
+    "titel": "God van het overleg",
+    "element": "wijsheid",
+    "beschrijving": "De god die bedacht hoe de zonnegodin uit haar grot gelokt kon worden: met kraaiende hanen, een spiegel, edelstenen en een feest."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "stamboom",
+    "titel": "De stamboom",
+    "intro": "Volg de lijn van Amaterasu naar beneden: zoon, kleinzoon, achterkleinzoon, en zo verder tot de eerste keizer. Amaterasu, Tsukuyomi en Susanoo hebben geen moeder: ze ontstonden toen Izanagi zich waste. Hun eigen kinderen ontstonden bij de eed, uit elkaars edelstenen en zwaard.",
+    "start": "susanoo",
+    "plaats": {
+     "izanami": [
+      1.5,
+      0
+     ],
+     "izanagi": [
+      2.5,
+      0
+     ],
+     "ashinazuchi": [
+      6,
+      0
+     ],
+     "tenazuchi": [
+      7,
+      0
+     ],
+     "ogetsuhime": [
+      0,
+      1
+     ],
+     "kagutsuchi": [
+      1,
+      1
+     ],
+     "amaterasu": [
+      3,
+      1
+     ],
+     "tsukuyomi": [
+      4,
+      1
+     ],
+     "susanoo": [
+      5,
+      1
+     ],
+     "kushinadahime": [
+      6,
+      1
+     ],
+     "takuhatachiji": [
+      2,
+      2
+     ],
+     "oshihomimi": [
+      3,
+      2
+     ],
+     "munakata": [
+      4.5,
+      2
+     ],
+     "suseribime": [
+      5.5,
+      2
+     ],
+     "okuninushi": [
+      6.5,
+      2
+     ],
+     "ninigi": [
+      2.5,
+      3
+     ],
+     "konohanasakuya": [
+      3.5,
+      3
+     ],
+     "hoderi": [
+      2,
+      4
+     ],
+     "hoori": [
+      3,
+      4
+     ],
+     "toyotama": [
+      4,
+      4
+     ],
+     "ugayafukiaezu": [
+      3.5,
+      5
+     ],
+     "tamayori": [
+      4.5,
+      5
+     ],
+     "jimmu": [
+      4,
+      6
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "izanagi",
+       "izanami"
+      ],
+      "kinderen": [
+       "ogetsuhime",
+       "kagutsuchi"
+      ],
+      "stippel": true,
+      "uitleg": "De voedselgodin wordt in de Kojiki genoemd tussen de kinderen van Izanagi en Izanami: ze is ook de naam van het eiland Awa. Of de godin die Susanoo doodt dezelfde is, is niet helemaal zeker."
+     },
+     {
+      "ouders": [
+       "izanagi"
+      ],
+      "kinderen": [
+       "amaterasu",
+       "tsukuyomi",
+       "susanoo"
+      ],
+      "label": "uit het waswater"
+     },
+     {
+      "ouders": [
+       "ashinazuchi",
+       "tenazuchi"
+      ],
+      "kinderen": [
+       "kushinadahime"
+      ]
+     },
+     {
+      "ouders": [
+       "amaterasu"
+      ],
+      "kinderen": [
+       "oshihomimi"
+      ],
+      "label": "uit haar edelstenen"
+     },
+     {
+      "ouders": [
+       "susanoo"
+      ],
+      "kinderen": [
+       "munakata"
+      ],
+      "label": "uit zijn zwaard"
+     },
+     {
+      "ouders": [
+       "susanoo"
+      ],
+      "kinderen": [
+       "suseribime"
+      ]
+     },
+     {
+      "ouders": [
+       "susanoo",
+       "kushinadahime"
+      ],
+      "kinderen": [
+       "okuninushi"
+      ],
+      "label": "zes generaties later",
+      "stippel": true,
+      "uitleg": "Volgens de Kojiki is Ōkuninushi een nazaat van Susanoo en Kushinadahime in de zesde generatie. Volgens de Nihon Shoki is hij gewoon hun zoon."
+     },
+     {
+      "ouders": [
+       "oshihomimi",
+       "takuhatachiji"
+      ],
+      "kinderen": [
+       "ninigi"
+      ]
+     },
+     {
+      "ouders": [
+       "ninigi",
+       "konohanasakuya"
+      ],
+      "kinderen": [
+       "hoderi",
+       "hoori"
+      ]
+     },
+     {
+      "ouders": [
+       "hoori",
+       "toyotama"
+      ],
+      "kinderen": [
+       "ugayafukiaezu"
+      ]
+     },
+     {
+      "ouders": [
+       "ugayafukiaezu",
+       "tamayori"
+      ],
+      "kinderen": [
+       "jimmu"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "suseribime",
+      "okuninushi"
+     ]
+    ]
+   },
+   {
+    "soort": "werelden",
+    "titel": "De rijken",
+    "intro": "Izanagi verdeelde de wereld onder zijn drie kinderen. Amaterasu en Tsukuyomi gingen naar hun rijk, maar Susanoo weigerde. Zijn verhaal loopt dwars door alle rijken heen.",
+    "zones": [
+     {
+      "naam": "Takamagahara",
+      "sub": "de Vlakte van de Hoge Hemel",
+      "toon": "hemel",
+      "tekst": "Het rijk van Amaterasu, met rijstvelden, weefhallen en de Kalme Rivier van de Hemel, die wij de Melkweg noemen. Hier verstopte de zon zich in de Rotsgrot van de Hemel, en hier danste Ame-no-Uzume.",
+      "bewoners": [
+       "amaterasu",
+       "ame-no-uzume",
+       "omoikane",
+       "oshihomimi",
+       "takuhatachiji"
+      ]
+     },
+     {
+      "naam": "Het rijk van de nacht",
+      "sub": "het lot van Tsukuyomi",
+      "toon": "nacht",
+      "tekst": "Izanagi gaf zijn tweede kind de heerschappij over de nacht.",
+      "bewoners": [
+       "tsukuyomi"
+      ]
+     },
+     {
+      "naam": "De zeevlakte",
+      "sub": "het lot van Susanoo, dat hij weigerde",
+      "toon": "zee",
+      "tekst": "Susanoo had over de zee moeten heersen, maar hij huilde om zijn moeder tot de bergen kaal waren, en werd verbannen. In de zee wonen de godinnen van Munakata en het paleis van Watatsumi, waar Hoori zijn bruid vond.",
+      "bewoners": [
+       "susanoo",
+       "munakata",
+       "toyotama",
+       "tamayori"
+      ]
+     },
+     {
+      "naam": "Ashihara-no-Nakatsukuni",
+      "sub": "het Middenland van de Rietvlakten, de aarde",
+      "toon": "aarde",
+      "tekst": "De aarde, met Izumo aan de Japanse Zee. Hier versloeg Susanoo de slang, hier bouwde Ōkuninushi het land op, en hier daalde Ninigi neer om te regeren. Zijn nazaat Jimmu werd de eerste keizer.",
+      "bewoners": [
+       "susanoo",
+       "kushinadahime",
+       "ashinazuchi",
+       "tenazuchi",
+       "yamata-no-orochi",
+       "okuninushi",
+       "ninigi",
+       "konohanasakuya",
+       "hoderi",
+       "hoori",
+       "jimmu"
+      ]
+     },
+     {
+      "naam": "Ne-no-Kuni",
+      "sub": "het land van de wortels",
+      "toon": "bos",
+      "tekst": "Uiteindelijk ging Susanoo toch naar het land van zijn moeder, onder de aarde. Daar woonde hij met zijn dochter Suseribime, en daar zette hij Ōkuninushi op de proef.",
+      "bewoners": [
+       "susanoo",
+       "suseribime"
+      ]
+     },
+     {
+      "naam": "Yomi",
+      "sub": "het land van de doden",
+      "toon": "onderwereld",
+      "tekst": "Het donkere land waar Izanami heerst. Izanagi sloot de doorgang af met een rotsblok dat duizend man nodig had om het te verschuiven.",
+      "bewoners": [
+       "izanami"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Maya": {
+  "kop": "Drie lagen en twee generaties tweelingen",
+  "intro": "De Popol Vuh, het heilige boek van de K'iche'-Maya, vertelt over één familie in twee generaties, en over de drie lagen van de wereld: de hemel van de scheppers, de middenwereld van de mensen en de onderwereld Xibalba. Daarom een kleine stamboom en een doorsnede van de wereld.",
+  "personen": {
+   "xpiyacoc": {
+    "naam": "Xpiyacoc",
+    "titel": "De grootvader",
+    "element": "aarde",
+    "beschrijving": "Met Xmucane een oud paar van zieners en scheppers, die de dagen tellen met maïskorrels en koraalbonen. Vader van Eén Hunahpu en Zeven Hunahpu."
+   },
+   "een-hunahpu": {
+    "naam": "Eén Hunahpu",
+    "titel": "Vader van de tweeling",
+    "element": "aarde",
+    "beschrijving": "Hun Hunahpu, een groot balspeler. De heren van Xibalba lokten hem naar beneden en offerden hem, en ze hingen zijn hoofd in een kalebasboom. Dat hoofd spuugde in de hand van Xquic, en zo werd hij de vader van de tweeling. Veel onderzoekers zien in hem de Maya-maïsgod."
+   },
+   "zeven-hunahpu": {
+    "naam": "Zeven Hunahpu",
+    "titel": "Broer en balpartner",
+    "element": "aarde",
+    "beschrijving": "Vucub Hunahpu, de broer en vaste balpartner van Eén Hunahpu. Hij ging mee naar Xibalba en werd daar samen met hem geofferd. Zijn lichaam werd begraven bij het balveld van de onderwereld."
+   },
+   "xbaquiyalo": {
+    "naam": "Xbaquiyalo",
+    "titel": "Eerste vrouw van Eén Hunahpu",
+    "element": "water",
+    "beschrijving": "De moeder van Hun Batz en Hun Chouen. De Popol Vuh noemt haar alleen bij naam en vertelt verder niets over haar."
+   },
+   "hun-batz": {
+    "naam": "Hun Batz",
+    "titel": "Eén Brulaap, de kunstenaar",
+    "element": "bos",
+    "beschrijving": "Oudere halfbroer van de tweeling: fluitspeler, zanger, schrijver en houtsnijder. Uit jaloezie pestte hij de tweeling. Die lieten hem in een hoge boom klimmen, waar hij een aap werd. Sindsdien is hij de beschermer van kunstenaars en schrijvers."
+   },
+   "hun-chouen": {
+    "naam": "Hun Chouen",
+    "titel": "Eén Slingeraap, de kunstenaar",
+    "element": "bos",
+    "beschrijving": "De andere halfbroer, net zo begaafd en net zo jaloers als Hun Batz. Ook hij werd een aap, en ook hij beschermt de kunstenaars."
+   },
+   "verzameld-bloed": {
+    "naam": "Verzameld Bloed",
+    "titel": "Heer van Xibalba, vader van Xquic",
+    "element": "dood",
+    "beschrijving": "Cuchumaquic, een van de twaalf heren van de onderwereld. Samen met Vliegende Korst maakt hij het bloed van mensen ziek. Toen zijn dochter zwanger bleek, liet hij haar wegvoeren om geofferd te worden."
+   },
+   "zeven-dood": {
+    "naam": "Zeven Dood",
+    "titel": "Vucub Came, tweede heer van Xibalba",
+    "element": "dood",
+    "beschrijving": "Samen met Eén Dood de hoogste van de heren van de dood. Na Eén Dood werd hij door de tweeling geofferd, en niet meer tot leven gebracht."
+   },
+   "huracan": {
+    "naam": "Huracan",
+    "titel": "Hart van de Hemel",
+    "element": "storm",
+    "beschrijving": "De bliksemgod die met Tepeu en Q'ucumatz de wereld schiep en de eerste mensen probeerde te maken. Hij stuurde de vloed die de houten mensen vernietigde. Zijn naam betekent waarschijnlijk 'één been'."
+   },
+   "tepeu-qucumatz": {
+    "naam": "Tepeu en Q'ucumatz",
+    "titel": "De Maker en de Gevederde Slang",
+    "element": "water",
+    "groep": true,
+    "beschrijving": "De scheppers die in het begin in het stille water lagen, bedekt met groene en blauwe veren. Ze overlegden met het Hart van de Hemel, en door hun woord rees de aarde op uit de zee."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "stamboom",
+    "titel": "De familie van de tweeling",
+    "intro": "Twee generaties balspelers. De vaders verloren van de heren van Xibalba, hun zonen wonnen. De moeder van de tweeling komt zelf uit de onderwereld.",
+    "start": "een-hunahpu",
+    "plaats": {
+     "xpiyacoc": [
+      1,
+      0
+     ],
+     "xmucane": [
+      2,
+      0
+     ],
+     "verzameld-bloed": [
+      3.5,
+      0
+     ],
+     "xbaquiyalo": [
+      0,
+      1
+     ],
+     "zeven-hunahpu": [
+      1,
+      1
+     ],
+     "een-hunahpu": [
+      2,
+      1
+     ],
+     "xquic": [
+      3,
+      1
+     ],
+     "hun-batz": [
+      0,
+      2
+     ],
+     "hun-chouen": [
+      1,
+      2
+     ],
+     "hunahpu": [
+      2.5,
+      2
+     ],
+     "xbalanque": [
+      3.5,
+      2
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "xpiyacoc",
+       "xmucane"
+      ],
+      "kinderen": [
+       "zeven-hunahpu",
+       "een-hunahpu"
+      ]
+     },
+     {
+      "ouders": [
+       "verzameld-bloed"
+      ],
+      "kinderen": [
+       "xquic"
+      ]
+     },
+     {
+      "ouders": [
+       "xbaquiyalo",
+       "een-hunahpu"
+      ],
+      "kinderen": [
+       "hun-batz",
+       "hun-chouen"
+      ]
+     },
+     {
+      "ouders": [
+       "een-hunahpu",
+       "xquic"
+      ],
+      "kinderen": [
+       "hunahpu",
+       "xbalanque"
+      ],
+      "label": "uit het speeksel van de schedel"
+     }
+    ],
+    "huwelijken": [
+     [
+      "xbaquiyalo",
+      "een-hunahpu"
+     ]
+    ]
+   },
+   {
+    "soort": "werelden",
+    "titel": "De drie lagen van de wereld",
+    "intro": "Het balveld is de plek waar de lagen elkaar raken: het gestamp van de spelers boven klinkt beneden in Xibalba.",
+    "zones": [
+     {
+      "naam": "De hemel",
+      "sub": "het Hart van de Hemel",
+      "toon": "hemel",
+      "tekst": "Hier wonen de scheppers. Na hun overwinning stegen Hunahpu en Xbalanque hierheen op, als de zon en de maan. Met hen stegen de vierhonderd jongens op, die de reus Zipacna had gedood. Zij werden sterren.",
+      "bewoners": [
+       "huracan",
+       "tepeu-qucumatz",
+       "hunahpu",
+       "xbalanque"
+      ]
+     },
+     {
+      "naam": "De middenwereld",
+      "sub": "het huis van de grootmoeder",
+      "toon": "aarde",
+      "tekst": "Het huis van Xmucane, de maïsakker en het oude balveld. Telkens als er gespeeld werd, hoorden de heren beneden het gestamp boven hun hoofden.",
+      "bewoners": [
+       "xmucane",
+       "xpiyacoc",
+       "een-hunahpu",
+       "zeven-hunahpu",
+       "xbaquiyalo",
+       "hun-batz",
+       "hun-chouen",
+       "xquic"
+      ]
+     },
+     {
+      "naam": "Xibalba",
+      "sub": "de plek van de angst",
+      "toon": "onderwereld",
+      "tekst": "Je komt er via steile trappen, een rivier van bloed, een rivier van etter en een kruispunt van vier wegen: een rode, een zwarte, een witte en een gele. Er zijn huizen vol beproevingen: het Donkere Huis, het Messenhuis, het Koude Huis, het Jaguarhuis, het Vuurhuis en het Vleermuizenhuis. Twaalf heren regeren er. Onder Eén Dood en Zeven Dood dienen tien heren, steeds per twee: Vliegende Korst en Verzameld Bloed, Etterdemon en Geelzuchtdemon, Botstaf en Schedelstaf, Veegseldemon en Steekdemon, Vleugel en Draagband.",
+      "bewoners": [
+       "een-dood",
+       "zeven-dood",
+       "verzameld-bloed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Iers": {
+  "kop": "Het volk onder de heuvels",
+  "intro": "De oude Ierse goden zijn de Tuatha Dé Danann, het volk van de godin Danu. De christelijke monniken die hun verhalen opschreven, maakten er een volk van tovenaars en feeën van, dat na een nederlaag in de heuvels ging wonen. Stambomen zijn er wel, maar de bronnen spreken elkaar vaak tegen. Daarom een kleine stamboom rond de Dagda en Lir, en een kaart van de plekken uit het verhaal.",
+  "personen": {
+   "dagda": {
+    "naam": "De Dagda",
+    "titel": "De goede god, vader van het volk",
+    "element": "aarde",
+    "beschrijving": "De grote vader van de Tuatha Dé Danann. Hij had een knots die met de ene kant doodde en met de andere kant tot leven wekte, een ketel die nooit leeg raakte en een harp die de seizoenen liet komen."
+   },
+   "boann": {
+    "naam": "Boann",
+    "titel": "Godin van de rivier de Boyne",
+    "element": "water",
+    "beschrijving": "Ze liep om de heilige bron van Segais heen, die opzwol en haar meesleurde naar zee. Zo ontstond de Boyne. Met de Dagda kreeg ze Aengus. Om het geheim te houden liet de Dagda de zon negen maanden stilstaan, zodat het kind op één dag verwekt en geboren werd."
+   },
+   "aengus": {
+    "naam": "Aengus Óg",
+    "titel": "God van de liefde en de jeugd",
+    "element": "liefde",
+    "beschrijving": "Zoon van de Dagda en Boann. Met een list kreeg hij Brú na Bóinne, het huis van zijn vader. Zijn kussen werden vogels die om zijn hoofd fladderden."
+   },
+   "brigid": {
+    "naam": "Brigid",
+    "titel": "Godin van poëzie, genezing en smeedkunst",
+    "element": "vuur",
+    "beschrijving": "Dochter van de Dagda. Later smolt ze samen met de heilige Brigida van Kildare. Haar feestdag, 1 februari, is Imbolc, het begin van de lente."
+   },
+   "ailill-van-aran": {
+    "naam": "Ailill van Aran",
+    "titel": "Vader van de drie zussen",
+    "element": "aarde",
+    "beschrijving": "Een heer van de Tuatha Dé Danann. Zijn dochters Aobh, Aoife en Ailbhe werden opgevoed door Bodb Dearg."
+   },
+   "aobh": {
+    "naam": "Aobh",
+    "titel": "Eerste vrouw van Lir",
+    "element": "water",
+    "beschrijving": "De oudste pleegdochter van Bodb Dearg. Ze kreeg met Lir twee keer een tweeling, Fionnuala en Aodh, en daarna Fiachra en Conn. Bij die tweede geboorte stierf ze."
+   },
+   "ailbhe": {
+    "naam": "Ailbhe",
+    "titel": "De jongste zus",
+    "element": "lucht",
+    "beschrijving": "De derde dochter van Ailill van Aran. In het verhaal komt ze alleen voor wanneer Bodb Dearg haar en haar zussen aan Lir voorstelt."
+   },
+   "manannan": {
+    "naam": "Manannán mac Lir",
+    "titel": "God van de zee",
+    "element": "water",
+    "beschrijving": "De zoon van Lir. Hij rijdt met zijn paard over de golven alsof het een vlakte is, en heerst over het Andere Land over zee. Het eiland Man zou naar hem genoemd zijn."
+   },
+   "aodh": {
+    "naam": "Aodh",
+    "titel": "Tweelingbroer van Fionnuala",
+    "element": "lucht",
+    "beschrijving": "De oudste zoon van Lir en Aobh. Na de negenhonderd jaar werd hij begraven in de armen van zijn zus."
+   },
+   "fiachra": {
+    "naam": "Fiachra",
+    "titel": "Tweelingbroer van Conn",
+    "element": "lucht",
+    "beschrijving": "Een van de jongste twee kinderen van Lir. Bij de geboorte van Fiachra en Conn stierf hun moeder Aobh."
+   },
+   "conn": {
+    "naam": "Conn",
+    "titel": "Tweelingbroer van Fiachra",
+    "element": "lucht",
+    "beschrijving": "Het jongste kind van Lir. Fionnuala nam hem op de Zee van Moyle onder haar rechtervleugel."
+   },
+   "mochaomhog": {
+    "naam": "Mochaomhóg",
+    "titel": "De heilige van Inis Gluaire",
+    "element": "licht",
+    "beschrijving": "Een christelijke kluizenaar die een kerkje bouwde op Inis Gluaire. Bij het geluid van zijn klok werden de zwanen bevrijd. Hij doopte ze en begroef ze samen in één graf."
+   },
+   "deoch": {
+    "naam": "Deoch",
+    "titel": "De vrouw uit het zuiden",
+    "element": "aarde",
+    "beschrijving": "Een kleindochter van de koning van Munster. Met haar huwelijk met Lairgnen ging de vloek van Aoife in vervulling. Ze wilde de zingende zwanen per se hebben."
+   },
+   "lairgnen": {
+    "naam": "Lairgnen",
+    "titel": "De man uit het noorden",
+    "element": "aarde",
+    "beschrijving": "Een kleinzoon van de koning van Connacht en de man van Deoch. Voor haar probeerde hij de zwanen bij Mochaomhóg weg te halen."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "stamboom",
+    "titel": "Het huis van de Dagda en het huis van Lir",
+    "intro": "Bodb Dearg is de zoon van de Dagda en de pleegvader van de drie dochters van Ailill van Aran. Twee van hen trouwden met Lir. Over de ouders van Lir zeggen de oude teksten niets.",
+    "start": "lir",
+    "plaats": {
+     "boann": [
+      0,
+      0
+     ],
+     "dagda": [
+      1,
+      0
+     ],
+     "ailill-van-aran": [
+      6.5,
+      0
+     ],
+     "aengus": [
+      0.5,
+      1
+     ],
+     "brigid": [
+      1.75,
+      1
+     ],
+     "bodb-dearg": [
+      3,
+      1
+     ],
+     "lir": [
+      4.5,
+      1
+     ],
+     "aobh": [
+      5.5,
+      1
+     ],
+     "aoife": [
+      6.5,
+      1
+     ],
+     "ailbhe": [
+      7.5,
+      1
+     ],
+     "manannan": [
+      3.5,
+      2
+     ],
+     "fionnuala": [
+      4.5,
+      2
+     ],
+     "aodh": [
+      5.5,
+      2
+     ],
+     "fiachra": [
+      6.5,
+      2
+     ],
+     "conn": [
+      7.5,
+      2
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "dagda",
+       "boann"
+      ],
+      "kinderen": [
+       "aengus"
+      ]
+     },
+     {
+      "ouders": [
+       "dagda"
+      ],
+      "kinderen": [
+       "brigid",
+       "bodb-dearg"
+      ]
+     },
+     {
+      "ouders": [
+       "ailill-van-aran"
+      ],
+      "kinderen": [
+       "aobh",
+       "aoife",
+       "ailbhe"
+      ]
+     },
+     {
+      "ouders": [
+       "bodb-dearg"
+      ],
+      "kinderen": [
+       "aobh",
+       "aoife",
+       "ailbhe"
+      ],
+      "soort": "pleeg",
+      "verborgen": true
+     },
+     {
+      "ouders": [
+       "lir"
+      ],
+      "kinderen": [
+       "manannan"
+      ]
+     },
+     {
+      "ouders": [
+       "lir",
+       "aobh"
+      ],
+      "kinderen": [
+       "fionnuala",
+       "aodh",
+       "fiachra",
+       "conn"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "lir",
+      "aoife"
+     ]
+    ]
+   },
+   {
+    "soort": "werelden",
+    "titel": "Waar ze wonen",
+    "intro": "Na hun nederlaag deelden de Tuatha Dé Danann Ierland met de mensen: de mensen kregen alles boven de grond, het oude volk alles eronder.",
+    "zones": [
+     {
+      "naam": "Over de zee",
+      "sub": "het Andere Land",
+      "toon": "hemel",
+      "tekst": "Ver over de golven ligt het Andere Land, met Emain Ablach, het eiland van de appelbomen. Daar heerst Manannán mac Lir, en daar wordt niemand oud.",
+      "bewoners": [
+       "manannan"
+      ]
+     },
+     {
+      "naam": "De drie wateren",
+      "sub": "negenhonderd jaar als zwaan",
+      "toon": "zee",
+      "tekst": "Driehonderd jaar op Loch Dairbhreach, midden in Ierland. Driehonderd jaar op de Zee van Moyle, tussen Ierland en Schotland. En driehonderd jaar bij Iorras Domhnann en het eilandje Inis Gluaire, aan de westkust.",
+      "bewoners": [
+       "fionnuala",
+       "aodh",
+       "fiachra",
+       "conn"
+      ]
+     },
+     {
+      "naam": "Boven de grond",
+      "sub": "de zonen van Míl, de mensen",
+      "toon": "aarde",
+      "tekst": "De voorouders van de Ieren. Aan het eind van het verhaal is Ierland christelijk geworden. De heilige Mochaomhóg luidt zijn klok op Inis Gluaire, en Lairgnen en Deoch zijn het paar uit de vloek van Aoife.",
+      "bewoners": [
+       "mochaomhog",
+       "lairgnen",
+       "deoch"
+      ]
+     },
+     {
+      "naam": "Onder de heuvels",
+      "sub": "de sídhe van de Tuatha Dé Danann",
+      "toon": "heuvel",
+      "tekst": "Elke familie van het oude volk kreeg een eigen heuvel. De Dagda en later Aengus woonden in Brú na Bóinne (Newgrange), Bodb Dearg in Sídh ar Femen in Tipperary en Lir in Sídh Fionnachaidh in Armagh. Na haar straf zwerft Aoife als demon door de lucht.",
+      "bewoners": [
+       "dagda",
+       "aengus",
+       "boann",
+       "brigid",
+       "bodb-dearg",
+       "lir",
+       "aobh",
+       "aoife",
+       "ailbhe",
+       "ailill-van-aran"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Fins": {
+  "kop": "De wereld van de Kalevala",
+  "intro": "De Finse mythologie kent geen grote godenfamilie. De Kalevala gaat over helden en tovenaars, en de goden zijn vooral natuurkrachten: de hemel, het bos, het water en de dood. Een stamboom zou hier bijna leeg zijn. Daarom een kaart van de rijken, met hun bewoners.",
+  "personen": {
+   "ukko": {
+    "naam": "Ukko",
+    "titel": "De oppergod van lucht en donder",
+    "element": "storm",
+    "beschrijving": "De oude god van de hemel, het weer en de donder. Helden roepen hem aan als niets anders meer helpt. Zijn naam betekent 'oude man' of 'grootvader'."
+   },
+   "ilmatar": {
+    "naam": "Ilmatar",
+    "titel": "Dochter van de lucht",
+    "element": "lucht",
+    "beschrijving": "Ze daalde neer in de oerzee en dreef daar eeuwenlang. Een eend legde eieren op haar knie, en toen die in stukken braken, werden de stukken de aarde, de hemel, de zon en de maan. Haar zoon Väinämöinen bleef dertig zomers in haar buik voordat hij geboren werd."
+   },
+   "lemminkainens-moeder": {
+    "naam": "De moeder van Lemminkäinen",
+    "titel": "De moeder die haar zoon terughaalde",
+    "element": "liefde",
+    "beschrijving": "Toen Lemminkäinen in Tuonela gedood was, harkte zij met een lange koperen hark zijn stukken uit de rivier van de doden. Ze zette hem weer in elkaar en wekte hem tot leven met honing die een bij uit de hemel haalde."
+   },
+   "kyllikki": {
+    "naam": "Kyllikki",
+    "titel": "Het meisje van het eiland",
+    "element": "bos",
+    "beschrijving": "De mooiste vrouw van het eiland Saari. Lemminkäinen ontvoerde haar en trouwde met haar, maar toen ze haar belofte brak, trok hij weer op avontuur."
+   },
+   "pohjan-neito": {
+    "naam": "Het meisje van Pohjola",
+    "titel": "Dochter van Louhi",
+    "element": "ijs",
+    "beschrijving": "De beroemde dochter van Louhi, die op de regenboog zat te weven. Väinämöinen wilde haar, maar Ilmarinen smeedde de Sampo voor haar moeder, en trouwde later, na nog meer proeven, met haar."
+   },
+   "joukahainen": {
+    "naam": "Joukahainen",
+    "titel": "De jonge zanger uit het noorden",
+    "element": "ijs",
+    "beschrijving": "Een jonge, opschepperige zanger die Väinämöinen uitdaagde. Hij verloor en zonk tot zijn kin in het moeras, en om zichzelf te redden beloofde hij Väinämöinen zijn zus Aino. Later schoot hij uit wraak het paard onder Väinämöinen vandaan."
+   },
+   "aino": {
+    "naam": "Aino",
+    "titel": "De zus van Joukahainen",
+    "element": "water",
+    "beschrijving": "Ze wilde niet trouwen met de oude Väinämöinen, liep het meer in en werd een waternimf. Väinämöinen ving haar later als vis, maar ze glipte weg en bespotte hem."
+   },
+   "ahti": {
+    "naam": "Ahti",
+    "titel": "Heer van het water",
+    "element": "water",
+    "beschrijving": "De god van de zee, de meren en de vissen. Hij woont in de diepte, in een paleis vol schatten. Lemminkäinen wordt soms ook Ahti genoemd, wat de twee in de liederen door elkaar laat lopen."
+   },
+   "vellamo": {
+    "naam": "Vellamo",
+    "titel": "Vrouwe van de golven",
+    "element": "water",
+    "beschrijving": "De vrouw van Ahti. Vissers vragen haar om een goede vangst en een kalme zee. Aino werd een van haar waternimfen."
+   },
+   "iku-turso": {
+    "naam": "Iku-Turso",
+    "titel": "Het monster uit de diepte",
+    "element": "duister",
+    "beschrijving": "Een zeemonster dat Louhi tegen de helden opriep. Väinämöinen trok het aan zijn oren uit het water en verbood het ooit nog boven te komen."
+   },
+   "tapio": {
+    "naam": "Tapio",
+    "titel": "Koning van het bos",
+    "element": "bos",
+    "beschrijving": "De god van de bossen en het wild, in de liederen een oude man in een mantel van mos. Wie wil jagen, zingt eerst voor hem."
+   },
+   "mielikki": {
+    "naam": "Mielikki",
+    "titel": "Vrouwe van het bos",
+    "element": "bos",
+    "beschrijving": "De vrouw van Tapio. Zij beheert de voorraadschuren van het bos en geeft de jager wild, als hij haar met mooie woorden vraagt."
+   },
+   "tuoni": {
+    "naam": "Tuoni",
+    "titel": "Heer van de doden",
+    "element": "dood",
+    "beschrijving": "De heer van Tuonela, het land van de doden. Wie daar komt, komt er bijna nooit meer weg."
+   },
+   "tuonetar": {
+    "naam": "Tuonetar",
+    "titel": "Vrouwe van de doden",
+    "element": "dood",
+    "beschrijving": "De vrouw van Tuoni. Wie in Tuonela aankomt, krijgt er bier met kikkers en wormen erin."
+   },
+   "zwaan-van-tuonela": {
+    "naam": "De zwaan van Tuonela",
+    "titel": "De zwaan op de zwarte rivier",
+    "element": "duister",
+    "beschrijving": "Een heilige zwaan op de rivier van de doden. Lemminkäinen moest hem schieten voor de hand van het meisje van Pohjola, en werd daarbij zelf gedood. Sibelius schreef er een beroemd muziekstuk over."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "werelden",
+    "titel": "De rijken van de Kalevala",
+    "intro": "Van de hemel van Ukko tot de zwarte rivier van Tuonela. In het midden liggen de twee landen waartussen de helden heen en weer reizen: Kalevala in het zuiden en Pohjola in het noorden.",
+    "zones": [
+     {
+      "naam": "De hemel",
+      "sub": "het rijk van Ukko",
+      "toon": "hemel",
+      "tekst": "Boven alles woont Ukko, de god van lucht en donder. Ilmatar, de dochter van de lucht, kwam ooit naar beneden. Uit de eieren op haar knie ontstonden de aarde, het gewelf van de hemel, de zon en de maan.",
+      "bewoners": [
+       "ukko",
+       "ilmatar"
+      ]
+     },
+     {
+      "naam": "Kalevala",
+      "sub": "het land van de helden, in het zuiden",
+      "toon": "aarde",
+      "tekst": "Het land van Väinämöinen en Ilmarinen, met akkers en bossen die Väinämöinen zelf zaaide. Lemminkäinen woont op zijn eigen erf aan de baai, bij zijn moeder. Hierheen spoelden de laatste stukjes van de Sampo aan.",
+      "bewoners": [
+       "vainamoinen",
+       "ilmarinen",
+       "lemminkainen",
+       "lemminkainens-moeder",
+       "kyllikki"
+      ]
+     },
+     {
+      "naam": "Pohjola",
+      "sub": "het Noorden",
+      "toon": "ijs",
+      "tekst": "Een land van mist en ijs, met een koperberg waarin de Sampo stond. Louhi regeert er, en hierheen reizen de helden om een bruid te vragen. Op de weg naar het noorden ligt Lapland, waar de jonge Joukahainen woont.",
+      "bewoners": [
+       "louhi",
+       "pohjan-neito",
+       "joukahainen",
+       "aino"
+      ]
+     },
+     {
+      "naam": "Tapiola",
+      "sub": "het bos",
+      "toon": "bos",
+      "tekst": "De diepe bossen van Tapio en Mielikki, die het wild geven of weigeren.",
+      "bewoners": [
+       "tapio",
+       "mielikki"
+      ]
+     },
+     {
+      "naam": "Ahtola",
+      "sub": "de zee en de meren",
+      "toon": "zee",
+      "tekst": "Het rijk van Ahti en Vellamo. In de diepte woont het monster Iku-Turso. Hier liggen nog de meeste stukken van de Sampo, en daarom is de zee zo rijk.",
+      "bewoners": [
+       "ahti",
+       "vellamo",
+       "iku-turso",
+       "aino"
+      ]
+     },
+     {
+      "naam": "Tuonela",
+      "sub": "het land van de doden",
+      "toon": "onderwereld",
+      "tekst": "Het land van de doden, aan de overkant van een zwarte rivier waarop een zwaan zwemt. Lemminkäinen werd hier gedood, en zijn moeder harkte hem uit de rivier en bracht hem weer tot leven.",
+      "bewoners": [
+       "tuoni",
+       "tuonetar",
+       "zwaan-van-tuonela"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
