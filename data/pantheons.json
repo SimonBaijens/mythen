@@ -95,7 +95,7 @@
     "naam": "Aphrodite",
     "titel": "Godin van liefde en schoonheid",
     "element": "liefde",
-    "beschrijving": "Godin van liefde en schoonheid. Volgens Homeros een dochter van Zeus en Dione. Hesiodos vertelt het anders: toen Kronos zijn vader Ouranos ontmande, viel het afgesneden lid in zee, en uit het schuim (aphros) eromheen werd Aphrodite geboren; ze kwam aan land op Cyprus. Ze trouwde met Hephaistos en had een verhouding met Ares. Bij de Romeinen heette ze Venus."
+    "beschrijving": "Godin van liefde en schoonheid. Toen Kronos zijn vader Ouranos ontmande, viel het afgesneden lid in zee, en uit het schuim (aphros) eromheen werd Aphrodite geboren; ze kwam aan land op Cyprus. Zo vertelt Hesiodos het, en dan is ze van dezelfde generatie als de Titanen, en een tante van Zeus. Homeros noemt haar juist een dochter van Zeus en Dione. Ze trouwde met Hephaistos en had een verhouding met Ares. Bij de Romeinen heette ze Venus."
    },
    "metis": {
     "naam": "Metis",
@@ -234,7 +234,7 @@
    {
     "soort": "stamboom",
     "titel": "De stamboom",
-    "intro": "Van Gaia en Ouranos via Kronos naar Zeus en zijn kinderen. Waar Homeros iets over de familie zegt, volgt de boom Homeros; voor de oudere generaties, waar hij niets over zegt, Hesiodos. Afwijkende versies staan bij de figuur zelf. Bij een kind van wie de ouders niet naast elkaar staan, staat de tweede ouder onder de naam.",
+    "intro": "Van Gaia en Ouranos via Kronos naar Zeus en zijn kinderen. Waar de bronnen verschillen, is per figuur gekozen voor het bekendste verhaal; de andere versie staat bij de figuur zelf. Bij een kind van wie de ouders niet naast elkaar staan, staat de tweede ouder onder de naam.",
     "start": "kronos",
     "plaats": {
      "gaia": [
@@ -390,8 +390,8 @@
       3
      ],
      "aphrodite": [
-      19.5,
-      3
+      14.5,
+      1
      ]
     },
     "gezinnen": [
@@ -416,6 +416,15 @@
        "kyklopen",
        "honderdarmigen"
       ]
+     },
+     {
+      "ouders": [
+       "ouranos"
+      ],
+      "kinderen": [
+       "aphrodite"
+      ],
+      "label": "uit het schuim van de zee"
      },
      {
       "ouders": [
@@ -526,15 +535,6 @@
       ],
       "kinderen": [
        "persephone"
-      ]
-     },
-     {
-      "ouders": [
-       "zeus",
-       "dione"
-      ],
-      "kinderen": [
-       "aphrodite"
       ]
      }
     ],
