@@ -182,6 +182,12 @@ function tekenBoom(w, doel) {
   const onder = {}, lijnen = [], paren = new Set();
   const bijschrift = (k, t) => { if (t) (onder[k] ||= []).includes(t) || onder[k].push(t); };
   const groepen = new Map();
+  // wie naast een partner staat, krijgt voor kinderen zonder die partner een eigen lijn, opzij van het paar
+  const partnerNaast = {};
+  for (const g of w.gezinnen) {
+    const [a, b] = g.ouders;
+    if (!g.verborgen && b && naast(a, b)) { partnerNaast[a] = b; partnerNaast[b] = a; }
+  }
   for (const g of w.gezinnen) {
     if (g.verborgen) continue;
     const ouders = g.ouders.filter((o) => pl[o]), kids = g.kinderen.filter((k) => pl[k]);
@@ -192,6 +198,12 @@ function tekenBoom(w, doel) {
       paren.add(sleutel);
     } else {
       sleutel = ouders[0]; sx = X(ouders[0]); sy = Y(ouders[0]) + PORT + 50;
+      const q = partnerNaast[ouders[0]];
+      if (q) { // vanaf de zijkant van het portret, weg van de partner, langs de naam naar beneden
+        const kant = Math.sign(X(ouders[0]) - X(q));
+        sy = Y(ouders[0]) + PORT / 2; sx = X(ouders[0]) + kant * B / 2; sleutel += ">";
+        lijnen.push(`<path class="lijn" d="M${X(ouders[0]) + kant * PORT / 2} ${sy}H${sx}"/>`);
+      }
     }
     const tweede = g.ouders.length > 1 && !naast(g.ouders[0], g.ouders[1]) ? persoon(g.ouders[1]).naam : "";
     kids.forEach((k) => bijschrift(k, g.label || (tweede ? `met ${tweede}` : "")));
