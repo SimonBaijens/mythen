@@ -2457,8 +2457,8 @@
   ]
  },
  "Noors": {
-  "kop": "De Asen en de negen werelden",
-  "intro": "Twee godenfamilies, de Asen en de Vanen, en daaromheen de reuzen, met wie ze steeds trouwden en vochten. Een stamboom, en de negen werelden die aan de wereldboom Yggdrasil hangen.",
+  "kop": "De Asen, de reuzen en de negen werelden",
+  "intro": "De Noorse goden zijn één grote, ruziënde familie, steeds weer getrouwd met de reuzen tegen wie ze vechten. Vijf stambomen, de goden en godinnen zoals Snorri ze opsomt, de negen werelden, en de wezens daartussen. Bijna alles komt van Snorri Sturluson en de gedichten van de Edda, rond 1220 en 1270 opgeschreven op IJsland.",
   "personen": {
    "bor": {
     "naam": "Bor",
@@ -2488,7 +2488,7 @@
     "naam": "Jörd",
     "titel": "De aarde",
     "element": "aarde",
-    "beschrijving": "De aarde als reuzin, en de moeder van Thor."
+    "beschrijving": "De aarde als reuzin, dochter van de Nacht, en moeder van Thor."
    },
    "rind": {
     "naam": "Rind",
@@ -2599,13 +2599,15 @@
     "naam": "Heimdall",
     "titel": "De wachter van de goden",
     "element": "licht",
-    "beschrijving": "Hij woont bij de regenboogbrug Bifröst en hoort het gras groeien. Bij Ragnarök blaast hij op de Gjallarhoorn."
+    "beschrijving": "De witte god, geboren uit negen moeders. Hij woont bij de regenboogbrug Bifröst, heeft minder slaap nodig dan een vogel, ziet honderd mijl ver en hoort het gras groeien. Bij Ragnarök blaast hij op de Gjallarhoorn.",
+    "uitleg": "Dat Odin zijn vader is, staat niet bij Snorri, maar wordt meestal aangenomen."
    },
    "tyr": {
     "naam": "Tyr",
     "titel": "God van de strijd en het recht",
     "element": "oorlog",
-    "beschrijving": "De dapperste van de goden, die zijn hand in de bek van de wolf Fenrir legde zodat de goden hem konden binden. Onze dinsdag is naar hem genoemd."
+    "beschrijving": "De dapperste van de goden, die zijn rechterhand in de bek van de wolf Fenrir legde zodat de goden hem konden binden. Onze dinsdag is naar hem genoemd.",
+    "uitleg": "Snorri noemt hem een zoon van Odin; in het gedicht Hymiskviða is hij de zoon van de reus Hymir."
    },
    "alven": {
     "naam": "De lichtalven",
@@ -2646,121 +2648,724 @@
     "titel": "De draak onder de wereldboom",
     "element": "duister",
     "beschrijving": "Hij knaagt aan de wortel van Yggdrasil in Niflheim en verscheurt de lijken van misdadigers."
+   },
+   "ymir": {
+    "naam": "Ymir",
+    "titel": "De oerreus",
+    "element": "ijs",
+    "beschrijving": "Het eerste levende wezen, ontstaan uit smeltend ijs in de leegte Ginnungagap. Uit zijn zweet groeiden de eerste reuzen. Odin en zijn broers doodden hem en maakten uit zijn lichaam de wereld: zijn vlees werd de aarde, zijn bloed de zee, zijn schedel de hemel."
+   },
+   "audhumla": {
+    "naam": "Audhumla",
+    "titel": "De oerkoe",
+    "element": "ijs",
+    "beschrijving": "Ontstaan uit hetzelfde ijs als Ymir, die ze voedde met vier stromen melk. Zelf likte ze aan de zoute ijsblokken, en zo kwam Buri tevoorschijn."
+   },
+   "buri": {
+    "naam": "Buri",
+    "titel": "De eerste god",
+    "element": "ijs",
+    "beschrijving": "Door de koe Audhumla in drie dagen uit het ijs gelikt: eerst zijn haar, toen zijn hoofd, toen de hele man. Mooi, groot en sterk. Grootvader van Odin."
+   },
+   "bolthorn": {
+    "naam": "Bölthorn",
+    "titel": "Reus, grootvader van Odin",
+    "element": "ijs",
+    "beschrijving": "Vader van Bestla. Volgens het gedicht Hávamál leerde Odin negen machtige liederen van een zoon van Bölthorn."
+   },
+   "fjorgynn": {
+    "naam": "Fjörgynn",
+    "titel": "Vader van Frigg",
+    "element": "aarde",
+    "beschrijving": "Over hem is bijna niets bekend, behalve dat Frigg zijn dochter is."
+   },
+   "negen-moeders": {
+    "naam": "De negen moeders",
+    "titel": "Moeders van Heimdall",
+    "element": "water",
+    "beschrijving": "Negen zussen, reuzinnen, die samen Heimdall baarden aan de rand van de wereld. Soms worden ze gezien als de golven, de dochters van Aegir.",
+    "groep": true,
+    "aantal": 9
+   },
+   "vidar": {
+    "naam": "Vidar",
+    "titel": "De zwijgende god",
+    "element": "bos",
+    "beschrijving": "Zoon van Odin en de reuzin Grid, bijna zo sterk als Thor. Bij Ragnarök wreekt hij zijn vader: hij zet zijn voet met de dikke schoen in de bek van de wolf en scheurt hem open. Hij overleeft het einde."
+   },
+   "grid": {
+    "naam": "Grid",
+    "titel": "Reuzin, moeder van Vidar",
+    "element": "ijs",
+    "beschrijving": "Een vriendelijke reuzin die Thor een staf, ijzeren handschoenen en een krachtgordel leende toen hij naar de reus Geirröd ging."
+   },
+   "bragi": {
+    "naam": "Bragi",
+    "titel": "God van de dichtkunst",
+    "element": "wijsheid",
+    "beschrijving": "De beste dichter, met runen op zijn tong. Naar hem heet de *bragarfull*, de beker waarop een belofte werd gedronken."
+   },
+   "idun": {
+    "naam": "Idun",
+    "titel": "Hoedster van de appels",
+    "element": "bos",
+    "beschrijving": "Ze bewaart in een kist de appels waarvan de goden eten om jong te blijven. Toen Loki haar aan de reus Thjazi uitleverde, werden de goden oud en grijs."
+   },
+   "ullr": {
+    "naam": "Ullr",
+    "titel": "God van de boog en de ski",
+    "element": "ijs",
+    "beschrijving": "Zoon van Sif en stiefzoon van Thor. Zo goed met pijl en boog en op ski's dat niemand hem kan evenaren; je roept hem aan als je in een duel vecht."
+   },
+   "forseti": {
+    "naam": "Forseti",
+    "titel": "God van de verzoening",
+    "element": "licht",
+    "beschrijving": "Zoon van Baldr en Nanna. In zijn hal Glitnir, met zilveren dak op gouden zuilen, legt hij alle ruzies bij. Wie bij hem komt, gaat verzoend weg."
+   },
+   "thrud": {
+    "naam": "Thrud",
+    "titel": "Dochter van Thor",
+    "element": "storm",
+    "beschrijving": "Dochter van Thor en Sif. Haar naam betekent 'kracht'. Een dwerg die met haar wilde trouwen, liet Thor praten tot de zon opkwam en hij versteende."
+   },
+   "magni": {
+    "naam": "Magni",
+    "titel": "Zoon van Thor",
+    "element": "storm",
+    "beschrijving": "Zoon van Thor en de reuzin Járnsaxa. Drie nachten oud tilde hij het been van de dode reus Hrungnir van zijn vader af, wat geen god kon. Na Ragnarök erft hij met Modi de hamer."
+   },
+   "modi": {
+    "naam": "Modi",
+    "titel": "Zoon van Thor",
+    "element": "storm",
+    "beschrijving": "Zijn naam betekent 'moed'. Samen met Magni krijgt hij na Ragnarök de hamer Mjölnir."
+   },
+   "jarnsaxa": {
+    "naam": "Járnsaxa",
+    "titel": "Reuzin, moeder van Magni",
+    "element": "ijs",
+    "beschrijving": "Haar naam betekent 'ijzeren mes'. Ze kreeg met Thor de zoon Magni."
+   },
+   "vali-loki": {
+    "naam": "Váli",
+    "titel": "Zoon van Loki",
+    "element": "duister",
+    "beschrijving": "De broer van Narfi. Na de dood van Baldr veranderden de goden hem in een wolf, en hij verscheurde zijn broer.",
+    "uitleg": "Alleen Snorri noemt hem. Het kan een vergissing zijn met Vali, de zoon van Odin, die de wreker van Baldr was."
+   },
+   "saga": {
+    "naam": "Saga",
+    "titel": "Godin van de verhalen",
+    "element": "wijsheid",
+    "beschrijving": "Ze woont in Sökkvabekk, 'het verzonken bed', waar koele golven overheen stromen. Daar drinkt Odin elke dag met haar uit gouden bekers."
+   },
+   "eir": {
+    "naam": "Eir",
+    "titel": "De beste geneesster",
+    "element": "water",
+    "beschrijving": "De godin van de geneeskunst; Snorri noemt haar de beste arts."
+   },
+   "gefjon": {
+    "naam": "Gefjon",
+    "titel": "De ploegende godin",
+    "element": "aarde",
+    "beschrijving": "Ze ploegde met vier ossen, haar zonen bij een reus, een stuk land uit Zweden en trok het de zee in. Zo ontstond het Deense eiland Seeland; het gat werd een meer. Wie ongetrouwd sterft, dient haar."
+   },
+   "fulla": {
+    "naam": "Fulla",
+    "titel": "Dienares van Frigg",
+    "element": "aarde",
+    "beschrijving": "Een maagd met los haar en een gouden band om haar hoofd. Ze draagt het kistje van Frigg en kent haar geheimen. Nanna stuurde haar uit Hel een gouden ring."
+   },
+   "sjofn": {
+    "naam": "Sjöfn",
+    "titel": "Godin van de verliefdheid",
+    "element": "liefde",
+    "beschrijving": "Ze wendt de gedachten van mannen en vrouwen naar de liefde."
+   },
+   "lofn": {
+    "naam": "Lofn",
+    "titel": "De toestemmende",
+    "element": "liefde",
+    "beschrijving": "Odin en Frigg gaven haar toestemming om geliefden samen te brengen, ook als het eigenlijk verboden was."
+   },
+   "var": {
+    "naam": "Vár",
+    "titel": "Godin van de beloften",
+    "element": "liefde",
+    "beschrijving": "Ze hoort de eden die man en vrouw elkaar zweren, en straft wie ze breekt."
+   },
+   "vor": {
+    "naam": "Vör",
+    "titel": "De oplettende",
+    "element": "wijsheid",
+    "beschrijving": "Ze is zo wijs en vraagt zoveel, dat niets voor haar verborgen blijft."
+   },
+   "syn": {
+    "naam": "Syn",
+    "titel": "De weigering",
+    "element": "oorlog",
+    "beschrijving": "Ze bewaakt de deur van de hal en sluit hem voor wie niet binnen mag. Ook in rechtszaken helpt ze wie iets wil ontkennen."
+   },
+   "hlin": {
+    "naam": "Hlín",
+    "titel": "De beschermster",
+    "element": "lucht",
+    "beschrijving": "Frigg stuurt haar om mensen te beschermen die zij uit gevaar wil redden."
+   },
+   "snotra": {
+    "naam": "Snotra",
+    "titel": "Godin van de beleefdheid",
+    "element": "wijsheid",
+    "beschrijving": "Wijs en hoffelijk; naar haar noemt men een verstandige man of vrouw *snotr*."
+   },
+   "gna": {
+    "naam": "Gná",
+    "titel": "Bode van Frigg",
+    "element": "lucht",
+    "beschrijving": "Ze rijdt voor Frigg door lucht en zee op het paard Hófvarpnir, 'hoefwerper'."
+   },
+   "njords-zus": {
+    "naam": "De zus van Njörd",
+    "titel": "Moeder van Freyr en Freya",
+    "element": "water",
+    "beschrijving": "Bij de Vanen mocht je met je zus trouwen, zegt de Ynglinga-saga. Haar naam wordt niet genoemd. Sommigen denken dat zij Nerthus was, de godin die de Romein Tacitus beschrijft."
+   },
+   "thjazi": {
+    "naam": "Thjazi",
+    "titel": "Reus in de gedaante van een arend",
+    "element": "ijs",
+    "beschrijving": "Hij roofde Idun en haar appels. Toen hij haar achterna vloog, staken de goden zijn veren in brand. Odin maakte van zijn ogen twee sterren, als boete aan zijn dochter Skadi."
+   },
+   "gymir": {
+    "naam": "Gymir",
+    "titel": "Reus, vader van Gerd",
+    "element": "ijs",
+    "beschrijving": "Een rijke reus in Jotunheim, die met Aurboda de mooie Gerd kreeg."
+   },
+   "aurboda": {
+    "naam": "Aurboda",
+    "titel": "Reuzin, moeder van Gerd",
+    "element": "aarde",
+    "beschrijving": "Een bergreuzin, de vrouw van Gymir."
+   },
+   "gerd": {
+    "naam": "Gerd",
+    "titel": "De reuzin van wie Freyr hield",
+    "element": "ijs",
+    "beschrijving": "Toen ze haar armen ophief, straalde de lucht en de zee van haar licht. Freyr zag haar vanaf Odins troon en werd ziek van verlangen; voor haar gaf hij zijn zwaard weg, dat hij bij Ragnarök mist."
+   },
+   "od": {
+    "naam": "Od",
+    "titel": "De verdwenen man van Freya",
+    "element": "lucht",
+    "beschrijving": "Hij ging op reis en kwam nooit terug. Freya zoekt hem nog steeds over de wereld, en ze huilt tranen van rood goud."
+   },
+   "hnoss": {
+    "naam": "Hnoss",
+    "titel": "Dochter van Freya",
+    "element": "licht",
+    "beschrijving": "Zo mooi dat alles wat kostbaar is naar haar 'hnoss' heet: een kleinood."
+   },
+   "gersemi": {
+    "naam": "Gersemi",
+    "titel": "Dochter van Freya",
+    "element": "licht",
+    "beschrijving": "Haar naam betekent ook 'kostbaarheid'. Ze wordt in de saga's naast haar zus genoemd."
+   },
+   "fjolnir": {
+    "naam": "Fjölnir",
+    "titel": "Koning van Zweden",
+    "element": "zon",
+    "beschrijving": "Volgens de Ynglinga-saga de zoon van Freyr en Gerd, en de stamvader van de Zweedse koningen. Hij verdronk in een vat mede."
+   },
+   "kvasir": {
+    "naam": "Kvasir",
+    "titel": "De wijste van allemaal",
+    "element": "wijsheid",
+    "beschrijving": "Gemaakt uit het speeksel van de Asen en de Vanen, bij de vrede na hun oorlog. Hij wist op elke vraag een antwoord. Dwergen doodden hem en brouwden uit zijn bloed de mede van de dichtkunst. In het verhaal van Loki's vangst leeft hij nog."
+   },
+   "helblindi": {
+    "naam": "Helblindi",
+    "titel": "Broer van Loki",
+    "element": "duister",
+    "beschrijving": "Een van de twee broers van Loki; behalve zijn naam is er niets over hem bekend."
+   },
+   "byleist": {
+    "naam": "Býleist",
+    "titel": "Broer van Loki",
+    "element": "storm",
+    "beschrijving": "De andere broer van Loki. In de Völuspá rijden 'de broer van Býleist' en zijn leger mee naar de laatste strijd."
+   },
+   "svadilfari": {
+    "naam": "Svadilfari",
+    "titel": "Het reuzenpaard",
+    "element": "aarde",
+    "beschrijving": "Het paard van de reus die de muur om Asgard bouwde. Loki lokte het weg als merrie, zodat de muur niet op tijd af kwam. Zo werd Sleipnir geboren."
+   },
+   "sleipnir": {
+    "naam": "Sleipnir",
+    "titel": "Het paard met acht benen",
+    "element": "lucht",
+    "beschrijving": "Het beste paard van goden en mensen, van Odin. Hermod reed erop naar Hel. Loki zelf is zijn moeder."
+   },
+   "hati": {
+    "naam": "Hati",
+    "titel": "De wolf die de maan achtervolgt",
+    "element": "maan",
+    "beschrijving": "Hati Hróðvitnisson, 'de hater', jaagt elke nacht op de maan. Bij Ragnarök krijgt hij haar te pakken.",
+    "uitleg": "Hróðvitnir is een andere naam voor Fenrir; daarom staat Hati hier als zijn zoon."
+   },
+   "skoll": {
+    "naam": "Sköll",
+    "titel": "De wolf die de zon achtervolgt",
+    "element": "zon",
+    "beschrijving": "Hij jaagt de zon achterna, en daarom rijdt zij zo snel. Bij Ragnarök slokt hij haar op."
+   },
+   "norvi": {
+    "naam": "Nörvi",
+    "titel": "Reus, vader van de Nacht",
+    "element": "duister",
+    "beschrijving": "Een reus in Jotunheim. Snorri noemt hem ook Narfi, maar hij is een ander dan de zoon van Loki."
+   },
+   "nott": {
+    "naam": "Nótt",
+    "titel": "De Nacht",
+    "element": "duister",
+    "beschrijving": "Donker en zwart, zoals haar familie. Ze rijdt elk etmaal om de wereld op het paard Hrímfaxi, en het schuim van zijn bit valt 's ochtends als dauw op de aarde."
+   },
+   "annar": {
+    "naam": "Annar",
+    "titel": "Tweede man van de Nacht",
+    "element": "aarde",
+    "beschrijving": "Ook Ónarr genoemd. Met Nótt kreeg hij Jörd, de aarde."
+   },
+   "delling": {
+    "naam": "Delling",
+    "titel": "De dageraad",
+    "element": "licht",
+    "beschrijving": "Uit de familie van de Asen. Met Nótt kreeg hij de Dag, die licht en mooi was zoals zijn vader."
+   },
+   "naglfari": {
+    "naam": "Naglfari",
+    "titel": "Eerste man van de Nacht",
+    "element": "duister",
+    "beschrijving": "Met Nótt kreeg hij een zoon, Aud."
+   },
+   "aud": {
+    "naam": "Aud",
+    "titel": "Zoon van de Nacht",
+    "element": "duister",
+    "beschrijving": "Zijn naam betekent 'rijkdom'. Verder is er niets over hem bekend."
+   },
+   "dagr": {
+    "naam": "Dagr",
+    "titel": "De Dag",
+    "element": "zon",
+    "beschrijving": "Zoon van Nótt en Delling. Hij rijdt elke dag om de wereld op het paard Skinfaxi, wiens manen lucht en aarde verlichten."
+   },
+   "mundilfari": {
+    "naam": "Mundilfari",
+    "titel": "Vader van zon en maan",
+    "element": "licht",
+    "beschrijving": "Een mens die zijn kinderen zo mooi vond dat hij ze Zon en Maan noemde. Voor die hoogmoed namen de goden ze mee en lieten ze de echte zon en maan aan de hemel mennen."
+   },
+   "sol": {
+    "naam": "Sól",
+    "titel": "De zon",
+    "element": "zon",
+    "beschrijving": "Ze ment de wagen van de zon, getrokken door de paarden Árvakr en Alsviðr, opgejaagd door de wolf Sköll."
+   },
+   "mani": {
+    "naam": "Máni",
+    "titel": "De maan",
+    "element": "maan",
+    "beschrijving": "Hij stuurt de loop van de maan. Hij nam twee kinderen van de aarde mee, Bil en Hjúki, die je nog altijd in de maan kunt zien."
+   },
+   "aegir": {
+    "naam": "Aegir",
+    "titel": "Reus van de zee",
+    "element": "water",
+    "beschrijving": "Een reus die op goede voet staat met de goden en grote feesten voor ze geeft, met bier uit een ketel die Thor voor hem haalde. In zijn hal verlicht goud de zaal in plaats van vuur."
+   },
+   "ran": {
+    "naam": "Rán",
+    "titel": "Godin van de verdronkenen",
+    "element": "water",
+    "beschrijving": "De vrouw van Aegir. Met haar net vangt ze zeelieden die overboord slaan; wie verdrinkt, komt bij haar."
+   },
+   "golven": {
+    "naam": "De dochters van Aegir",
+    "titel": "De negen golven",
+    "element": "water",
+    "beschrijving": "Negen dochters met namen als Himinglæva, 'die de hemel weerspiegelt', en Blóðughadda, 'met bloedig haar': de golven van de zee.",
+    "groep": true,
+    "aantal": 9
+   },
+   "gilling": {
+    "naam": "Gilling",
+    "titel": "Reus",
+    "element": "ijs",
+    "beschrijving": "De dwergen Fjalar en Galar verdronken hem en doodden zijn vrouw. Als boete moesten ze zijn zoon Suttung de mede van de dichtkunst geven."
+   },
+   "suttung": {
+    "naam": "Suttung",
+    "titel": "Bewaker van de mede",
+    "element": "ijs",
+    "beschrijving": "Hij verborg de mede van de dichtkunst in een berg en liet zijn dochter Gunnlöd erover waken. Odin stal de mede toch, en vloog als arend weg."
+   },
+   "baugi": {
+    "naam": "Baugi",
+    "titel": "Broer van Suttung",
+    "element": "ijs",
+    "beschrijving": "Odin werkte een zomer als knecht voor hem, voor één slok mede. Baugi boorde een gat in de berg, en Odin kroop erdoor als slang."
+   },
+   "gunnlod": {
+    "naam": "Gunnlöd",
+    "titel": "Hoedster van de mede",
+    "element": "liefde",
+    "beschrijving": "Odin bleef drie nachten bij haar, en voor elke nacht gaf ze hem één slok. In drie slokken dronk hij de drie vaten leeg."
+   },
+   "thrym": {
+    "naam": "Thrym",
+    "titel": "Koning van de reuzen",
+    "element": "ijs",
+    "beschrijving": "Hij stal de hamer van Thor en wilde Freya als bruid. Thor kwam verkleed als bruid zijn hamer ophalen."
+   },
+   "hrungnir": {
+    "naam": "Hrungnir",
+    "titel": "De reus met het stenen hart",
+    "element": "aarde",
+    "beschrijving": "De sterkste van de reuzen, met een hart en hoofd van steen. Thor versloeg hem in een duel; een stuk van zijn wetsteen zit nog altijd in Thors hoofd."
+   },
+   "utgardaloki": {
+    "naam": "Utgarda-Loki",
+    "titel": "Koning van Utgard",
+    "element": "duister",
+    "beschrijving": "Een reuzenkoning en tovenaar die Thor en Loki in zijn hal liet wedijveren, en ze met begoochelingen versloeg: Thor worstelde tegen de ouderdom en dronk uit een hoorn die aan de zee vastzat."
+   },
+   "geirrod": {
+    "naam": "Geirröd",
+    "titel": "Reus",
+    "element": "vuur",
+    "beschrijving": "Hij lokte Thor zonder hamer naar zijn hal en gooide een gloeiend stuk ijzer naar hem. Thor ving het op en gooide het terug, dwars door een pilaar en door Geirröd heen."
+   },
+   "hymir": {
+    "naam": "Hymir",
+    "titel": "Reus van de ijszee",
+    "element": "ijs",
+    "beschrijving": "Met hem ging Thor vissen, en ving de Midgardslang aan een ossenkop. Hymir sneed de lijn door van angst."
+   },
+   "mimir": {
+    "naam": "Mimir",
+    "titel": "De wachter van de bron",
+    "element": "water",
+    "beschrijving": "Hij bewaakt de bron van de wijsheid onder de wereldboom. Odin gaf er een oog voor één slok. Later werd Mimir onthoofd; Odin bewaarde het hoofd met kruiden en spreuken, en vraagt het nog altijd om raad."
+   },
+   "hugin-munin": {
+    "naam": "Hugin en Munin",
+    "titel": "De raven van Odin",
+    "element": "lucht",
+    "beschrijving": "Gedachte en Herinnering. Elke ochtend vliegen ze over de wereld en 's avonds fluisteren ze Odin alles in. Odin is bang dat Hugin eens niet terugkomt, maar nog banger voor Munin.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "H"
+   },
+   "geri-freki": {
+    "naam": "Geri en Freki",
+    "titel": "De wolven van Odin",
+    "element": "duister",
+    "beschrijving": "Odin geeft al het vlees aan zijn twee wolven; zelf leeft hij alleen van wijn.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "G"
+   },
+   "tanngrisnir": {
+    "naam": "Tanngrisnir en Tanngnjóstr",
+    "titel": "De bokken van Thor",
+    "element": "storm",
+    "beschrijving": "Ze trekken de wagen van Thor. 's Avonds slacht hij ze en eet ze op, en de volgende ochtend wekt hij ze met zijn hamer weer tot leven, als de botten heel zijn gebleven.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "T"
+   },
+   "heidrun": {
+    "naam": "Heidrún",
+    "titel": "De geit op het Walhalla",
+    "element": "bos",
+    "beschrijving": "Ze eet van de boom Lærað op het dak van het Walhalla, en uit haar uier stroomt zoveel mede dat alle gevallen krijgers er elke dag dronken van kunnen worden."
+   },
+   "gullinbursti": {
+    "naam": "Gullinbursti",
+    "titel": "Het gouden everzwijn",
+    "element": "zon",
+    "beschrijving": "Gesmeed door de dwergen voor Freyr. Hij rent door lucht en water, sneller dan een paard, en zijn borstels geven licht in de donkerste nacht."
+   },
+   "walkuren": {
+    "naam": "De walkuren",
+    "titel": "Kiezers van de gesneuvelden",
+    "element": "oorlog",
+    "beschrijving": "De meisjes van Odin, die over het slagveld rijden en kiezen wie er sterft en wie er wint. Ze brengen de helden naar het Walhalla en schenken er de drank.",
+    "groep": true,
+    "teken": "W"
+   },
+   "einherjar": {
+    "naam": "De einherjar",
+    "titel": "De gevallen helden",
+    "element": "oorlog",
+    "beschrijving": "De helden die in de strijd vielen. Ze vechten elke dag op het erf van het Walhalla, staan 's avonds weer op en feesten. Ze wachten op Ragnarök.",
+    "groep": true,
+    "teken": "E"
+   },
+   "nornen": {
+    "naam": "De nornen",
+    "titel": "Urd, Verdandi en Skuld",
+    "element": "wijsheid",
+    "beschrijving": "Drie vrouwen bij de bron van Urd onder de wereldboom. Ze bepalen het leven van ieder mens, en ze gieten elke dag water en wit slib over de boom zodat hij niet verdort.",
+    "groep": true,
+    "aantal": 3,
+    "teken": "N"
+   },
+   "ratatosk": {
+    "naam": "Ratatosk",
+    "titel": "De eekhoorn in de wereldboom",
+    "element": "bos",
+    "beschrijving": "Hij rent de stam van Yggdrasil op en neer en brengt boze woorden over tussen de adelaar bovenin en de draak onderin."
+   },
+   "adelaar": {
+    "naam": "De adelaar",
+    "titel": "Bovenin de wereldboom",
+    "element": "lucht",
+    "beschrijving": "Een adelaar die veel weet, in de top van Yggdrasil. Tussen zijn ogen zit een havik, Vedrfölnir."
+   },
+   "herten": {
+    "naam": "De vier herten",
+    "titel": "In de takken van Yggdrasil",
+    "element": "bos",
+    "beschrijving": "Dáin, Dvalin, Duneyr en Durathrór knabbelen aan de bladeren en takken van de wereldboom.",
+    "groep": true,
+    "aantal": 4,
+    "teken": "H"
+   },
+   "garm": {
+    "naam": "Garm",
+    "titel": "De hond van Hel",
+    "element": "dood",
+    "beschrijving": "De beste van de honden, vastgebonden voor de grot Gnipahellir. Bij Ragnarök breekt hij los, en hij en Tyr doden elkaar."
+   },
+   "naglfar": {
+    "naam": "Naglfar",
+    "titel": "Het schip van nagels",
+    "element": "dood",
+    "beschrijving": "Het grootste schip, gebouwd van de onafgeknipte nagels van de doden. Bij Ragnarök vaart het uit met de reuzen. Daarom moet je de nagels van een dode knippen: zo duurt het langer voor het af is."
+   },
+   "paarden-zon": {
+    "naam": "Árvakr en Alsviðr",
+    "titel": "De paarden van de zon",
+    "element": "zon",
+    "beschrijving": "'Vroegwakker' en 'Allesnel' trekken de wagen van de zon. Onder hun schoft hingen de goden blaasbalgen om ze koel te houden.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "A"
+   },
+   "skinfaxi-hrimfaxi": {
+    "naam": "Skinfaxi en Hrímfaxi",
+    "titel": "De paarden van dag en nacht",
+    "element": "licht",
+    "beschrijving": "Glansmaan, het paard van de Dag, en Rijpmaan, het paard van de Nacht.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "S"
+   },
+   "ask-embla": {
+    "naam": "Ask en Embla",
+    "titel": "De eerste mensen",
+    "element": "bos",
+    "beschrijving": "Twee boomstammen die Odin, Vili en Ve aan het strand vonden. Ze gaven hun adem, verstand en gezicht, en noemden ze Ask en Embla, es en olm.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "A"
+   },
+   "thjalfi-roskva": {
+    "naam": "Thjalfi en Röskva",
+    "titel": "De dienaren van Thor",
+    "element": "aarde",
+    "beschrijving": "Een boerenzoon en -dochter. Thjalfi brak een bot van Thors bok om het merg, waardoor die mank werd; als boete moesten hij en zijn zus Thor voortaan dienen. Thjalfi is de snelste hardloper.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "T"
+   },
+   "brokkr-eitri": {
+    "naam": "Brokkr en Eitri",
+    "titel": "De smidsbroers",
+    "element": "vuur",
+    "beschrijving": "Twee dwergen die wedden met Loki en de mooiste schatten smeedden: het everzwijn Gullinbursti, de ring Draupnir en de hamer Mjölnir. Loki verloor en ze naaiden zijn lippen dicht.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "B"
+   },
+   "ivaldi": {
+    "naam": "De zonen van Ivaldi",
+    "titel": "Dwergensmeden",
+    "element": "vuur",
+    "beschrijving": "Zij smeedden het gouden haar van Sif, het schip Skidbladnir dat je kunt opvouwen als een doek, en de speer Gungnir van Odin.",
+    "groep": true,
+    "teken": "I"
+   },
+   "andvari": {
+    "naam": "Andvari",
+    "titel": "De dwerg in de waterval",
+    "element": "water",
+    "beschrijving": "Een dwerg die als snoek in een waterval leefde met zijn schat. Loki ving hem en nam alles af, ook de laatste ring. Andvari vervloekte het goud, en die vloek is het begin van de sage van Sigurd."
+   },
+   "fjalar-galar": {
+    "naam": "Fjalar en Galar",
+    "titel": "De moordenaars van Kvasir",
+    "element": "duister",
+    "beschrijving": "Twee dwergen die Kvasir doodden en zijn bloed met honing mengden tot de mede van de dichtkunst.",
+    "groep": true,
+    "aantal": 2,
+    "teken": "F"
    }
   },
   "weergaven": [
    {
     "soort": "stamboom",
-    "titel": "De Asen en de kinderen van Loki",
-    "intro": "Van Bor en de reuzin Bestla via Odin naar zijn zonen, met daarnaast de familie van Loki en de Vanen. Veel goden zijn deels reus: de goden trouwden steeds weer met reuzinnen. Waar de bronnen verschillen, is per figuur gekozen voor de bekendste versie.",
+    "titel": "Van Buri tot de zonen van Odin",
+    "intro": "De koe Audhumla likte Buri uit het ijs. Zijn zoon trouwde met een reuzin, en zo werd Odin geboren, half god en half reus. Odin kreeg zonen bij Frigg en bij verschillende reuzinnen. Waar de bronnen verschillen, is per figuur gekozen voor Snorri; de andere versie staat bij de figuur zelf. Bij kinderen van wie de moeder niet in de boom staat, staat haar naam onder het kind.",
     "start": "baldr",
     "plaats": {
-     "bor": [
+     "buri": [
       1,
       0
+     ],
+     "bolthorn": [
+      2,
+      0
+     ],
+     "bor": [
+      1,
+      1
      ],
      "bestla": [
       2,
-      0
+      1
      ],
-     "farbauti": [
-      7,
-      0
-     ],
-     "laufey": [
-      8,
-      0
+     "fjorgynn": [
+      3,
+      1
      ],
      "ve": [
       0,
-      1
+      2
      ],
      "vili": [
       1,
-      1
+      2
      ],
      "odin": [
-      2.5,
-      1
-     ],
-     "frigg": [
-      3.5,
-      1
-     ],
-     "angrboda": [
-      8,
-      1
-     ],
-     "loki": [
-      9,
-      1
-     ],
-     "sigyn": [
-      10,
-      1
-     ],
-     "njord": [
-      12,
-      1
-     ],
-     "skadi": [
-      13,
-      1
-     ],
-     "vali": [
-      0,
-      2
-     ],
-     "sif": [
-      1,
-      2
-     ],
-     "thor": [
       2,
       2
      ],
-     "hermod": [
+     "frigg": [
       3,
       2
      ],
-     "hodr": [
-      4,
-      2
-     ],
-     "baldr": [
+     "bragi": [
       5,
       2
      ],
-     "nanna": [
+     "idun": [
       6,
       2
      ],
-     "hel": [
-      7,
-      2
+     "sif": [
+      -4,
+      3
      ],
-     "fenrir": [
-      8,
-      2
+     "thor": [
+      -3,
+      3
      ],
-     "jormungandr": [
-      9,
-      2
+     "tyr": [
+      -2,
+      3
      ],
-     "narfi": [
-      10,
-      2
+     "heimdall": [
+      -1,
+      3
      ],
-     "freyr": [
-      11.5,
-      2
+     "vidar": [
+      0,
+      3
      ],
-     "freyja": [
-      12.5,
-      2
+     "vali": [
+      1,
+      3
+     ],
+     "hermod": [
+      3,
+      3
+     ],
+     "hodr": [
+      4,
+      3
+     ],
+     "baldr": [
+      5,
+      3
+     ],
+     "nanna": [
+      6,
+      3
+     ],
+     "ullr": [
+      -5.5,
+      4
+     ],
+     "thrud": [
+      -3.5,
+      4
+     ],
+     "magni": [
+      -2,
+      4
+     ],
+     "modi": [
+      -1,
+      4
+     ],
+     "forseti": [
+      5.5,
+      4
      ]
     },
     "gezinnen": [
+     {
+      "ouders": [
+       "buri"
+      ],
+      "kinderen": [
+       "bor"
+      ]
+     },
+     {
+      "ouders": [
+       "bolthorn"
+      ],
+      "kinderen": [
+       "bestla"
+      ]
+     },
+     {
+      "ouders": [
+       "fjorgynn"
+      ],
+      "kinderen": [
+       "frigg"
+      ]
+     },
      {
       "ouders": [
        "bor",
@@ -2770,6 +3375,51 @@
        "ve",
        "vili",
        "odin"
+      ]
+     },
+     {
+      "ouders": [
+       "odin",
+       "jord"
+      ],
+      "kinderen": [
+       "thor"
+      ]
+     },
+     {
+      "ouders": [
+       "odin"
+      ],
+      "kinderen": [
+       "tyr"
+      ]
+     },
+     {
+      "ouders": [
+       "odin",
+       "negen-moeders"
+      ],
+      "kinderen": [
+       "heimdall"
+      ],
+      "label": "met de negen moeders"
+     },
+     {
+      "ouders": [
+       "odin",
+       "grid"
+      ],
+      "kinderen": [
+       "vidar"
+      ]
+     },
+     {
+      "ouders": [
+       "odin",
+       "rind"
+      ],
+      "kinderen": [
+       "vali"
       ]
      },
      {
@@ -2785,28 +3435,144 @@
      },
      {
       "ouders": [
-       "odin"
+       "sif"
       ],
       "kinderen": [
-       "thor"
+       "ullr"
       ],
-      "label": "met Jörd, de aarde"
+      "label": "stiefzoon van Thor"
      },
      {
       "ouders": [
-       "odin"
+       "sif",
+       "thor"
       ],
       "kinderen": [
-       "vali"
-      ],
-      "label": "met Rind"
+       "thrud"
+      ]
      },
+     {
+      "ouders": [
+       "thor",
+       "jarnsaxa"
+      ],
+      "kinderen": [
+       "magni"
+      ]
+     },
+     {
+      "ouders": [
+       "thor"
+      ],
+      "kinderen": [
+       "modi"
+      ]
+     },
+     {
+      "ouders": [
+       "baldr",
+       "nanna"
+      ],
+      "kinderen": [
+       "forseti"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "bor",
+      "bestla"
+     ],
+     [
+      "sif",
+      "thor"
+     ],
+     [
+      "bragi",
+      "idun"
+     ],
+     [
+      "baldr",
+      "nanna"
+     ]
+    ]
+   },
+   {
+    "soort": "stamboom",
+    "titel": "De familie van Loki",
+    "intro": "Loki is de zoon van twee reuzen. Met de reuzin Angrboda kreeg hij drie monsters, met zijn vrouw Sigyn twee zonen, en als merrie het paard Sleipnir.",
+    "start": "loki",
+    "plaats": {
+     "farbauti": [
+      0,
+      0
+     ],
+     "laufey": [
+      1,
+      0
+     ],
+     "helblindi": [
+      -1,
+      1
+     ],
+     "byleist": [
+      0,
+      1
+     ],
+     "angrboda": [
+      1,
+      1
+     ],
+     "loki": [
+      2,
+      1
+     ],
+     "sigyn": [
+      3,
+      1
+     ],
+     "svadilfari": [
+      5,
+      1
+     ],
+     "hel": [
+      0,
+      2
+     ],
+     "fenrir": [
+      1,
+      2
+     ],
+     "jormungandr": [
+      2,
+      2
+     ],
+     "vali-loki": [
+      3,
+      2
+     ],
+     "narfi": [
+      4,
+      2
+     ],
+     "sleipnir": [
+      5,
+      2
+     ],
+     "hati": [
+      1,
+      3
+     ]
+    },
+    "gezinnen": [
      {
       "ouders": [
        "farbauti",
        "laufey"
       ],
       "kinderen": [
+       "helblindi",
+       "byleist",
        "loki"
       ]
      },
@@ -2827,34 +3593,467 @@
        "sigyn"
       ],
       "kinderen": [
+       "vali-loki",
        "narfi"
       ]
      },
      {
       "ouders": [
-       "njord"
+       "svadilfari",
+       "loki"
       ],
       "kinderen": [
-       "freyr",
-       "freyja"
+       "sleipnir"
       ],
-      "label": "met zijn zus"
+      "label": "Loki als merrie"
+     },
+     {
+      "ouders": [
+       "fenrir"
+      ],
+      "kinderen": [
+       "hati"
+      ]
      }
     ],
     "huwelijken": [
      [
-      "sif",
-      "thor"
+      "angrboda",
+      "loki"
      ],
      [
-      "baldr",
-      "nanna"
+      "loki",
+      "sigyn"
+     ]
+    ]
+   },
+   {
+    "soort": "stamboom",
+    "titel": "De Vanen en hun reuzenbruiden",
+    "intro": "De Vanen kwamen na een oorlog als gijzelaars bij de Asen wonen. Njörd trouwde met de reuzin Skadi, zijn zoon Freyr met de reuzin Gerd.",
+    "start": "freyja",
+    "plaats": {
+     "thjazi": [
+      2,
+      0
      ],
+     "njords-zus": [
+      0,
+      1
+     ],
+     "njord": [
+      1,
+      1
+     ],
+     "skadi": [
+      2,
+      1
+     ],
+     "gymir": [
+      4,
+      1
+     ],
+     "aurboda": [
+      5,
+      1
+     ],
+     "od": [
+      -1,
+      2
+     ],
+     "freyja": [
+      0,
+      2
+     ],
+     "freyr": [
+      1,
+      2
+     ],
+     "gerd": [
+      2,
+      2
+     ],
+     "hnoss": [
+      -1,
+      3
+     ],
+     "gersemi": [
+      0,
+      3
+     ],
+     "fjolnir": [
+      1.5,
+      3
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "thjazi"
+      ],
+      "kinderen": [
+       "skadi"
+      ]
+     },
+     {
+      "ouders": [
+       "njords-zus",
+       "njord"
+      ],
+      "kinderen": [
+       "freyja",
+       "freyr"
+      ]
+     },
+     {
+      "ouders": [
+       "gymir",
+       "aurboda"
+      ],
+      "kinderen": [
+       "gerd"
+      ]
+     },
+     {
+      "ouders": [
+       "od",
+       "freyja"
+      ],
+      "kinderen": [
+       "hnoss",
+       "gersemi"
+      ]
+     },
+     {
+      "ouders": [
+       "freyr",
+       "gerd"
+      ],
+      "kinderen": [
+       "fjolnir"
+      ]
+     }
+    ],
+    "huwelijken": [
      [
       "njord",
       "skadi"
+     ],
+     [
+      "od",
+      "freyja"
+     ],
+     [
+      "freyr",
+      "gerd"
      ]
     ]
+   },
+   {
+    "soort": "stamboom",
+    "titel": "Nacht en dag, zon en maan",
+    "intro": "De Nacht was drie keer getrouwd. Uit haar tweede huwelijk kwam de aarde, de moeder van Thor; uit haar derde de Dag. De zon en de maan zijn de kinderen van een mens.",
+    "start": "nott",
+    "plaats": {
+     "norvi": [
+      1,
+      0
+     ],
+     "annar": [
+      0,
+      1
+     ],
+     "nott": [
+      1,
+      1
+     ],
+     "delling": [
+      2,
+      1
+     ],
+     "naglfari": [
+      3.5,
+      1
+     ],
+     "mundilfari": [
+      6,
+      1
+     ],
+     "jord": [
+      0.5,
+      2
+     ],
+     "dagr": [
+      1.5,
+      2
+     ],
+     "aud": [
+      3.5,
+      2
+     ],
+     "sol": [
+      5.5,
+      2
+     ],
+     "mani": [
+      6.5,
+      2
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "norvi"
+      ],
+      "kinderen": [
+       "nott"
+      ]
+     },
+     {
+      "ouders": [
+       "annar",
+       "nott"
+      ],
+      "kinderen": [
+       "jord"
+      ]
+     },
+     {
+      "ouders": [
+       "nott",
+       "delling"
+      ],
+      "kinderen": [
+       "dagr"
+      ]
+     },
+     {
+      "ouders": [
+       "naglfari",
+       "nott"
+      ],
+      "kinderen": [
+       "aud"
+      ]
+     },
+     {
+      "ouders": [
+       "mundilfari"
+      ],
+      "kinderen": [
+       "sol",
+       "mani"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "annar",
+      "nott"
+     ],
+     [
+      "nott",
+      "delling"
+     ]
+    ]
+   },
+   {
+    "soort": "stamboom",
+    "titel": "De zee en de mede",
+    "intro": "Twee reuzenfamilies: de zee met haar golven, en de familie die de mede van de dichtkunst bewaakte tot Odin hem stal.",
+    "start": "aegir",
+    "plaats": {
+     "aegir": [
+      0,
+      0
+     ],
+     "ran": [
+      1,
+      0
+     ],
+     "gilling": [
+      3.5,
+      0
+     ],
+     "golven": [
+      0.5,
+      1
+     ],
+     "suttung": [
+      3,
+      1
+     ],
+     "baugi": [
+      4,
+      1
+     ],
+     "gunnlod": [
+      3,
+      2
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "aegir",
+       "ran"
+      ],
+      "kinderen": [
+       "golven"
+      ]
+     },
+     {
+      "ouders": [
+       "gilling"
+      ],
+      "kinderen": [
+       "suttung",
+       "baugi"
+      ]
+     },
+     {
+      "ouders": [
+       "suttung"
+      ],
+      "kinderen": [
+       "gunnlod"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "aegir",
+      "ran"
+     ]
+    ]
+   },
+   {
+    "soort": "hof",
+    "titel": "De Asen van Snorri",
+    "intro": "Snorri noemt de goden één voor één, met hun hal en hun domein, met Odin als de hoogste.",
+    "midden": {
+     "id": "odin",
+     "domein": "wijsheid, oorlog, dichtkunst en de doden"
+    },
+    "kring": [
+     {
+      "id": "thor",
+      "domein": "donder en kracht"
+     },
+     {
+      "id": "baldr",
+      "domein": "licht en goedheid"
+     },
+     {
+      "id": "njord",
+      "domein": "zee, wind en rijkdom"
+     },
+     {
+      "id": "freyr",
+      "domein": "zon, regen en oogst"
+     },
+     {
+      "id": "tyr",
+      "domein": "strijd en recht"
+     },
+     {
+      "id": "bragi",
+      "domein": "dichtkunst"
+     },
+     {
+      "id": "heimdall",
+      "domein": "de wacht bij Bifröst"
+     },
+     {
+      "id": "hodr",
+      "domein": "de blinde"
+     },
+     {
+      "id": "vidar",
+      "domein": "zwijgen en wraak"
+     },
+     {
+      "id": "vali",
+      "domein": "de wreker"
+     },
+     {
+      "id": "ullr",
+      "domein": "boog en ski"
+     },
+     {
+      "id": "forseti",
+      "domein": "verzoening"
+     },
+     {
+      "id": "loki",
+      "domein": "list en bedrog"
+     }
+    ],
+    "noot": "Snorri zegt dat er twaalf Asen zijn, maar noemt er naast Odin dertien. Loki noemt hij apart: 'ook hij wordt tot de Asen gerekend'."
+   },
+   {
+    "soort": "hof",
+    "titel": "De godinnen",
+    "intro": "De Asynjen, de vrouwelijke Asen, in de volgorde van Snorri, met Frigg als de hoogste.",
+    "midden": {
+     "id": "frigg",
+     "domein": "koningin, kent het lot"
+    },
+    "kring": [
+     {
+      "id": "saga",
+      "domein": "de verhalen"
+     },
+     {
+      "id": "eir",
+      "domein": "geneeskunst"
+     },
+     {
+      "id": "gefjon",
+      "domein": "ploeg en maagden"
+     },
+     {
+      "id": "fulla",
+      "domein": "het kistje van Frigg"
+     },
+     {
+      "id": "freyja",
+      "domein": "liefde en toverkunst"
+     },
+     {
+      "id": "sjofn",
+      "domein": "verliefdheid"
+     },
+     {
+      "id": "lofn",
+      "domein": "geliefden samenbrengen"
+     },
+     {
+      "id": "var",
+      "domein": "beloften"
+     },
+     {
+      "id": "vor",
+      "domein": "oplettendheid"
+     },
+     {
+      "id": "syn",
+      "domein": "weigering"
+     },
+     {
+      "id": "hlin",
+      "domein": "bescherming"
+     },
+     {
+      "id": "snotra",
+      "domein": "beleefdheid"
+     },
+     {
+      "id": "gna",
+      "domein": "bode van Frigg"
+     }
+    ],
+    "noot": "Daarna noemt Snorri nog Sól en Bil, en de moeders Jörd en Rind. Idun, Sif, Nanna en Sigyn staan elders bij hun man."
    },
    {
     "soort": "werelden",
@@ -2865,30 +4064,62 @@
       "naam": "Asgard",
       "sub": "de burcht van de Asen",
       "toon": "hemel",
-      "tekst": "Het rijk van de goden, met het Walhalla van Odin, Breidablik van Baldr en Fensalir van Frigg. De regenboogbrug Bifröst leidt naar beneden, naar Midgard.",
+      "tekst": "Het rijk van de goden, met het Walhalla van Odin, Breidablik van Baldr, Fensalir van Frigg en Bilskirnir van Thor, de grootste hal ooit gebouwd. De regenboogbrug Bifröst leidt naar beneden, naar Midgard.",
       "bewoners": [
        "odin",
        "frigg",
        "baldr",
+       "nanna",
        "thor",
        "sif",
+       "thrud",
+       "magni",
+       "modi",
        "hodr",
        "hermod",
        "vali",
+       "vidar",
        "tyr",
        "heimdall",
-       "loki"
+       "bragi",
+       "idun",
+       "ullr",
+       "forseti",
+       "loki",
+       "sigyn",
+       "njord",
+       "skadi",
+       "freyr",
+       "gerd",
+       "freyja",
+       "saga",
+       "eir",
+       "gefjon",
+       "fulla",
+       "sjofn",
+       "lofn",
+       "var",
+       "vor",
+       "syn",
+       "hlin",
+       "snotra",
+       "gna"
       ]
      },
      {
       "naam": "Vanaheim",
       "sub": "het land van de Vanen",
       "toon": "bos",
-      "tekst": "De andere godenfamilie, van vruchtbaarheid, zee en toverkunst. Na een oorlog met de Asen ruilden ze gijzelaars: zo kwamen Njörd, Freyr en Freya in Asgard wonen.",
+      "tekst": "De andere godenfamilie, van vruchtbaarheid, zee en toverkunst. Na een oorlog met de Asen ruilden ze gijzelaars: zo kwamen Njörd, Freyr en Freya in Asgard wonen, en de Asen Hönir en Mimir bij de Vanen.",
       "bewoners": [
        "njord",
+       "njords-zus",
        "freyr",
-       "freyja"
+       "freyja",
+       "od",
+       "hnoss",
+       "gersemi",
+       "kvasir"
       ]
      },
      {
@@ -2905,25 +4136,49 @@
       "naam": "Midgard",
       "sub": "de wereld van de mensen",
       "toon": "aarde",
-      "tekst": "Gemaakt door Odin, Vili en Ve uit het lichaam van de oerreus Ymir, en omringd door de zee waarin de Midgardslang ligt.",
+      "tekst": "Gemaakt door Odin, Vili en Ve uit het lichaam van de oerreus Ymir, met zijn wenkbrauwen als muur tegen de reuzen, en omringd door de zee waarin de Midgardslang ligt.",
       "bewoners": [
-       "jormungandr",
-       "jord"
+       "ask-embla",
+       "thjalfi-roskva",
+       "mundilfari",
+       "jord",
+       "jormungandr"
       ]
      },
      {
       "naam": "Jotunheim",
       "sub": "het land van de reuzen",
       "toon": "heuvel",
-      "tekst": "Bergen, wouden en ijs aan de rand van de wereld. Hier wonen de rijpreuzen en de bergreuzen, de oude vijanden van de goden, maar ook veel van hun vrouwen en moeders.",
+      "tekst": "Bergen, wouden en ijs aan de rand van de wereld, met de burcht Utgard. Hier wonen de rijpreuzen en de bergreuzen, de oude vijanden van de goden, maar ook veel van hun vrouwen en moeders. In het IJzerwoud woont een oude reuzin die wolven baart.",
       "bewoners": [
        "angrboda",
        "skadi",
+       "thjazi",
+       "gymir",
+       "aurboda",
        "hyrrokkin",
        "laufey",
        "farbauti",
        "bestla",
-       "rind"
+       "bolthorn",
+       "rind",
+       "grid",
+       "jarnsaxa",
+       "thrym",
+       "hrungnir",
+       "utgardaloki",
+       "geirrod",
+       "hymir",
+       "suttung",
+       "baugi",
+       "gunnlod",
+       "gilling",
+       "aegir",
+       "ran",
+       "golven",
+       "norvi",
+       "helblindi",
+       "byleist"
       ]
      },
      {
@@ -2932,14 +4187,18 @@
       "toon": "diepte",
       "tekst": "Onder de grond, in rotsen en grotten. Hier smeden de dwergen de schatten van de goden.",
       "bewoners": [
-       "dwergen"
+       "dwergen",
+       "brokkr-eitri",
+       "ivaldi",
+       "andvari",
+       "fjalar-galar"
       ]
      },
      {
       "naam": "Niflheim",
       "sub": "de wereld van ijs en nevel",
       "toon": "ijs",
-      "tekst": "Het koude noorden, waar het ijs vandaan komt. Onder de wortel van Yggdrasil knaagt de draak Nidhogg.",
+      "tekst": "Het koude noorden, waar het ijs vandaan komt en de bron Hvergelmir, waaruit alle rivieren stromen. Onder de wortel van Yggdrasil knaagt de draak Nidhogg.",
       "bewoners": [
        "nidhogg"
       ]
@@ -2957,12 +4216,91 @@
       "naam": "Hel",
       "sub": "het rijk van de doden",
       "toon": "onderwereld",
-      "tekst": "Negen nachten rijden naar beneden en naar het noorden, over de gouden brug over de rivier Gjöll, door de hoge poort. Hier woont Hel, met iedereen die stierf aan ziekte of ouderdom, en nu ook Baldr en Nanna.",
+      "tekst": "Negen nachten rijden naar beneden en naar het noorden, over de gouden brug over de rivier Gjöll, door de hoge poort. Hier woont Hel, met iedereen die stierf aan ziekte of ouderdom, en nu ook Baldr en Nanna. Voor de grot Gnipahellir ligt de hond Garm.",
       "bewoners": [
        "hel",
        "baldr",
        "nanna",
-       "modgud"
+       "modgud",
+       "garm"
+      ]
+     }
+    ]
+   },
+   {
+    "soort": "werelden",
+    "titel": "Dieren, wezens en machten",
+    "intro": "Naast de goden en de reuzen zit de wereld vol wezens: dieren van de goden, bewoners van de wereldboom, de paarden en wolven van de hemel, en de monsters die op het einde wachten.",
+    "zones": [
+     {
+      "naam": "Bij het begin",
+      "sub": "in de leegte Ginnungagap",
+      "toon": "ijs",
+      "tekst": "Waar het ijs uit het noorden het vuur uit het zuiden raakte, smolt het, en uit de druppels ontstonden de reus en de koe.",
+      "bewoners": [
+       "ymir",
+       "audhumla",
+       "buri"
+      ]
+     },
+     {
+      "naam": "In het Walhalla",
+      "sub": "de hal van de gevallenen",
+      "toon": "hemel",
+      "tekst": "Vijfhonderdveertig deuren, een dak van schilden, en elke dag strijd en feest.",
+      "bewoners": [
+       "walkuren",
+       "einherjar",
+       "hugin-munin",
+       "geri-freki",
+       "sleipnir",
+       "heidrun",
+       "tanngrisnir",
+       "gullinbursti"
+      ]
+     },
+     {
+      "naam": "In de wereldboom",
+      "sub": "Yggdrasil",
+      "toon": "bos",
+      "tekst": "Een es zo groot dat zijn takken over de hele wereld reiken. Hij heeft drie wortels, en onder elke wortel een bron: die van Urd, die van Mimir en Hvergelmir.",
+      "bewoners": [
+       "nornen",
+       "mimir",
+       "adelaar",
+       "ratatosk",
+       "herten",
+       "nidhogg"
+      ]
+     },
+     {
+      "naam": "Aan de hemel",
+      "sub": "de wagens van dag en nacht",
+      "toon": "nacht",
+      "tekst": "Zon en maan worden achtervolgd door wolven; daarom gaan ze zo snel. Dag en Nacht rijden er elk etmaal achter elkaar aan.",
+      "bewoners": [
+       "sol",
+       "mani",
+       "paarden-zon",
+       "dagr",
+       "nott",
+       "skinfaxi-hrimfaxi",
+       "skoll",
+       "hati"
+      ]
+     },
+     {
+      "naam": "Wachtend op het einde",
+      "sub": "Ragnarök",
+      "toon": "vuur",
+      "tekst": "Geboeid, verbannen of nog in aanbouw. Op een dag komen ze allemaal los: dan breekt Loki zijn boeien, vaart Naglfar uit en steekt Surt de wereld in brand.",
+      "bewoners": [
+       "fenrir",
+       "jormungandr",
+       "garm",
+       "naglfar",
+       "surtr",
+       "loki"
       ]
      }
     ]
