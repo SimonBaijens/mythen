@@ -93,7 +93,14 @@ body.breed main, body.breed .topbar, body.breed .chips { max-width: 1240px; }
 .leeg-med { border: 2px dashed color-mix(in srgb, var(--k) 70%, #d4ad62); display: grid; place-items: center;
   background: radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--k) 55%, #2a2119), #15110d 78%); }
 .leeg-med span { font: 700 1.55rem/1 Georgia, serif; color: color-mix(in srgb, var(--k) 35%, #efe3cc); opacity: .85; }
-.leeg-med.groep { box-shadow: 0 3px 10px rgba(0,0,0,.45), 7px -5px 0 -2px #15110d, 7px -5px 0 0 color-mix(in srgb, var(--k) 60%, #5e4a28); }
+.medgroep { position: relative; display: block; width: fit-content; margin: 0 auto; }
+.medgroep.groot { width: min(260px, 70%); }
+.medgroep .aantal { position: absolute; right: -4px; top: -2px; min-width: 22px; height: 22px; padding: 0 5px; border-radius: 99px;
+  background: var(--goud); color: #1a140d; font: 700 .75rem/22px -apple-system, "Segoe UI", sans-serif; text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,.5); }
+.medgroep.groot .aantal { min-width: 40px; height: 40px; font-size: 1.2rem; line-height: 40px; right: 4%; top: 4%; }
+.medgroep.klein .aantal { min-width: 16px; height: 16px; font-size: .62rem; line-height: 16px; padding: 0 3px; right: -5px; top: -4px; }
+.medgroep .med.groot { width: 100%; }
 .med.klein { width: 40px; height: 40px; border-width: 1.5px; }
 .med.klein span { font-size: 1rem; }
 .med.groot { aspect-ratio: 1; height: auto; margin-bottom: 14px; }

@@ -80,14 +80,16 @@
     "titel": "Brontes, Steropes en Arges",
     "element": "vuur",
     "groep": true,
-    "beschrijving": "Drie reuzen met één oog midden op hun voorhoofd: Donder, Bliksem en Schittering. Ouranos en later Kronos hielden hen gevangen. Uit dank voor hun bevrijding smeedden ze de bliksem van Zeus, de drietand van Poseidon en de helm van Hades."
+    "beschrijving": "Drie reuzen met één oog midden op hun voorhoofd: Donder, Bliksem en Schittering. Ouranos en later Kronos hielden hen gevangen. Uit dank voor hun bevrijding smeedden ze de bliksem van Zeus, de drietand van Poseidon en de helm van Hades.",
+    "aantal": 3
    },
    "honderdarmigen": {
     "naam": "De Honderdarmigen",
     "titel": "Kottos, Briareos en Gyges",
     "element": "aarde",
     "groep": true,
-    "beschrijving": "Drie reuzen met elk honderd armen en vijftig hoofden. Ouranos sloot ze op in de diepte, Zeus bevrijdde ze, en met hun rotsblokken beslisten ze de oorlog tegen de Titanen. Daarna werden ze de bewakers van de Tartaros."
+    "beschrijving": "Drie reuzen met elk honderd armen en vijftig hoofden. Ouranos sloot ze op in de diepte, Zeus bevrijdde ze, en met hun rotsblokken beslisten ze de oorlog tegen de Titanen. Daarna werden ze de bewakers van de Tartaros.",
+    "aantal": 3
    },
    "aphrodite": {
     "naam": "Aphrodite",
@@ -744,7 +746,8 @@
     "element": "water",
     "groep": true,
     "beschrijving": "Bij de eed ontstonden ze uit het zwaard van Susanoo, dat Amaterasu stukbeet. Ze beschermen de zeeweg tussen Japan en Korea en worden vereerd in de schrijnen van Munakata op Kyushu en op het heilige eiland Okinoshima.",
-    "teken": "M"
+    "teken": "M",
+    "aantal": 3
    },
    "suseribime": {
     "naam": "Suseribime",
@@ -1173,7 +1176,8 @@
     "titel": "De Maker en de Gevederde Slang",
     "element": "water",
     "groep": true,
-    "beschrijving": "De scheppers die in het begin in het stille water lagen, bedekt met groene en blauwe veren. Ze overlegden met het Hart van de Hemel, en door hun woord rees de aarde op uit de zee."
+    "beschrijving": "De scheppers die in het begin in het stille water lagen, bedekt met groene en blauwe veren. Ze overlegden met het Hart van de Hemel, en door hun woord rees de aarde op uit de zee.",
+    "aantal": 2
    }
   },
   "weergaven": [

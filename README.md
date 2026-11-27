@@ -24,7 +24,7 @@ in de app doorheen.
 
 Het tabblad **Pantheon** toont per mythologie een eigen kaart van de goden, uit `data/pantheons.json`. Per
 mythologie staan daar een `kop`, een `intro`, de `personen` die nog geen portret hebben (naam, titel,
-beschrijving en een `element` voor de kleur van de lege plek), en een of meer `weergaven`:
+beschrijving en een `element` voor de kleur van de lege plek; een groep krijgt `groep: true` en `aantal`), en een of meer `weergaven`:
 
 - `stamboom`: elke figuur op een vaste plek `[kolom, rij]` (halve kolommen mogen). `gezinnen` hebben `ouders`
   en `kinderen`, en optioneel een `label` (bijschrift onder het kind), `stippel` + `uitleg` (de bronnen zijn het

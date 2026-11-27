@@ -34,7 +34,8 @@ const initiaal = (p) => p.teken || (p.naam.replace(/^(De|Het|Een) /, "")[0] || "
 function medaillon(id, klas = "") {
   const p = persoon(id);
   if (p.portret) return `<span class="med ${klas}"><img src="beelden/figuren/${esc(id)}.jpg" alt="" loading="lazy"></span>`;
-  return `<span class="med leeg-med ${p.groep ? "groep" : ""} ${klas}" style="--k:${KLEUR[p.element] || "#7a6a55"}"><span>${esc(initiaal(p))}</span></span>`;
+  const med = `<span class="med leeg-med ${klas}" style="--k:${KLEUR[p.element] || "#7a6a55"}"><span>${esc(initiaal(p))}</span></span>`;
+  return p.groep ? `<span class="medgroep ${klas}" title="Een groep van ${p.aantal || "meer"}">${med}<b class="aantal">${p.aantal || "+"}</b></span>` : med;
 }
 
 // ---------- verhalen en figuren ----------
