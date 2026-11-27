@@ -179,7 +179,7 @@
     "naam": "Athena",
     "titel": "Godin van wijsheid en krijgskunst",
     "element": "wijsheid",
-    "beschrijving": "Dochter van Zeus, die volwassen en in volle wapenrusting uit zijn hoofd sprong; Hephaistos had het met een bijl opengeslagen. Volgens Hesiodos was haar moeder Metis, die Zeus had ingeslikt. Beschermster van de stad Athene. Bij de Romeinen heette ze Minerva."
+    "beschrijving": "Dochter van Zeus en Metis. Zeus slikte de zwangere Metis in, omdat voorspeld was dat haar zoon hem zou onttronen. Later kreeg hij vreselijke hoofdpijn; Hephaistos sloeg zijn hoofd open met een bijl, en Athena sprong eruit, volwassen en in volle wapenrusting. Zo vertelt Hesiodos het; Homeros noemt haar alleen de dochter van Zeus. Beschermster van de stad Athene. Bij de Romeinen heette ze Minerva."
    },
    "apollo": {
     "naam": "Apollo",
@@ -483,12 +483,13 @@
      },
      {
       "ouders": [
-       "zeus"
+       "zeus",
+       "metis"
       ],
       "kinderen": [
        "athena"
       ],
-      "label": "uit het hoofd van Zeus"
+      "label": "met Metis, uit het hoofd van Zeus"
      },
      {
       "ouders": [
