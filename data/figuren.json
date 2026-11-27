@@ -159,5 +159,40 @@
     "titel": "De achtkoppige slang van Koshi",
     "beschrijving": "Een reusachtige slang met acht koppen en acht staarten, zo lang als acht dalen en acht heuvels, met bomen op zijn rug. Elk jaar at hij een dochter van Ashinazuchi, tot Susanoo hem dronken voerde en versloeg.",
     "prompt": "Yamata no Orochi, the gigantic eight-headed, eight-tailed serpent dragon of Japanese myth: a portrait showing several of its eight huge serpent heads rising together, scales like dark mossy rock and bark, moss, ferns and small cypress and cedar trees growing on its neck and back, eyes glowing deep red like winter cherries, mist around it. Menacing but not gory."
+  },
+  "inanna": {
+    "naam": "Inanna",
+    "mythologie": "Sumerisch",
+    "titel": "Koningin van de hemel, godin van liefde en oorlog",
+    "beschrijving": "De avond- en morgenster, beschermgodin van Uruk. Hartstochtelijk en nooit tevreden: ze had de hemel en de aarde, en daalde af om ook de onderwereld te krijgen. Bij de Babyloniërs heette ze Ishtar.",
+    "prompt": "Inanna, Sumerian goddess of love and war, Queen of Heaven and the morning star: a young, proud, fiercely beautiful goddess whose long black hair flows like the night sky, scattered with tiny stars, a radiant eight-pointed star glowing above her brow, skin with a faint warm golden starlight glow, kohl-lined eyes shining like the planet Venus, a tall horned Sumerian crown-turban, necklaces of small lapis lazuli beads, a golden pectoral, a pleated royal Sumerian robe, holding a lapis lazuli measuring rod and coiled line. Bold, restless, ambitious expression."
+  },
+  "ninshubur": {
+    "naam": "Ninshubur",
+    "mythologie": "Sumerisch",
+    "titel": "Minister en bode van Inanna",
+    "beschrijving": "De trouwe dienares van Inanna, 'zij die goede woorden spreekt'. Toen haar meesteres niet terugkwam uit de onderwereld, ging ze in rouw langs de goden tot er één was die wilde helpen.",
+    "prompt": "Ninshubur, Sumerian messenger goddess and faithful minister of Inanna: a calm, steadfast woman whose simple single garment and short cloak are made of road dust and dry desert wind swirling softly around her, her dark hair tied back, scratches of mourning on her cheeks, a messenger's staff in her hand, sandals worn by long roads, warm loyal brown eyes. Quiet, determined, devoted expression."
+  },
+  "ereshkigal": {
+    "naam": "Ereshkigal",
+    "mythologie": "Sumerisch",
+    "titel": "Koningin van de onderwereld",
+    "beschrijving": "'Vrouwe van de Grote Aarde', de oudere zus van Inanna. Ze heerst over het land zonder terugkeer, waar de doden stof eten. Ze kreeg geen tempels, alleen de plengoffers op de graven.",
+    "prompt": "Ereshkigal, Sumerian queen of the underworld, Lady of the Great Earth: a gaunt, regal, grieving goddess whose body is partly made of dark grey clay and dry dust that crumbles and drifts from her, her wild black hair bunched and tangled like leeks and roots, long dark nails like a pickaxe, a dark robe slipping from her bare shoulders, a heavy crown of black stone and dull lapis, pale cold eyes glowing faintly blue. Lonely, bitter, sorrowful but powerful expression."
+  },
+  "enki": {
+    "naam": "Enki",
+    "mythologie": "Sumerisch",
+    "titel": "God van het zoete water en de wijsheid",
+    "beschrijving": "Heer van de Abzu, het zoete water onder de aarde, in zijn stad Eridu. De slimste van de goden, die de toverspreuken kent en het kruid en het water van het leven. Bij de Babyloniërs heette hij Ea.",
+    "prompt": "Enki, Sumerian god of fresh water, wisdom and magic: a wise old god with a long curled beard made of flowing river water, two streams of fresh water with small leaping fish pouring from his shoulders, skin like wet riverbank clay, a horned Sumerian crown with reeds, a flounced robe of reeds and water, kind clever eyes glowing aquamarine, holding a small vessel overflowing with water. Thoughtful, kindly, cunning expression."
+  },
+  "dumuzi": {
+    "naam": "Dumuzi",
+    "mythologie": "Sumerisch",
+    "titel": "Herdersgod, echtgenoot van Inanna",
+    "beschrijving": "De herder die Inanna boven een boer verkoos. Hij rouwde niet toen ze dood was, en zij gaf hem in haar plaats aan de demonen. Sindsdien is hij een half jaar in de onderwereld. Later heette hij Tammuz.",
+    "prompt": "Dumuzi, Sumerian shepherd god and husband of Inanna: a handsome young shepherd king whose curly beard and hair are made of soft sheep's wool and fresh green spring grass, wildflowers in his hair, a fine fringed royal Sumerian garment, a shepherd's crook and a reed flute, a small golden crown, warm but vain and careless eyes. Proud, carefree expression with a hint of fear."
   }
 }

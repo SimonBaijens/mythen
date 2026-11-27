@@ -1779,5 +1779,377 @@
     ]
    }
   ]
+ },
+ "Sumerisch": {
+  "kop": "Hemel, aarde en de zeven poorten",
+  "intro": "De oudste goden die we kennen, van kleitabletten uit het zuiden van Irak. Een stamboom van de grote goden tot Inanna en haar zus, de lagen van de wereld, en de raad van zeven die het lot bepaalt.",
+  "personen": {
+   "nammu": {
+    "naam": "Nammu",
+    "titel": "De oerzee",
+    "element": "water",
+    "beschrijving": "De godin van het oerwater, uit wie alles voortkwam. In sommige teksten is zij de moeder van hemel en aarde, en van Enki."
+   },
+   "an": {
+    "naam": "An",
+    "titel": "God van de hemel",
+    "element": "lucht",
+    "beschrijving": "De vader van de goden, ver weg in de hoogste hemel. Hij is de oudste en de hoogste, maar bemoeit zich weinig met de wereld; dat laat hij aan Enlil over. Zijn tempel stond in Uruk. Bij de Babyloniërs heette hij Anu."
+   },
+   "ki": {
+    "naam": "Ki",
+    "titel": "De aarde",
+    "element": "aarde",
+    "beschrijving": "De aarde als godin. Hemel en aarde zaten in het begin aan elkaar vast, tot hun zoon Enlil ze uit elkaar haalde. Veel onderzoekers denken dat Ki dezelfde is als Ninhursag."
+   },
+   "enlil": {
+    "naam": "Enlil",
+    "titel": "Heer van de wind, koning van de goden",
+    "element": "storm",
+    "beschrijving": "Zoon van An en Ki. Hij scheidde de hemel van de aarde en bepaalt de lotsbestemmingen. Zijn huis was het Ekur in Nippur. Toen Ninshubur om hulp vroeg voor Inanna, werd hij boos en weigerde."
+   },
+   "ninlil": {
+    "naam": "Ninlil",
+    "titel": "Vrouwe van de wind",
+    "element": "lucht",
+    "beschrijving": "De vrouw van Enlil. Een ander Sumerisch verhaal vertelt hoe Enlil haar verleidde, voor straf naar de onderwereld werd verbannen, en hoe zij hem volgde. Zo werden de maangod en drie goden van de onderwereld geboren."
+   },
+   "ninhursag": {
+    "naam": "Ninhursag",
+    "titel": "Vrouwe van de bergen",
+    "element": "aarde",
+    "beschrijving": "De moedergodin van de berghellingen, de wilde dieren en de geboorte. In het verhaal van het paradijs Dilmun vervloekte ze Enki en genas ze hem daarna weer.",
+    "uitleg": "Haar ouders worden verschillend genoemd; hier staat ze bij An en Ki, als zus van Enlil."
+   },
+   "ninurta": {
+    "naam": "Ninurta",
+    "titel": "God van de oorlog en de ploeg",
+    "element": "oorlog",
+    "beschrijving": "De strijdbare zoon van Enlil en Ninlil, die de monsters van de bergen versloeg. Ook een god van de landbouw: de boer die de akker ploegt."
+   },
+   "nergal": {
+    "naam": "Nergal",
+    "titel": "God van pest en oorlog",
+    "element": "dood",
+    "beschrijving": "Zoon van Enlil en Ninlil. Een later verhaal vertelt hoe hij naar de onderwereld afdaalde en de man van Ereshkigal werd, en zo samen met haar over de doden ging regeren."
+   },
+   "nanna": {
+    "naam": "Nanna",
+    "titel": "God van de maan",
+    "element": "maan",
+    "beschrijving": "Zoon van Enlil en Ninlil, met zijn tempel in Ur. Elke nacht vaart hij met zijn boot van licht door de lucht. Vader van Utu en Inanna. Ook hij weigerde Ninshubur te helpen. Bij de Babyloniërs heette hij Sin."
+   },
+   "ningal": {
+    "naam": "Ningal",
+    "titel": "De grote vrouwe",
+    "element": "licht",
+    "beschrijving": "De vrouw van de maangod, godin van het riet en de dromen, en moeder van Utu en Inanna. Dumuzi bracht melk naar haar huis."
+   },
+   "utu": {
+    "naam": "Utu",
+    "titel": "God van de zon en het recht",
+    "element": "zon",
+    "beschrijving": "De tweelingbroer van Inanna. Elke dag rijdt hij langs de hemel en ziet alles, dus hij is ook de rechter. Hij veranderde de handen en voeten van zijn zwager Dumuzi in die van een slang. Bij de Babyloniërs heette hij Shamash."
+   },
+   "gugalanna": {
+    "naam": "Gugalanna",
+    "titel": "De grote stier van de hemel",
+    "element": "duister",
+    "beschrijving": "De eerste man van Ereshkigal. Volgens Inanna was hij net gestorven, en kwam zij voor zijn begrafenis. Waarschijnlijk is hij de hemelstier die later in het Gilgamesj-epos door Gilgamesj en Enkidu wordt gedood."
+   },
+   "geshtinanna": {
+    "naam": "Geshtinanna",
+    "titel": "Godin van de wijnstok en de dromen",
+    "element": "bos",
+    "beschrijving": "De zus van Dumuzi, die zoveel van hem hield dat ze zijn plaats deelde: elk jaar gaat zij een half jaar in zijn plaats naar de onderwereld."
+   },
+   "duttur": {
+    "naam": "Duttur",
+    "titel": "De moeder-ooi",
+    "element": "aarde",
+    "beschrijving": "Godin van de schapen en de geiten, en moeder van Dumuzi en Geshtinanna. In de klaagliederen om Dumuzi zoekt zij haar zoon, zoals een ooi die haar lam kwijt is."
+   },
+   "neti": {
+    "naam": "Neti",
+    "titel": "Poortwachter van de onderwereld",
+    "element": "dood",
+    "beschrijving": "De opperste poortwachter van het paleis Ganzer. Bij elk van de zeven poorten nam hij Inanna iets af, met steeds dezelfde woorden."
+   },
+   "anunna": {
+    "naam": "De Anunna",
+    "titel": "De zeven rechters van de onderwereld",
+    "element": "dood",
+    "beschrijving": "In de hemel zijn de Anunna de grote goden, de kinderen van An. Beneden zitten er zeven van hen als rechters. Met de blik van de dood maakten ze van Inanna een lijk.",
+    "groep": true,
+    "aantal": 7,
+    "teken": "A"
+   },
+   "galla": {
+    "naam": "De galla",
+    "titel": "Demonen van de onderwereld",
+    "element": "duister",
+    "beschrijving": "Ze eten niet, drinken niet en kennen geen vrouw en geen kind. Ze halen wie de onderwereld opeist. Ze liepen om Inanna heen als een rietomheining, tot zij hun Dumuzi gaf.",
+    "groep": true,
+    "teken": "G"
+   },
+   "shara": {
+    "naam": "Shara",
+    "titel": "Zanger van Inanna",
+    "element": "liefde",
+    "beschrijving": "God van de stad Umma. Hij rouwde om Inanna in het stof, en zij weigerde hem aan de demonen te geven: hij was haar zanger en hij verzorgde haar haar en nagels. In andere teksten is hij haar zoon."
+   },
+   "lulal": {
+    "naam": "Lulal",
+    "titel": "Begeleider van Inanna",
+    "element": "oorlog",
+    "beschrijving": "God van Bad-tibira, die aan haar rechter- en linkerhand liep. Ook hem gaf Inanna niet aan de demonen."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "stamboom",
+    "titel": "Van hemel en aarde tot de herder",
+    "intro": "Vier generaties: de oerzee en de hemel, de grote goden van wind en water, de maan, en dan de kinderen van de maan, met Inanna en haar zus. Waar de bronnen verschillen, is per figuur gekozen voor de bekendste versie; de andere staat bij de figuur zelf.",
+    "start": "inanna",
+    "plaats": {
+     "nammu": [
+      0,
+      0
+     ],
+     "an": [
+      1,
+      0
+     ],
+     "ki": [
+      2,
+      0
+     ],
+     "enki": [
+      0.5,
+      1
+     ],
+     "ninhursag": [
+      1.5,
+      1
+     ],
+     "enlil": [
+      2.5,
+      1
+     ],
+     "ninlil": [
+      3.5,
+      1
+     ],
+     "ninurta": [
+      2,
+      2
+     ],
+     "nergal": [
+      3,
+      2
+     ],
+     "nanna": [
+      4,
+      2
+     ],
+     "ningal": [
+      5,
+      2
+     ],
+     "duttur": [
+      7,
+      2
+     ],
+     "gugalanna": [
+      2.5,
+      3
+     ],
+     "ereshkigal": [
+      3.5,
+      3
+     ],
+     "utu": [
+      4.5,
+      3
+     ],
+     "inanna": [
+      5.5,
+      3
+     ],
+     "dumuzi": [
+      6.5,
+      3
+     ],
+     "geshtinanna": [
+      7.5,
+      3
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "nammu",
+       "an"
+      ],
+      "kinderen": [
+       "enki"
+      ]
+     },
+     {
+      "ouders": [
+       "an",
+       "ki"
+      ],
+      "kinderen": [
+       "ninhursag",
+       "enlil"
+      ]
+     },
+     {
+      "ouders": [
+       "enlil",
+       "ninlil"
+      ],
+      "kinderen": [
+       "ninurta",
+       "nergal",
+       "nanna"
+      ]
+     },
+     {
+      "ouders": [
+       "nanna",
+       "ningal"
+      ],
+      "kinderen": [
+       "ereshkigal",
+       "utu",
+       "inanna"
+      ]
+     },
+     {
+      "ouders": [
+       "duttur"
+      ],
+      "kinderen": [
+       "dumuzi",
+       "geshtinanna"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "gugalanna",
+      "ereshkigal"
+     ],
+     [
+      "inanna",
+      "dumuzi"
+     ],
+     [
+      "nergal",
+      "ereshkigal"
+     ]
+    ]
+   },
+   {
+    "soort": "werelden",
+    "titel": "Hemel, land, het diepe water en het land zonder terugkeer",
+    "intro": "De Sumeriërs zagen de wereld als een schijf tussen de hemel erboven en het zoete water eronder. Nog dieper lag de onderwereld, met zeven poorten.",
+    "zones": [
+     {
+      "naam": "De hemel",
+      "sub": "an",
+      "toon": "hemel",
+      "tekst": "Het rijk van An, de vader van de goden. Hemel en aarde zaten ooit aan elkaar vast. Hier varen de maan en de zon, en Inanna staat er als avond- en morgenster.",
+      "bewoners": [
+       "an",
+       "inanna",
+       "utu",
+       "nanna"
+      ]
+     },
+     {
+      "naam": "Het land",
+      "sub": "kalam, tussen de twee rivieren",
+      "toon": "aarde",
+      "tekst": "De steden van de mensen, elk met de tempel van haar eigen god: Enlil in Nippur, Nanna in Ur, Inanna in Uruk, Shara in Umma, Lulal in Bad-tibira. Op de vlakte van Kulaba stond de appelboom van Dumuzi.",
+      "bewoners": [
+       "enlil",
+       "ninlil",
+       "ninhursag",
+       "ninurta",
+       "ningal",
+       "ninshubur",
+       "shara",
+       "lulal",
+       "dumuzi",
+       "duttur"
+      ]
+     },
+     {
+      "naam": "De Abzu",
+      "sub": "het zoete water onder de aarde",
+      "toon": "zee",
+      "tekst": "Het diepe zoete water waaruit alle bronnen en putten komen. Hier woont Enki, in zijn huis bij Eridu, de oudste stad, aan de rand van het moeras. Nammu is het oerwater van het begin.",
+      "bewoners": [
+       "enki",
+       "nammu"
+      ]
+     },
+     {
+      "naam": "Kur",
+      "sub": "het land zonder terugkeer",
+      "toon": "onderwereld",
+      "tekst": "Het paleis Ganzer met zijn zeven poorten. De doden eten er stof en klei en dragen kleren van veren. Wie er is, komt er niet meer uit, tenzij iemand in zijn plaats gaat. Elk half jaar is Dumuzi hier, of zijn zus.",
+      "bewoners": [
+       "ereshkigal",
+       "neti",
+       "anunna",
+       "galla",
+       "gugalanna",
+       "nergal",
+       "geshtinanna"
+      ]
+     }
+    ]
+   },
+   {
+    "soort": "hof",
+    "titel": "De zeven die het lot bepalen",
+    "intro": "Sumerische teksten noemen 'de zeven goden die het lot bepalen': de grote goden die samen in de raad zaten, met An als de oudste.",
+    "midden": {
+     "id": "an",
+     "domein": "de hemel"
+    },
+    "kring": [
+     {
+      "id": "enlil",
+      "domein": "wind en koningschap"
+     },
+     {
+      "id": "enki",
+      "domein": "zoet water en wijsheid"
+     },
+     {
+      "id": "ninhursag",
+      "domein": "bergen en geboorte"
+     },
+     {
+      "id": "nanna",
+      "domein": "de maan"
+     },
+     {
+      "id": "utu",
+      "domein": "de zon en het recht"
+     },
+     {
+      "id": "inanna",
+      "domein": "liefde, oorlog en de morgenster"
+     }
+    ],
+    "noot": "Wie precies bij de zeven hoort, verschilt per tekst; dit is de gebruikelijke lijst van moderne onderzoekers."
+   }
+  ]
  }
 }
