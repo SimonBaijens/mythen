@@ -95,7 +95,7 @@
     "naam": "Aphrodite",
     "titel": "Godin van liefde en schoonheid",
     "element": "liefde",
-    "beschrijving": "Volgens Hesiodos ontstaan uit het schuim rond het afgesneden lid van Ouranos, dat in zee viel. Dan is ze ouder dan Zeus. Homeros noemt haar een dochter van Zeus en Dione. Ze trouwde met Hephaistos en had een verhouding met Ares. Bij de Romeinen heette ze Venus."
+    "beschrijving": "Godin van liefde en schoonheid. Volgens Homeros een dochter van Zeus en Dione. Hesiodos vertelt het anders: toen Kronos zijn vader Ouranos ontmande, viel het afgesneden lid in zee, en uit het schuim (aphros) eromheen werd Aphrodite geboren; ze kwam aan land op Cyprus. Ze trouwde met Hephaistos en had een verhouding met Ares. Bij de Romeinen heette ze Venus."
    },
    "metis": {
     "naam": "Metis",
@@ -173,13 +173,13 @@
     "naam": "Hephaistos",
     "titel": "God van het smidsvuur",
     "element": "vuur",
-    "beschrijving": "Volgens Hesiodos kreeg Hera hem alleen, zonder vader. Volgens Homeros is hij een zoon van Zeus en Hera. Hij werd van de Olympus gegooid en bleef mank, maar werd de grote smid en kunstenaar van de goden. Bij de Romeinen heette hij Vulcanus."
+    "beschrijving": "Zoon van Zeus en Hera, volgens Homeros. Volgens Hesiodos kreeg Hera hem alleen, zonder vader, uit woede over de geboorte van Athena. Hij werd van de Olympus gegooid en bleef mank, maar werd de grote smid en kunstenaar van de goden. Bij de Romeinen heette hij Vulcanus."
    },
    "athena": {
     "naam": "Athena",
     "titel": "Godin van wijsheid en krijgskunst",
     "element": "wijsheid",
-    "beschrijving": "Zeus slikte haar zwangere moeder Metis in. Later kreeg hij vreselijke hoofdpijn. Hephaistos sloeg zijn hoofd open met een bijl, en Athena sprong eruit, volwassen en in volle wapenrusting. Beschermster van de stad Athene. Bij de Romeinen heette ze Minerva."
+    "beschrijving": "Dochter van Zeus, die volwassen en in volle wapenrusting uit zijn hoofd sprong; Hephaistos had het met een bijl opengeslagen. Volgens Hesiodos was haar moeder Metis, die Zeus had ingeslikt. Beschermster van de stad Athene. Bij de Romeinen heette ze Minerva."
    },
    "apollo": {
     "naam": "Apollo",
@@ -222,13 +222,19 @@
     "titel": "Moeder van Dionysos",
     "element": "vuur",
     "beschrijving": "Een sterfelijke prinses van Thebe, dochter van koning Kadmos. Hera haalde haar over om Zeus te vragen zich in zijn ware gedaante te tonen. Ze verbrandde in zijn bliksem."
+   },
+   "dione": {
+    "naam": "Dione",
+    "titel": "Moeder van Aphrodite",
+    "element": "water",
+    "beschrijving": "Bij Homeros de moeder van Aphrodite: toen haar dochter in de Trojaanse oorlog gewond raakte, troostte Dione haar op de Olympus. Over haar eigen afkomst zijn de bronnen het oneens: een Okeanide volgens Hesiodos, een Titanin volgens Apollodoros."
    }
   },
   "weergaven": [
    {
     "soort": "stamboom",
     "titel": "De stamboom",
-    "intro": "Van Gaia en Ouranos via Kronos naar Zeus en zijn kinderen, zoals Hesiodos het vertelt. Bij een kind van wie de ouders niet naast elkaar staan, staat de tweede ouder onder de naam. Een stippellijn betekent dat de bronnen het oneens zijn.",
+    "intro": "Van Gaia en Ouranos via Kronos naar Zeus en zijn kinderen. Waar Homeros iets over de familie zegt, volgt de boom Homeros; voor de oudere generaties, waar hij niets over zegt, Hesiodos. Afwijkende versies staan bij de figuur zelf. Bij een kind van wie de ouders niet naast elkaar staan, staat de tweede ouder onder de naam.",
     "start": "kronos",
     "plaats": {
      "gaia": [
@@ -293,10 +299,6 @@
      ],
      "honderdarmigen": [
       13,
-      1
-     ],
-     "aphrodite": [
-      14.5,
       1
      ],
      "metis": [
@@ -386,6 +388,10 @@
      "dionysos": [
       18.5,
       3
+     ],
+     "aphrodite": [
+      19.5,
+      3
      ]
     },
     "gezinnen": [
@@ -410,17 +416,6 @@
        "kyklopen",
        "honderdarmigen"
       ]
-     },
-     {
-      "ouders": [
-       "ouranos"
-      ],
-      "kinderen": [
-       "aphrodite"
-      ],
-      "label": "uit het schuim van de zee",
-      "stippel": true,
-      "uitleg": "Zo vertelt Hesiodos het. Volgens Homeros is Aphrodite een dochter van Zeus en Dione."
      },
      {
       "ouders": [
@@ -481,25 +476,14 @@
        "zeus"
       ],
       "kinderen": [
+       "hephaistos",
        "ares",
        "hebe"
       ]
      },
      {
       "ouders": [
-       "hera"
-      ],
-      "kinderen": [
-       "hephaistos"
-      ],
-      "label": "alleen uit Hera",
-      "stippel": true,
-      "uitleg": "Zo vertelt Hesiodos het. Volgens Homeros is Hephaistos een zoon van Zeus en Hera."
-     },
-     {
-      "ouders": [
-       "zeus",
-       "metis"
+       "zeus"
       ],
       "kinderen": [
        "athena"
@@ -541,6 +525,15 @@
       ],
       "kinderen": [
        "persephone"
+      ]
+     },
+     {
+      "ouders": [
+       "zeus",
+       "dione"
+      ],
+      "kinderen": [
+       "aphrodite"
       ]
      }
     ],
