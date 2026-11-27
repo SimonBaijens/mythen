@@ -175,6 +175,8 @@ body.breed main, body.breed .topbar, body.breed .chips { max-width: 1240px; }
 .toon-heuvel { background: linear-gradient(160deg, #2c3a22, #1e2418 50%, #1a1612); }
 .toon-onderwereld { background: linear-gradient(160deg, #2e1d1d, #170f10 70%); }
 .toon-diepte { background: linear-gradient(160deg, #1a1414, #0b0909 70%); }
+.toon-vuur { background: linear-gradient(160deg, #4a2414, #1f110b 70%); }
+.toon-licht { background: linear-gradient(160deg, #3d3a2a, #1f1d16 70%); }
 
 /* hof: een kring rond de oppergod */
 .hof { position: relative; width: min(100%, 720px); aspect-ratio: 1; margin: 6px auto 0;

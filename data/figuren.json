@@ -236,5 +236,47 @@
     "titel": "Godin van liefde, muziek en vreugde",
     "beschrijving": "Dochter van Ra, de Vrouwe van de Zuidelijke Sycomoor. Ze liet haar vader lachen toen hij lag te mokken, en ze genas de ogen van Horus met de melk van een gazelle.",
     "prompt": "Hathor, ancient Egyptian goddess of love, music and joy: a warm, radiant, playful goddess with gentle cow ears, lyre-shaped cow horns holding a red sun disk, her hair and dress woven from sycamore fig leaves, flowers and soft golden sunlight, a turquoise and gold collar, holding a sistrum rattle and a menat necklace. Joyful, kind, mischievous smile."
+  },
+  "baldr": {
+    "naam": "Baldr",
+    "mythologie": "Noors",
+    "titel": "De stralende, de best geliefde van de goden",
+    "beschrijving": "Zoon van Odin en Frigg, zo mooi dat er licht van hem afstraalde. Alles in de wereld zwoer hem niets te doen, behalve de maretak. Na Ragnarök komt hij terug.",
+    "prompt": "Baldr, the shining Norse god, most beloved of the Aesir: a beautiful, gentle young god whose skin and pale golden-white hair glow with soft inner sunlight, as if he is made of summer light, light radiating from his face, white chamomile-like flowers woven in his hair, a white and gold Viking-age tunic with fine embroidery, a gold arm ring, kind luminous eyes. Serene, kind, slightly melancholic expression."
+  },
+  "odin": {
+    "naam": "Odin",
+    "mythologie": "Noors",
+    "titel": "De Allvader, oppergod van de Asen",
+    "beschrijving": "De oudste en wijste van de goden, met één oog. Hij gaf het andere voor een slok uit de bron van de wijsheid. Twee raven brengen hem elke dag nieuws, en hij rijdt op Sleipnir, het paard met acht benen.",
+    "prompt": "Odin, the Allfather of Norse myth: an old, tall, grim wanderer god with one eye glowing pale blue and the other eye socket covered, a long grey beard made of swirling storm wind and mist with runes faintly glowing in it, a wide-brimmed grey hat and a dark blue cloak like a night sky, holding the spear Gungnir, two black ravens on his shoulders. Wise, brooding, sorrowful expression."
+  },
+  "frigg": {
+    "naam": "Frigg",
+    "mythologie": "Noors",
+    "titel": "Koningin van de goden",
+    "beschrijving": "De vrouw van Odin en moeder van Baldr. Ze woont in Fensalir, weet het lot van alle mensen maar zegt het nooit, en liet alles in de wereld zweren dat het haar zoon zou sparen.",
+    "prompt": "Frigg, queen of the Norse gods: a dignified, motherly, beautiful goddess with long braided hair the color of spun flax, her cloak made of soft grey clouds and mist with a few stars, a silver circlet, a ring of keys at her belt, holding a distaff with glowing thread, a fine blue Viking-age apron dress with oval brooches and amber beads. Loving, worried, quietly wise expression."
+  },
+  "loki": {
+    "naam": "Loki",
+    "mythologie": "Noors",
+    "titel": "De bedrieger",
+    "beschrijving": "Zoon van een reus, bloedbroeder van Odin. Slim, grappig en van gedaante te veranderen. Hij bezorgde de goden hun grootste ongeluk en ligt nu geboeid in een grot, tot het einde van de wereld.",
+    "prompt": "Loki, the Norse trickster god: a handsome, lean, sly god with red hair that flickers and curls like living flames, sharp amber eyes, a crooked mischievous grin with scarred lips, a green and dark leather Viking-age outfit, wisps of smoke and small flames dancing around his fingers, a sprig of mistletoe tucked in his hand. Cunning, amused, dangerous expression."
+  },
+  "hel": {
+    "naam": "Hel",
+    "mythologie": "Noors",
+    "titel": "Koningin van het dodenrijk",
+    "beschrijving": "Dochter van Loki en een reuzin. Half levend en half dood, heerst ze over iedereen die sterft aan ziekte of ouderdom. Ze wilde Baldr laten gaan als alles in de wereld om hem huilde.",
+    "prompt": "Hel, Norse goddess of the realm of the dead: a stern, grim, regal woman whose face and body are split down the middle, one half living pale flesh with dark hair, the other half blue-black and cold like death with frost and bone showing through, a dark crown of iron and bone, a heavy black fur cloak, cold mist around her. Gloomy, severe, impassive expression."
+  },
+  "hermod": {
+    "naam": "Hermod",
+    "mythologie": "Noors",
+    "titel": "De dappere, bode van de goden",
+    "beschrijving": "Een zoon van Odin, die negen nachten op Sleipnir naar het dodenrijk reed om zijn broer Baldr terug te halen.",
+    "prompt": "Hermod the Bold, Norse messenger god: a brave, swift young warrior with windswept dark blond hair and a short beard made of rushing wind, a dark travelling cloak streaming behind him, a Viking-age mail shirt and helmet without horns, a spear, the reins of an eight-legged grey horse in one hand. Determined, brave, travel-worn expression."
   }
 }

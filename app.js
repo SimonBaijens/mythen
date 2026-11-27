@@ -266,8 +266,10 @@ function zoombaar(doel, breed, hoog, focus) {
     venster.style.height = `${Math.min(hoog * schaal + 4, window.innerHeight * 0.72)}px`;
     venster.scrollLeft = fx * schaal - cx; venster.scrollTop = fy * schaal - cy;
   };
-  zet(Math.max(passend(), 0.72));
-  if (focus) { venster.scrollLeft = focus[0] * schaal - venster.clientWidth / 2; venster.scrollTop = focus[1] * schaal - 90; }
+  // standaard passend (hele breedte in beeld); op een smal scherm wordt dat te klein, dan inzoomen op de startfiguur
+  const start = passend();
+  if (start >= 0.35 || !focus) { zet(start); venster.scrollLeft = 0; venster.scrollTop = 0; }
+  else { zet(0.72); venster.scrollLeft = focus[0] * schaal - venster.clientWidth / 2; venster.scrollTop = focus[1] * schaal - 90; }
   doel.querySelector(".boombalk").onclick = (e) => {
     const z = e.target.closest("button")?.dataset.z; if (z === undefined) return;
     if (z === "0") { zet(passend()); venster.scrollLeft = 0; } else zet(schaal * (z === "1" ? 1.25 : 0.8));

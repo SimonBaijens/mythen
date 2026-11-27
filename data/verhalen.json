@@ -1,5 +1,23 @@
 [
  {
+  "slug": "de-dood-van-baldr",
+  "titel": "De dood van Baldr",
+  "ondertitel": "Hoe de mooiste van de goden stierf, en waarom de aarde beeft",
+  "mythologie": "Noors",
+  "datum": "2026-11-27",
+  "samenvatting": "Baldr, de stralendste van de goden, droomt van zijn eigen dood. Zijn moeder laat alles in de wereld zweren dat het hem niets zal doen. Alles, behalve één klein takje. Een verhaal over een begrafenis op zee, een rit van negen nachten naar het rijk van de doden, en een wereld die huilt. Uit de Edda's van IJsland.",
+  "leestijd": 17,
+  "beeld": "beelden/scenes/de-dood-van-baldr.jpg",
+  "figuren": [
+   "baldr",
+   "odin",
+   "frigg",
+   "loki",
+   "hel",
+   "hermod"
+  ]
+ },
+ {
   "slug": "de-rechtszaak-van-horus-en-seth",
   "titel": "De rechtszaak van Horus en Seth",
   "ondertitel": "Tachtig jaar ruzie om de troon van Egypte",
