@@ -194,5 +194,47 @@
     "titel": "Herdersgod, echtgenoot van Inanna",
     "beschrijving": "De herder die Inanna boven een boer verkoos. Hij rouwde niet toen ze dood was, en zij gaf hem in haar plaats aan de demonen. Sindsdien is hij een half jaar in de onderwereld. Later heette hij Tammuz.",
     "prompt": "Dumuzi, Sumerian shepherd god and husband of Inanna: a handsome young shepherd king whose curly beard and hair are made of soft sheep's wool and fresh green spring grass, wildflowers in his hair, a fine fringed royal Sumerian garment, a shepherd's crook and a reed flute, a small golden crown, warm but vain and careless eyes. Proud, carefree expression with a hint of fear."
+  },
+  "horus": {
+    "naam": "Horus",
+    "mythologie": "Egyptisch",
+    "titel": "Valkengod, koning van Egypte",
+    "beschrijving": "De zoon van Osiris en Isis, opgegroeid in de moerassen van de delta. Tachtig jaar lang streed hij met Seth om de troon van zijn vader. Elke farao was Horus op aarde.",
+    "prompt": "Horus, ancient Egyptian falcon-headed god of kingship: a young, lean, determined god with the head of a peregrine falcon whose feathers are made of wind and bright sky, sharp golden eyes, the left eye glowing silver like the moon and the right eye golden like the sun, the red and white double crown of Egypt on his head, a broad collar of gold and lapis, a white linen kilt, holding a harpoon. Young, stubborn, proud expression."
+  },
+  "seth": {
+    "naam": "Seth",
+    "mythologie": "Egyptisch",
+    "titel": "God van de woestijn en de storm",
+    "beschrijving": "De sterke, luide broer van Osiris, die hem vermoordde en zijn troon wilde. Een opschepper en bedrieger, maar ook de enige god die elke nacht de slang Apep van de zonneboot afhoudt.",
+    "prompt": "Seth, ancient Egyptian god of the desert and storms: a powerful, tall god with the head of the mysterious Seth animal (long curved snout, tall squared upright ears), his fur and mane made of swirling red desert sand and dust storm with small lightning crackling in it, glowing red eyes, a muscular body, a red linen kilt, gold armbands, a long was-scepter and a spear. Arrogant, loud, cunning grin."
+  },
+  "isis": {
+    "naam": "Isis",
+    "mythologie": "Egyptisch",
+    "titel": "Godin van de toverkunst, moeder van Horus",
+    "beschrijving": "De vrouw van Osiris en de grootste tovenares van de goden. Ze verzamelde de stukken van haar vermoorde man, verborg haar zoon in de moerassen en bedroog Seth met list en gedaanteverwisseling.",
+    "prompt": "Isis, ancient Egyptian goddess of magic and motherhood: a wise, beautiful, clever goddess with large outspread wings of a kite made of shimmering blue-green magic and starlight on her arms, long black braided wig, the throne-shaped hieroglyph headdress on her head, a close-fitting white and red linen dress, a gold vulture collar, an ankh in her hand, small glowing hieroglyph spells drifting around her fingers. Shrewd, loving, determined expression with a hint of mischief."
+  },
+  "ra": {
+    "naam": "Ra",
+    "mythologie": "Egyptisch",
+    "titel": "De zon, Heer van Alles",
+    "beschrijving": "De oudste god en schepper van de wereld. 's Ochtends is hij Khepri, 's middags Ra-Horachte, 's avonds de oude Atum. Hij leidde het hof van de goden, en hij had stiekem liever Seth op de troon.",
+    "prompt": "Ra, ancient Egyptian sun god, Lord of All: an old, majestic god with the head of a falcon whose feathers are made of golden fire and blazing sunlight, a huge glowing red-gold sun disk encircled by a cobra on his head, rays of light radiating from him, a pleated gold-trimmed kilt, a broad jeweled collar, holding a was-scepter. Ancient, proud, grumpy and easily offended expression."
+  },
+  "thoth": {
+    "naam": "Thoth",
+    "mythologie": "Egyptisch",
+    "titel": "God van de wijsheid, het schrift en de maan",
+    "beschrijving": "De schrijver en secretaris van de goden, met de kop van een ibis. Hij schreef de brieven aan Neith en Osiris, riep de zaden op in de rechtszaal en zette de gouden schijf op zijn eigen hoofd.",
+    "prompt": "Thoth, ancient Egyptian god of wisdom, writing and the moon: a calm, scholarly god with the head of an ibis with a long curved beak, his feathers pale silver and made of soft moonlight, a crescent and full moon disk glowing above his head, columns of glowing hieroglyphs floating around him like a scroll, holding a scribe's palette and a reed pen, a white kilt and a collar of silver and lapis. Wise, patient, slightly amused expression."
+  },
+  "hathor": {
+    "naam": "Hathor",
+    "mythologie": "Egyptisch",
+    "titel": "Godin van liefde, muziek en vreugde",
+    "beschrijving": "Dochter van Ra, de Vrouwe van de Zuidelijke Sycomoor. Ze liet haar vader lachen toen hij lag te mokken, en ze genas de ogen van Horus met de melk van een gazelle.",
+    "prompt": "Hathor, ancient Egyptian goddess of love, music and joy: a warm, radiant, playful goddess with gentle cow ears, lyre-shaped cow horns holding a red sun disk, her hair and dress woven from sycamore fig leaves, flowers and soft golden sunlight, a turquoise and gold collar, holding a sistrum rattle and a menat necklace. Joyful, kind, mischievous smile."
   }
 }

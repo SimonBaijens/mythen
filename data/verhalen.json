@@ -1,5 +1,23 @@
 [
  {
+  "slug": "de-rechtszaak-van-horus-en-seth",
+  "titel": "De rechtszaak van Horus en Seth",
+  "ondertitel": "Tachtig jaar ruzie om de troon van Egypte",
+  "mythologie": "Egyptisch",
+  "datum": "2026-11-27",
+  "samenvatting": "Wie krijgt de troon van de vermoorde koning Osiris: zijn jonge zoon Horus, of zijn sterke broer Seth? Tachtig jaar lang kunnen de goden het niet beslissen. Er wordt gemokt, gelogen, gezwommen als nijlpaard en gevaren in een boot van steen. Een vrolijk en schaamteloos verhaal van een papyrus uit Thebe.",
+  "leestijd": 18,
+  "beeld": "beelden/scenes/de-rechtszaak-van-horus-en-seth.jpg",
+  "figuren": [
+   "horus",
+   "seth",
+   "isis",
+   "ra",
+   "thoth",
+   "hathor"
+  ]
+ },
+ {
   "slug": "de-afdaling-van-inanna",
   "titel": "De afdaling van Inanna",
   "ondertitel": "Zeven poorten naar het land zonder terugkeer",

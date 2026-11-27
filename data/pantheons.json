@@ -2151,5 +2151,309 @@
     "noot": "Wie precies bij de zeven hoort, verschilt per tekst; dit is de gebruikelijke lijst van moderne onderzoekers."
    }
   ]
+ },
+ "Egyptisch": {
+  "kop": "De zon, de Negen en de troon van Osiris",
+  "intro": "De goden van Heliopolis vormen één familie van vijf generaties, van de zon tot de koning. Daarnaast de drie delen van Egypte en het hof dat tachtig jaar over de troon ruziede.",
+  "personen": {
+   "shu": {
+    "naam": "Shu",
+    "titel": "God van de lucht",
+    "element": "lucht",
+    "beschrijving": "De eerste zoon van de schepper, de lucht en het licht tussen hemel en aarde. Hij houdt zijn dochter Nut omhoog, zodat ze niet op haar man Geb valt. In de rechtszaak koos hij als eerste voor Horus."
+   },
+   "tefnut": {
+    "naam": "Tefnut",
+    "titel": "Godin van het vocht",
+    "element": "water",
+    "beschrijving": "Tweelingzus en vrouw van Shu, de godin van de dauw en de vochtige lucht. Een verhaal vertelt hoe ze boos wegliep naar het zuiden, en Egypte droog werd tot ze terugkwam."
+   },
+   "geb": {
+    "naam": "Geb",
+    "titel": "God van de aarde",
+    "element": "aarde",
+    "beschrijving": "De aarde zelf, liggend onder de hemel, groen van het gewas dat uit zijn lichaam groeit. Hij was de eerste koning van Egypte; daarna gaf hij de troon aan zijn zoon Osiris."
+   },
+   "nut": {
+    "naam": "Nut",
+    "titel": "Godin van de hemel",
+    "element": "lucht",
+    "beschrijving": "De hemel, als een vrouw die zich over de aarde buigt, vol sterren. Elke avond slikt ze de zon in en elke ochtend baart ze hem weer. Moeder van Osiris, Isis, Seth en Nephthys."
+   },
+   "osiris": {
+    "naam": "Osiris",
+    "titel": "Koning van de doden",
+    "element": "bos",
+    "beschrijving": "De goede koning die de mensen de landbouw leerde, en door zijn broer Seth werd vermoord. Isis bracht hem nog één keer tot leven. Sindsdien regeert hij in het Westen over de doden, met een groene huid als het nieuwe graan."
+   },
+   "nephthys": {
+    "naam": "Nephthys",
+    "titel": "Vrouwe van het huis",
+    "element": "duister",
+    "beschrijving": "De zus van Isis en de vrouw van Seth. Toch hielp ze Isis om het lichaam van Osiris te zoeken en te bewenen. Samen met Isis waakt ze als een wouw bij de doden."
+   },
+   "anubis": {
+    "naam": "Anubis",
+    "titel": "God van de balsemers",
+    "element": "dood",
+    "beschrijving": "God met de kop van een jakhals, die de doden balsemt en begeleidt, en in de onderwereld het hart weegt tegen de veer van de waarheid.",
+    "uitleg": "Zijn ouders worden verschillend genoemd. In de bekendste versie, van Plutarchus, is hij een zoon van Osiris en Nephthys; daarom staat hij niet in de stamboom."
+   },
+   "neith": {
+    "naam": "Neith",
+    "titel": "Oermoeder uit Saïs",
+    "element": "oorlog",
+    "beschrijving": "Een van de oudste godinnen, van de jacht en de oorlog, met pijl en boog. Ze schreef het hof dat Horus koning moest worden, anders zou de hemel neerstorten."
+   },
+   "apep": {
+    "naam": "Apep",
+    "titel": "De grote slang van de chaos",
+    "element": "duister",
+    "beschrijving": "De reusachtige slang die elke nacht de zonneboot in de onderwereld aanvalt, om de zon te verslinden. Seth houdt hem tegen vanaf de voorsteven."
+   },
+   "nemty": {
+    "naam": "Nemty",
+    "titel": "De veerman",
+    "element": "water",
+    "beschrijving": "De valkengod die de goden overzette naar het Eiland in het Midden. Voor een gouden ring zette hij Isis toch over, en dat kostte hem zijn tenen."
+   },
+   "onuris": {
+    "naam": "Onuris",
+    "titel": "Krijger die de verre godin terugbracht",
+    "element": "oorlog",
+    "beschrijving": "Een jagersgod met een speer en een kroon van vier veren. In de rechtszaak was hij steeds voor Horus en riep hij boos dat het onrecht moest ophouden."
+   },
+   "banebdjedet": {
+    "naam": "Banebdjedet",
+    "titel": "De ram van Mendes",
+    "element": "aarde",
+    "beschrijving": "Een oude ramgod uit de delta. Hij durfde niet te beslissen en stelde voor om Neith te schrijven. Later koos hij voor Seth, omdat die de oudste was."
+   },
+   "ptah": {
+    "naam": "Ptah",
+    "titel": "De schepper-ambachtsman van Memphis",
+    "element": "aarde",
+    "beschrijving": "God van de ambachtslieden, die de wereld schiep door haar te bedenken en uit te spreken. Osiris herinnerde de goden eraan dat Ptah alle sterren en mensen naar het Westen stuurt."
+   }
+  },
+  "weergaven": [
+   {
+    "soort": "stamboom",
+    "titel": "De Negen van Heliopolis",
+    "intro": "Volgens de priesters van Heliopolis schiep de zon uit zichzelf de lucht en het vocht. Die kregen de aarde en de hemel als kinderen, en de hemel baarde vier kinderen. Daaruit kwam Horus, de koning. De bronnen verschillen soms; per figuur is gekozen voor de bekendste versie.",
+    "start": "horus",
+    "plaats": {
+     "ra": [
+      1.5,
+      0
+     ],
+     "shu": [
+      1,
+      1
+     ],
+     "tefnut": [
+      2,
+      1
+     ],
+     "hathor": [
+      3.5,
+      1
+     ],
+     "geb": [
+      1,
+      2
+     ],
+     "nut": [
+      2,
+      2
+     ],
+     "osiris": [
+      0,
+      3
+     ],
+     "isis": [
+      1,
+      3
+     ],
+     "seth": [
+      2,
+      3
+     ],
+     "nephthys": [
+      3,
+      3
+     ],
+     "horus": [
+      0.5,
+      4
+     ]
+    },
+    "gezinnen": [
+     {
+      "ouders": [
+       "ra"
+      ],
+      "kinderen": [
+       "shu",
+       "tefnut"
+      ],
+      "label": "uit zijn adem en zijn speeksel",
+      "uitleg": "In Heliopolis heette de schepper Atum; Ra en Atum werden al vroeg als één god gezien."
+     },
+     {
+      "ouders": [
+       "ra"
+      ],
+      "kinderen": [
+       "hathor"
+      ],
+      "label": "het oog van Ra"
+     },
+     {
+      "ouders": [
+       "shu",
+       "tefnut"
+      ],
+      "kinderen": [
+       "geb",
+       "nut"
+      ]
+     },
+     {
+      "ouders": [
+       "geb",
+       "nut"
+      ],
+      "kinderen": [
+       "osiris",
+       "isis",
+       "seth",
+       "nephthys"
+      ]
+     },
+     {
+      "ouders": [
+       "osiris",
+       "isis"
+      ],
+      "kinderen": [
+       "horus"
+      ]
+     }
+    ],
+    "huwelijken": [
+     [
+      "osiris",
+      "isis"
+     ],
+     [
+      "seth",
+      "nephthys"
+     ]
+    ]
+   },
+   {
+    "soort": "werelden",
+    "titel": "Het zwarte land, het rode land en de Duat",
+    "intro": "De Egyptenaren leefden op een smalle groene strook langs de Nijl, met aan beide kanten de woestijn. Daarboven de hemel waar de zon overheen vaart, en daaronder de Duat, waar de zon 's nachts doorheen moet.",
+    "zones": [
+     {
+      "naam": "De hemel",
+      "sub": "het lichaam van Nut",
+      "toon": "hemel",
+      "tekst": "Overdag vaart Ra in zijn boot langs de hemel. Na de rechtszaak woont Seth hier bij hem, als de donder in de lucht.",
+      "bewoners": [
+       "ra",
+       "nut",
+       "shu",
+       "tefnut",
+       "thoth"
+      ]
+     },
+     {
+      "naam": "Kemet",
+      "sub": "het zwarte land",
+      "toon": "aarde",
+      "tekst": "De vruchtbare oevers van de Nijl, zwart van het slib van de overstroming. Hier regeert Horus als koning, en hier liggen de steden van de goden: Heliopolis van Ra, Saïs van Neith, Memphis van Ptah, en het Eiland in het Midden van de rechtszaak.",
+      "bewoners": [
+       "horus",
+       "isis",
+       "hathor",
+       "geb",
+       "neith",
+       "ptah",
+       "onuris",
+       "banebdjedet",
+       "nemty"
+      ]
+     },
+     {
+      "naam": "Deshret",
+      "sub": "het rode land",
+      "toon": "heuvel",
+      "tekst": "De woestijn aan weerszijden, het rijk van Seth, met zandstormen, oasen en de bergen waar hij de ogen van Horus begroef.",
+      "bewoners": [
+       "seth",
+       "nephthys"
+      ]
+     },
+     {
+      "naam": "De Duat",
+      "sub": "het Westen, het rijk van de doden",
+      "toon": "onderwereld",
+      "tekst": "Elke avond gaat de zon hier onder, en 's nachts vaart hij door de Duat, waar de slang Apep hem opwacht. Hier regeert Osiris over de doden, en hier weegt Anubis hun harten. Na de goden gaan alle mensen hierheen.",
+      "bewoners": [
+       "osiris",
+       "anubis",
+       "apep"
+      ]
+     }
+    ]
+   },
+   {
+    "soort": "hof",
+    "titel": "Het hof van de Negen",
+    "intro": "De Negen van Heliopolis waren de zon en acht van zijn nakomelingen. Zij vormden het hof dat tachtig jaar lang over Horus en Seth moest oordelen.",
+    "midden": {
+     "id": "ra",
+     "domein": "de zon, Heer van Alles"
+    },
+    "kring": [
+     {
+      "id": "shu",
+      "domein": "de lucht"
+     },
+     {
+      "id": "tefnut",
+      "domein": "het vocht"
+     },
+     {
+      "id": "geb",
+      "domein": "de aarde"
+     },
+     {
+      "id": "nut",
+      "domein": "de hemel"
+     },
+     {
+      "id": "osiris",
+      "domein": "de doden en het graan"
+     },
+     {
+      "id": "isis",
+      "domein": "toverkunst"
+     },
+     {
+      "id": "seth",
+      "domein": "woestijn en storm"
+     },
+     {
+      "id": "nephthys",
+      "domein": "rouw en bescherming"
+     }
+    ],
+    "noot": "In de rechtszaak zitten er ook andere goden bij, zoals Thoth, Onuris en Banebdjedet. Het woord 'de Negen' werd een naam voor de hele raad van goden, ook als het er meer waren."
+   }
+  ]
  }
 }
